@@ -1,15 +1,15 @@
 # Flights Palma Project
 
-Este proyecto obtiene datos de vuelos desde la página de Aena para el aeropuerto de Palma de Mallorca. Utiliza `selenium` para la automatización del navegador y `BeautifulSoup` para el análisis del HTML.
+This project retrieves flight data from the Aena website for Palma de Mallorca Airport. It uses Selenium for browser automation and BeautifulSoup for HTML parsing.
 
-## Características
+## Features
 
-- **Automatización del Navegador:** Utiliza `selenium` para navegar y extraer datos de la página web de Aena.
-- **Análisis de HTML:** Utiliza `BeautifulSoup` para analizar y extraer información específica del HTML.
-- **Almacenamiento de Datos:** Guarda los datos de los vuelos en un archivo JSON.
-- **Filtrado de Datos:** Filtra y almacena solo los vuelos de los últimos 2 días.
+- **Browser Automation:** Uses `selenium` to navigate and extract data from the Aena website.
+- **HTML Parsing:** Utilizes  `BeautifulSoup` to analyze and extract specific information from the HTML.
+- **Data Storage:** Saves flight data in a JSON file.
+- **Data Filtering:** Filters and stores only flights from the last 2 days.
 
-## Librerías Utilizadas
+## Libraries Used
 
 - `selenium`
 - `webdriver_manager`
@@ -17,30 +17,31 @@ Este proyecto obtiene datos de vuelos desde la página de Aena para el aeropuert
 - `datetime`
 - `json`
 
-## Instalación
+## Installation
 
-### Requisitos
+### Requirements
 
 - Python 3.x
-- pip (gestor de paquetes de Python)
+- pip (Python package manage)
 
-1. Clona el repositorio
+1. Clone the repository
 
-2. Crea y activa un entorno virtual
+2. Create and activate a virtual environment
 
-3. Instala las dependencias:
+3. Install the dependencies:
+
     ```sh
     pip install -r requirements.txt
     ```
 
-## Uso
+## Usage
 
-Ejecuta el script principal:
+Run the main script:
     ```
     python main.py
     ```
 
-## Estructura del Proyecto
+## Project Structure
     .
     ├── .gitignore
     ├── README.md
