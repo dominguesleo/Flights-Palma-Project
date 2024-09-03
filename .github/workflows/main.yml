@@ -1,0 +1,36 @@
+name: Run Flight Script
+
+on:
+    schedule:
+      - cron: '*/2 * * * *'
+    workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver_manager beautifulsoup4
+
+    - name: Run script
+      run: |
+        python main.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add flights_data.json
+        git commit -m 'Actualizar datos de vuelos'
+        git push
