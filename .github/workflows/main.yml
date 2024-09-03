@@ -32,5 +32,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add -f flights_data.json
-        git commit -m 'Actualizar datos de vuelos'
+        git commit -m 'Update flight data'
         git push
