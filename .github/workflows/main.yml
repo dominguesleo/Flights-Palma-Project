@@ -28,11 +28,9 @@ jobs:
         python main.py
 
     - name: Commit and push changes
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add flights_data.json
+        git add -f flights_data.json
         git commit -m 'Actualizar datos de vuelos'
-        git push https://x-access-token:${GH_TOKEN}@github.com/dominguesleo/Flights-Palma-Project.git HEAD:main
+        git push
