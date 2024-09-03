@@ -36,12 +36,11 @@ Este proyecto obtiene datos de vuelos desde la página de Aena para el aeropuert
 ## Uso
 
 Ejecuta el script principal:
-    ```sh
+    ```
     python main.py
     ```
 
 ## Estructura del Proyecto
-    ```sh
     .
     ├── .gitignore
     ├── README.md
@@ -49,4 +48,3 @@ Ejecuta el script principal:
     ├── flights_data.json
     ├── main.py
     └── venv/
-    ```
