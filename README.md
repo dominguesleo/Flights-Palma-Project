@@ -47,5 +47,6 @@ Run the main script:
     ├── README.md
     ├── requirements.txt
     ├── flights_data.json
+    ├── script_status.json
     ├── main.py
     └── venv/
