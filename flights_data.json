@@ -1459,7 +1459,7 @@
     },
     {
         "hora_inicial": "11:05",
-        "hora_programada": "11:12",
+        "hora_programada": "11:13",
         "fecha": "2024-09-06",
         "vuelo": "EWG9578",
         "aerolinea": "Eurowingss",
@@ -3241,12 +3241,12 @@
     },
     {
         "hora_inicial": "08:50",
-        "hora_programada": "10:29",
+        "hora_programada": "10:28",
         "fecha": "2024-09-06",
         "vuelo": "CXI2055",
         "aerolinea": "Corendon",
         "origen": "HANNOVER (HAJ)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "08:50",
@@ -3588,7 +3588,7 @@
         "vuelo": "UX4008",
         "aerolinea": "Air Europa",
         "origen": "VALENCIA (VLC)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "09:55",
@@ -3642,7 +3642,7 @@
         "vuelo": "SR2852",
         "aerolinea": "SUNDAIR",
         "origen": "BREMEN (BRE)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "10:00",
@@ -3660,7 +3660,7 @@
         "vuelo": "RYR6656",
         "aerolinea": "Ryanair",
         "origen": "EDIMBURGO (EDI)",
-        "estado": "En vuelo"
+        "estado": "Aproximándose"
     },
     {
         "hora_inicial": "10:05",
@@ -3687,7 +3687,7 @@
         "vuelo": "RYR7208",
         "aerolinea": "Ryanair",
         "origen": "KOELN/BONN (CGN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "10:15",
@@ -3736,7 +3736,7 @@
     },
     {
         "hora_inicial": "10:25",
-        "hora_programada": "10:36",
+        "hora_programada": "10:37",
         "fecha": "2024-09-06",
         "vuelo": "4Y450",
         "aerolinea": "Discover Airlines",
@@ -3745,7 +3745,7 @@
     },
     {
         "hora_inicial": "10:25",
-        "hora_programada": "10:36",
+        "hora_programada": "10:37",
         "fecha": "2024-09-06",
         "vuelo": "LH4300",
         "aerolinea": "Lufthansa",
@@ -3799,7 +3799,7 @@
     },
     {
         "hora_inicial": "10:35",
-        "hora_programada": "10:39",
+        "hora_programada": "10:42",
         "fecha": "2024-09-06",
         "vuelo": "IB8517",
         "aerolinea": "Iberia",
@@ -3813,7 +3813,7 @@
         "vuelo": "EJU7300",
         "aerolinea": "easyJet",
         "origen": "LYON (LYS)",
-        "estado": "Aproximándose"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": "10:35",
@@ -3844,12 +3844,12 @@
     },
     {
         "hora_inicial": "10:40",
-        "hora_programada": "10:27",
+        "hora_programada": "10:29",
         "fecha": "2024-09-06",
         "vuelo": "RYR104",
         "aerolinea": "Ryanair",
         "origen": "VIENA (VIE)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "10:45",
@@ -3880,7 +3880,7 @@
     },
     {
         "hora_inicial": "10:50",
-        "hora_programada": "10:34",
+        "hora_programada": "10:37",
         "fecha": "2024-09-06",
         "vuelo": "EJU7302",
         "aerolinea": "easyJet",
@@ -3898,7 +3898,7 @@
     },
     {
         "hora_inicial": "11:00",
-        "hora_programada": "11:15",
+        "hora_programada": "11:18",
         "fecha": "2024-09-06",
         "vuelo": "LS1275",
         "aerolinea": "Jet2.com",
@@ -3925,21 +3925,21 @@
     },
     {
         "hora_inicial": "11:00",
-        "hora_programada": "10:57",
+        "hora_programada": "11:06",
         "fecha": "2024-09-06",
         "vuelo": "SWT7772",
         "aerolinea": "Uep!Fly",
         "origen": "IBIZA (IBZ)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "11:00",
-        "hora_programada": "10:57",
+        "hora_programada": "11:06",
         "fecha": "2024-09-06",
         "vuelo": "UX2052",
         "aerolinea": "Air Europa",
         "origen": "IBIZA (IBZ)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "11:10",
@@ -3961,7 +3961,7 @@
     },
     {
         "hora_inicial": "11:10",
-        "hora_programada": "11:28",
+        "hora_programada": "11:19",
         "fecha": "2024-09-06",
         "vuelo": "EZY2019",
         "aerolinea": "easyJet UK",
@@ -3978,8 +3978,8 @@
         "estado": "En vuelo"
     },
     {
-        "hora_inicial": "11:15",
-        "hora_programada": "11:16",
+        "hora_inicial": "11:10",
+        "hora_programada": null,
         "fecha": "2024-09-06",
         "vuelo": "LH1530",
         "aerolinea": "Lufthansa",
@@ -3987,8 +3987,8 @@
         "estado": "En vuelo"
     },
     {
-        "hora_inicial": "11:15",
-        "hora_programada": "11:16",
+        "hora_inicial": "11:10",
+        "hora_programada": null,
         "fecha": "2024-09-06",
         "vuelo": "UA9321",
         "aerolinea": "United Airlines",
@@ -4006,7 +4006,7 @@
     },
     {
         "hora_inicial": "11:20",
-        "hora_programada": "11:23",
+        "hora_programada": "11:19",
         "fecha": "2024-09-06",
         "vuelo": "LS229",
         "aerolinea": "Jet2.com",
@@ -4177,7 +4177,7 @@
     },
     {
         "hora_inicial": "11:50",
-        "hora_programada": "14:50",
+        "hora_programada": "13:35",
         "fecha": "2024-09-06",
         "vuelo": "RYR1125",
         "aerolinea": "Ryanair",
@@ -4222,7 +4222,7 @@
     },
     {
         "hora_inicial": "12:00",
-        "hora_programada": "12:42",
+        "hora_programada": "15:05",
         "fecha": "2024-09-06",
         "vuelo": "RYR1954",
         "aerolinea": "Ryanair",
@@ -4321,7 +4321,7 @@
     },
     {
         "hora_inicial": "12:25",
-        "hora_programada": "12:43",
+        "hora_programada": "13:16",
         "fecha": "2024-09-06",
         "vuelo": "4Y512",
         "aerolinea": "Discover Airlines",
@@ -4330,7 +4330,7 @@
     },
     {
         "hora_inicial": "12:25",
-        "hora_programada": "12:43",
+        "hora_programada": "13:16",
         "fecha": "2024-09-06",
         "vuelo": "LH4302",
         "aerolinea": "Lufthansa",
