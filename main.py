@@ -9,14 +9,16 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 import time
 import json
 
 AIRPORT = "PALMA DE MALLORCA"
+TIMEZONE = ZoneInfo("Europe/Madrid")
 
 def update_script_status(status, message):
     data = {
-        "last_run": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "last_run": datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S"),
         "status": status,
         "message": message,
     }
@@ -60,10 +62,10 @@ def get_aena_data():
 
     except TimeoutException:
         update_script_status("Error", "TimeoutException")
-        raise
+        return
     except Exception as e:
         update_script_status("Error", str(e))
-        raise
+        return
     finally:
         driver.quit()
 
@@ -96,7 +98,7 @@ def get_aena_data():
         new_flights_data.append({
             'hora_inicial': hora_inicial,
             'hora_programada': hora_programada,
-            'fecha': datetime.now().strftime("%Y-%m-%d"),
+            'fecha': datetime.now(TIMEZONE).strftime("%Y-%m-%d"),
             'vuelo': vuelo,
             'aerolinea': aerolinea,
             'origen': origen,
