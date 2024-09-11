@@ -127,7 +127,7 @@
     },
     {
         "hora_inicial": "15:15",
-        "hora_programada": "15:14",
+        "hora_programada": "15:18",
         "fecha": "2024-09-11",
         "vuelo": "LH1158",
         "aerolinea": "Lufthansa",
@@ -136,7 +136,7 @@
     },
     {
         "hora_inicial": "15:15",
-        "hora_programada": "15:14",
+        "hora_programada": "15:18",
         "fecha": "2024-09-11",
         "vuelo": "UA9365",
         "aerolinea": "United Airlines",
@@ -1464,7 +1464,7 @@
         "vuelo": "EWG582",
         "aerolinea": "Eurowingss",
         "origen": "KOELN/BONN (CGN)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "22:50",
@@ -1531,12 +1531,12 @@
     },
     {
         "hora_inicial": "13:35",
-        "hora_programada": "13:36",
+        "hora_programada": "13:34",
         "fecha": "2024-09-11",
         "vuelo": "RYR7372",
         "aerolinea": "Ryanair",
         "origen": "VALENCIA (VLC)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "15:45",
@@ -2656,21 +2656,21 @@
     },
     {
         "hora_inicial": "13:30",
-        "hora_programada": "13:16",
+        "hora_programada": "13:24",
         "fecha": "2024-09-11",
         "vuelo": "VLG3906",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "13:30",
-        "hora_programada": "13:16",
+        "hora_programada": "13:24",
         "fecha": "2024-09-11",
         "vuelo": "IB5447",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "14:30",
@@ -2692,12 +2692,12 @@
     },
     {
         "hora_inicial": "13:20",
-        "hora_programada": "13:01",
+        "hora_programada": "13:03",
         "fecha": "2024-09-11",
         "vuelo": "BA2670",
         "aerolinea": "British Airways",
         "origen": "LONDRES /GATWICK (LGW)",
-        "estado": "En vuelo"
+        "estado": "Aproximándose"
     },
     {
         "hora_inicial": "11:45",
@@ -3102,7 +3102,7 @@
         "vuelo": "VLG3908",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "12:40",
@@ -3111,7 +3111,7 @@
         "vuelo": "IB5449",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "12:25",
@@ -3120,7 +3120,7 @@
         "vuelo": "4Y512",
         "aerolinea": "Discover Airlines",
         "origen": "FRANKFURT (FRA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "12:25",
@@ -3129,7 +3129,7 @@
         "vuelo": "LH4302",
         "aerolinea": "Lufthansa",
         "origen": "FRANKFURT (FRA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "15:45",
@@ -3376,12 +3376,12 @@
     },
     {
         "hora_inicial": "13:10",
-        "hora_programada": "13:01",
+        "hora_programada": "12:58",
         "fecha": "2024-09-11",
         "vuelo": "IB8485",
         "aerolinea": "Iberia",
         "origen": "MENORCA (MAH)",
-        "estado": "En vuelo"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": "12:25",
@@ -3961,12 +3961,12 @@
     },
     {
         "hora_inicial": "13:05",
-        "hora_programada": "12:51",
+        "hora_programada": "12:50",
         "fecha": "2024-09-11",
         "vuelo": "RYR8234",
         "aerolinea": "Ryanair",
         "origen": "BRISTOL (BRS)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "18:05",
@@ -4447,12 +4447,12 @@
     },
     {
         "hora_inicial": "15:15",
-        "hora_programada": "15:08",
+        "hora_programada": "15:07",
         "fecha": "2024-09-11",
         "vuelo": "RYR6587",
         "aerolinea": "Ryanair",
         "origen": "BREMEN (BRE)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "16:35",
@@ -5046,7 +5046,7 @@
         "vuelo": "LA5804",
         "aerolinea": "LATAM Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "12:50",
@@ -5055,7 +5055,7 @@
         "vuelo": "VOE2132",
         "aerolinea": "Volotea",
         "origen": "DEAUVILLE (DOL)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "13:30",
@@ -6783,7 +6783,7 @@
         "vuelo": "QTR3624",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "12:40",
@@ -6801,7 +6801,7 @@
         "vuelo": "TVP7382",
         "aerolinea": "Travel-service-polska",
         "origen": "KATOWICE / PYRZOWICE (KTW)",
-        "estado": "Aproximándose"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": "13:05",
@@ -6832,21 +6832,21 @@
     },
     {
         "hora_inicial": "13:30",
-        "hora_programada": "13:16",
+        "hora_programada": "13:24",
         "fecha": "2024-09-11",
         "vuelo": "LA5803",
         "aerolinea": "LATAM Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "13:30",
-        "hora_programada": "13:16",
+        "hora_programada": "13:24",
         "fecha": "2024-09-11",
         "vuelo": "QTR3619",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "13:35",
