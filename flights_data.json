@@ -402,7 +402,7 @@
         "vuelo": "VOE2622",
         "aerolinea": "Volotea",
         "origen": "LYON (LYS)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "15:40",
@@ -1068,7 +1068,7 @@
         "vuelo": "RYR502",
         "aerolinea": "Ryanair",
         "origen": "VIENA (VIE)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "19:30",
@@ -1504,12 +1504,12 @@
     },
     {
         "hora_inicial": "21:10",
-        "hora_programada": "21:47",
+        "hora_programada": "21:45",
         "fecha": "2024-09-11",
         "vuelo": "EWG6803",
         "aerolinea": "Eurowingss",
         "origen": "DRESDEN (DRS)",
-        "estado": "En vuelo"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": "21:00",
@@ -1540,7 +1540,7 @@
     },
     {
         "hora_inicial": "21:40",
-        "hora_programada": "22:47",
+        "hora_programada": "23:19",
         "fecha": "2024-09-11",
         "vuelo": "VLG3918",
         "aerolinea": "Vueling",
@@ -1549,7 +1549,7 @@
     },
     {
         "hora_inicial": "21:40",
-        "hora_programada": "22:47",
+        "hora_programada": "23:19",
         "fecha": "2024-09-11",
         "vuelo": "IB5459",
         "aerolinea": "Iberia",
@@ -1567,7 +1567,7 @@
     },
     {
         "hora_inicial": "21:55",
-        "hora_programada": "21:47",
+        "hora_programada": "21:50",
         "fecha": "2024-09-11",
         "vuelo": "VLG3936",
         "aerolinea": "Vueling",
@@ -1576,7 +1576,7 @@
     },
     {
         "hora_inicial": "21:55",
-        "hora_programada": "21:47",
+        "hora_programada": "21:50",
         "fecha": "2024-09-11",
         "vuelo": "IB5477",
         "aerolinea": "Iberia",
@@ -1612,7 +1612,7 @@
     },
     {
         "hora_inicial": "22:10",
-        "hora_programada": "21:58",
+        "hora_programada": "22:00",
         "fecha": "2024-09-11",
         "vuelo": "SWT7888",
         "aerolinea": "Uep!Fly",
@@ -1621,7 +1621,7 @@
     },
     {
         "hora_inicial": "22:10",
-        "hora_programada": "21:58",
+        "hora_programada": "22:00",
         "fecha": "2024-09-11",
         "vuelo": "UX2065",
         "aerolinea": "Air Europa",
@@ -1639,7 +1639,7 @@
     },
     {
         "hora_inicial": "22:25",
-        "hora_programada": "22:38",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "VLG3920",
         "aerolinea": "Vueling",
@@ -1648,7 +1648,7 @@
     },
     {
         "hora_inicial": "22:25",
-        "hora_programada": "22:38",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "IB5461",
         "aerolinea": "Iberia",
@@ -1693,7 +1693,7 @@
     },
     {
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "VLG3150",
         "aerolinea": "Vueling",
@@ -1702,7 +1702,7 @@
     },
     {
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "IB5295",
         "aerolinea": "Iberia",
@@ -1720,7 +1720,7 @@
     },
     {
         "hora_inicial": "22:45",
-        "hora_programada": "22:39",
+        "hora_programada": "22:44",
         "fecha": "2024-09-11",
         "vuelo": "UX6103",
         "aerolinea": "Air Europa",
@@ -1729,7 +1729,7 @@
     },
     {
         "hora_inicial": "22:45",
-        "hora_programada": "22:39",
+        "hora_programada": "22:44",
         "fecha": "2024-09-11",
         "vuelo": "KL3363",
         "aerolinea": "KLM",
@@ -1738,7 +1738,7 @@
     },
     {
         "hora_inicial": "22:45",
-        "hora_programada": "22:39",
+        "hora_programada": "22:44",
         "fecha": "2024-09-11",
         "vuelo": "EY4303",
         "aerolinea": "Etihad Airways",
@@ -1747,7 +1747,7 @@
     },
     {
         "hora_inicial": "22:45",
-        "hora_programada": "22:39",
+        "hora_programada": "22:44",
         "fecha": "2024-09-11",
         "vuelo": "ASL7447",
         "aerolinea": "Air Serbia",
@@ -1777,7 +1777,7 @@
         "hora_programada": "23:27",
         "fecha": "2024-09-11",
         "vuelo": "RYR6362",
-        "aerolinea": "Air France",
+        "aerolinea": "KLM",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En hora"
     },
@@ -1786,7 +1786,7 @@
         "hora_programada": "23:09",
         "fecha": "2024-09-11",
         "vuelo": "EJU7251",
-        "aerolinea": "Aeromexico",
+        "aerolinea": "Etihad Airways",
         "origen": "LONDRES /LUTON (LTN)",
         "estado": "En vuelo"
     },
@@ -1804,24 +1804,6 @@
         "hora_programada": "23:10",
         "fecha": "2024-09-11",
         "vuelo": "AF4804",
-        "aerolinea": "KLM",
-        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
-    },
-    {
-        "hora_inicial": "23:05",
-        "hora_programada": "23:10",
-        "fecha": "2024-09-11",
-        "vuelo": "AM6819",
-        "aerolinea": "Etihad Airways",
-        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
-    },
-    {
-        "hora_inicial": "23:05",
-        "hora_programada": "23:10",
-        "fecha": "2024-09-11",
-        "vuelo": "EY4323",
         "aerolinea": "Air Europa",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En hora"
@@ -1830,8 +1812,26 @@
         "hora_inicial": "23:05",
         "hora_programada": "23:10",
         "fecha": "2024-09-11",
-        "vuelo": "KL3349",
+        "vuelo": "AM6819",
         "aerolinea": "Ryanair",
+        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
+        "estado": "En hora"
+    },
+    {
+        "hora_inicial": "23:05",
+        "hora_programada": "23:10",
+        "fecha": "2024-09-11",
+        "vuelo": "EY4323",
+        "aerolinea": "Air France",
+        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
+        "estado": "En hora"
+    },
+    {
+        "hora_inicial": "23:05",
+        "hora_programada": "23:10",
+        "fecha": "2024-09-11",
+        "vuelo": "KL3349",
+        "aerolinea": "Aeromexico",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En hora"
     },
@@ -1882,7 +1882,7 @@
     },
     {
         "hora_inicial": "23:25",
-        "hora_programada": "00:46",
+        "hora_programada": "00:45",
         "fecha": "2024-09-11",
         "vuelo": "EJU7268",
         "aerolinea": "Ryanair",
@@ -3484,7 +3484,7 @@
     },
     {
         "hora_inicial": "22:25",
-        "hora_programada": "22:35",
+        "hora_programada": "22:32",
         "fecha": "2024-09-11",
         "vuelo": "EZY2711",
         "aerolinea": "easyJet UK",
@@ -3889,7 +3889,7 @@
     },
     {
         "hora_inicial": "23:20",
-        "hora_programada": "23:45",
+        "hora_programada": "23:55",
         "fecha": "2024-09-11",
         "vuelo": "RYR829",
         "aerolinea": "Ryanair",
@@ -3898,7 +3898,7 @@
     },
     {
         "hora_inicial": "21:45",
-        "hora_programada": "22:45",
+        "hora_programada": "22:39",
         "fecha": "2024-09-11",
         "vuelo": "TRA6191",
         "aerolinea": "Transavia",
@@ -3907,7 +3907,7 @@
     },
     {
         "hora_inicial": "21:05",
-        "hora_programada": "22:01",
+        "hora_programada": "22:03",
         "fecha": "2024-09-11",
         "vuelo": "RYR226",
         "aerolinea": "Ryanair",
@@ -3925,12 +3925,12 @@
     },
     {
         "hora_inicial": "20:20",
-        "hora_programada": "21:34",
+        "hora_programada": "21:33",
         "fecha": "2024-09-11",
         "vuelo": "EWG588",
         "aerolinea": "Eurowingss",
         "origen": "KOELN/BONN (CGN)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "08:10",
@@ -4051,7 +4051,7 @@
     },
     {
         "hora_inicial": "22:25",
-        "hora_programada": "22:38",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "QTR8123",
         "aerolinea": "Qatar Airways",
@@ -4087,7 +4087,7 @@
     },
     {
         "hora_inicial": "22:50",
-        "hora_programada": "22:31",
+        "hora_programada": "22:24",
         "fecha": "2024-09-11",
         "vuelo": "LS603",
         "aerolinea": "Jet2.com",
@@ -4294,7 +4294,7 @@
     },
     {
         "hora_inicial": "21:45",
-        "hora_programada": "22:19",
+        "hora_programada": "22:18",
         "fecha": "2024-09-11",
         "vuelo": "RYR8244",
         "aerolinea": "Ryanair",
@@ -5374,12 +5374,12 @@
     },
     {
         "hora_inicial": "21:35",
-        "hora_programada": "21:47",
+        "hora_programada": "21:44",
         "fecha": "2024-09-11",
         "vuelo": "RYR3070",
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En vuelo"
+        "estado": "Aproximándose"
     },
     {
         "hora_inicial": "21:30",
@@ -5437,21 +5437,21 @@
     },
     {
         "hora_inicial": "23:55",
-        "hora_programada": "23:58",
+        "hora_programada": "23:56",
         "fecha": "2024-09-11",
         "vuelo": "RYR9169",
         "aerolinea": "Ryanair",
         "origen": "HAMBURGO (HAM)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "22:50",
-        "hora_programada": "23:07",
+        "hora_programada": "23:09",
         "fecha": "2024-09-11",
         "vuelo": "RYR717",
         "aerolinea": "Ryanair",
         "origen": "PARIS /BEAUVAIS-TILLE (BVA)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "15:25",
@@ -6207,7 +6207,7 @@
         "vuelo": "RYR1168",
         "aerolinea": "Ryanair",
         "origen": "SHANNON (SNN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "19:30",
@@ -7224,7 +7224,7 @@
         "vuelo": "TVS2010",
         "aerolinea": "Smartwings Hungary",
         "origen": "PRAGA (PRG)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "21:00",
@@ -7233,7 +7233,7 @@
         "vuelo": "EJU7763",
         "aerolinea": "easyJet",
         "origen": "OPORTO (OPO)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "21:15",
@@ -7255,7 +7255,7 @@
     },
     {
         "hora_inicial": "21:40",
-        "hora_programada": "22:47",
+        "hora_programada": "23:19",
         "fecha": "2024-09-11",
         "vuelo": "QTR3794",
         "aerolinea": "Qatar Airways",
@@ -7264,7 +7264,7 @@
     },
     {
         "hora_inicial": "21:40",
-        "hora_programada": "21:53",
+        "hora_programada": "21:54",
         "fecha": "2024-09-11",
         "vuelo": "RYR9512",
         "aerolinea": "Ryanair",
@@ -7273,7 +7273,7 @@
     },
     {
         "hora_inicial": "21:40",
-        "hora_programada": "22:10",
+        "hora_programada": "22:14",
         "fecha": "2024-09-11",
         "vuelo": "IZ277",
         "aerolinea": "Arkia Israeli Airlines",
@@ -7282,7 +7282,7 @@
     },
     {
         "hora_inicial": "21:50",
-        "hora_programada": "22:15",
+        "hora_programada": "22:17",
         "fecha": "2024-09-11",
         "vuelo": "TOM7386",
         "aerolinea": "Tui Airways",
@@ -7296,7 +7296,7 @@
         "vuelo": "VOE3346",
         "aerolinea": "Volotea",
         "origen": "SAN SEBASTIÁN (EAS)",
-        "estado": "En vuelo"
+        "estado": "Aproximándose"
     },
     {
         "hora_inicial": "21:50",
@@ -7327,7 +7327,7 @@
     },
     {
         "hora_inicial": "22:00",
-        "hora_programada": "22:02",
+        "hora_programada": "22:01",
         "fecha": "2024-09-11",
         "vuelo": "TOM1328",
         "aerolinea": "Tui Airways",
@@ -7345,7 +7345,7 @@
     },
     {
         "hora_inicial": "22:05",
-        "hora_programada": "22:01",
+        "hora_programada": "21:55",
         "fecha": "2024-09-11",
         "vuelo": "IB8527",
         "aerolinea": "Iberia",
@@ -7354,7 +7354,7 @@
     },
     {
         "hora_inicial": "22:10",
-        "hora_programada": "21:50",
+        "hora_programada": "21:59",
         "fecha": "2024-09-11",
         "vuelo": "RYR7197",
         "aerolinea": "Ryanair",
@@ -7363,7 +7363,7 @@
     },
     {
         "hora_inicial": "22:10",
-        "hora_programada": "22:26",
+        "hora_programada": "22:23",
         "fecha": "2024-09-11",
         "vuelo": "RUK1202",
         "aerolinea": "Ryanair",
@@ -7372,7 +7372,7 @@
     },
     {
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:22",
         "fecha": "2024-09-11",
         "vuelo": "QTR5530",
         "aerolinea": "Qatar Airways",
@@ -7417,7 +7417,7 @@
     },
     {
         "hora_inicial": "22:50",
-        "hora_programada": "22:28",
+        "hora_programada": "22:30",
         "fecha": "2024-09-11",
         "vuelo": "EZY2333",
         "aerolinea": "easyJet UK",
