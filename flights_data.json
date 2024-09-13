@@ -1462,7 +1462,7 @@
         "hora_programada": "22:35",
         "fecha": "2024-09-14",
         "vuelo": "RYR7372",
-        "aerolinea": "Iberia",
+        "aerolinea": "Sunclass Airlines",
         "origen": "VALENCIA (VLC)",
         "estado": "Finalizado"
     },
@@ -1561,7 +1561,7 @@
         "hora_programada": "23:27",
         "fecha": "2024-09-14",
         "vuelo": "EJU3751",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Jet2.com",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "Finalizado"
     },
@@ -1570,7 +1570,7 @@
         "hora_programada": "22:21",
         "fecha": "2024-09-14",
         "vuelo": "VLG3920",
-        "aerolinea": "Norwegian SWEDEN (NSZ)",
+        "aerolinea": "Tui Fly",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
     },
@@ -1579,7 +1579,7 @@
         "hora_programada": "22:21",
         "fecha": "2024-09-14",
         "vuelo": "IB5461",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
     },
@@ -1642,7 +1642,7 @@
         "hora_programada": "23:13",
         "fecha": "2024-09-14",
         "vuelo": "UX6103",
-        "aerolinea": "easyJet",
+        "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
     },
@@ -1651,15 +1651,6 @@
         "hora_programada": "23:13",
         "fecha": "2024-09-14",
         "vuelo": "KL3363",
-        "aerolinea": "Ryanair",
-        "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Finalizado"
-    },
-    {
-        "hora_inicial": "22:45",
-        "hora_programada": "23:13",
-        "fecha": "2024-09-14",
-        "vuelo": "EY4303",
         "aerolinea": "Air Europa",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
@@ -1668,8 +1659,17 @@
         "hora_inicial": "22:45",
         "hora_programada": "23:13",
         "fecha": "2024-09-14",
+        "vuelo": "EY4303",
+        "aerolinea": "Air Serbia",
+        "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
+        "estado": "Finalizado"
+    },
+    {
+        "hora_inicial": "22:45",
+        "hora_programada": "23:13",
+        "fecha": "2024-09-14",
         "vuelo": "ASL7447",
-        "aerolinea": "KLM",
+        "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
     },
@@ -1678,7 +1678,7 @@
         "hora_programada": "22:34",
         "fecha": "2024-09-14",
         "vuelo": "TO4720",
-        "aerolinea": "Etihad Airways",
+        "aerolinea": "KLM",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "Finalizado"
     },
@@ -1723,7 +1723,7 @@
         "hora_programada": "22:52",
         "fecha": "2024-09-14",
         "vuelo": "AF4804",
-        "aerolinea": "British Airways",
+        "aerolinea": "Etihad Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado"
     },
@@ -1732,7 +1732,7 @@
         "hora_programada": "22:52",
         "fecha": "2024-09-14",
         "vuelo": "AM6819",
-        "aerolinea": "Air France",
+        "aerolinea": "KLM",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado"
     },
@@ -1750,7 +1750,7 @@
         "hora_programada": "22:52",
         "fecha": "2024-09-14",
         "vuelo": "KL3349",
-        "aerolinea": "Etihad Airways",
+        "aerolinea": "British Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado"
     },
@@ -1774,12 +1774,12 @@
     },
     {
         "hora_inicial": "23:35",
-        "hora_programada": "00:12",
+        "hora_programada": "00:11",
         "fecha": "2024-09-14",
         "vuelo": "NSZ5601",
         "aerolinea": "Ryanair",
         "origen": "ESTOCOLMO /ARLANDA (ARN)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "23:35",
@@ -1810,21 +1810,21 @@
     },
     {
         "hora_inicial": "23:35",
-        "hora_programada": "00:07",
+        "hora_programada": "00:06",
         "fecha": "2024-09-14",
         "vuelo": "VLG3943",
         "aerolinea": "Ryanair",
         "origen": "SEVILLA (SVQ)",
-        "estado": "Aproximándose"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "23:35",
-        "hora_programada": "00:07",
+        "hora_programada": "00:06",
         "fecha": "2024-09-14",
         "vuelo": "IB5484",
         "aerolinea": "Vueling",
         "origen": "SEVILLA (SVQ)",
-        "estado": "Aproximándose"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "20:05",
@@ -1851,7 +1851,7 @@
         "vuelo": "VLG3932",
         "aerolinea": "Jet2.com",
         "origen": "BILBAO (BIO)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "23:30",
@@ -1860,7 +1860,7 @@
         "vuelo": "IB5473",
         "aerolinea": "easyJet",
         "origen": "BILBAO (BIO)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "15:55",
@@ -3759,14 +3759,14 @@
         "vuelo": "LS101",
         "aerolinea": "Eurowingss",
         "origen": "GLASGOW (GLA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "22:20",
         "hora_programada": "22:29",
         "fecha": "2024-09-14",
         "vuelo": "RYR5655",
-        "aerolinea": "Braathens International Airways",
+        "aerolinea": "easyJet",
         "origen": "MILAN/BERGAMO (BGY)",
         "estado": "Finalizado"
     },
@@ -3775,7 +3775,7 @@
         "hora_programada": "22:21",
         "fecha": "2024-09-14",
         "vuelo": "QTR8123",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Finalizado"
     },
@@ -3817,12 +3817,12 @@
     },
     {
         "hora_inicial": "23:40",
-        "hora_programada": "00:10",
+        "hora_programada": "00:08",
         "fecha": "2024-09-14",
         "vuelo": "RYR5730",
         "aerolinea": "Iberia",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "07:00",
@@ -4470,7 +4470,7 @@
         "vuelo": "VLG3865",
         "aerolinea": "Vueling",
         "origen": "ASTURIAS (OVD)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "23:55",
@@ -4479,7 +4479,7 @@
         "vuelo": "IB5440",
         "aerolinea": "Iberia",
         "origen": "ASTURIAS (OVD)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "20:10",
@@ -4924,7 +4924,7 @@
     },
     {
         "hora_inicial": "22:00",
-        "hora_programada": "01:53",
+        "hora_programada": "02:13",
         "fecha": "2024-09-14",
         "vuelo": "EWG590",
         "aerolinea": "Iberia",
@@ -5854,7 +5854,7 @@
         "hora_programada": "23:01",
         "fecha": "2024-09-14",
         "vuelo": "EZY2333",
-        "aerolinea": "KLM",
+        "aerolinea": "Air France",
         "origen": "LONDRES /LUTON (LTN)",
         "estado": "Finalizado"
     },
@@ -7233,7 +7233,7 @@
         "vuelo": "TOM2540",
         "aerolinea": "Tui Airways",
         "origen": "MANCHESTER (MAN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "20:50",
@@ -7345,7 +7345,7 @@
     },
     {
         "hora_inicial": "22:25",
-        "hora_programada": "00:41",
+        "hora_programada": "00:42",
         "fecha": "2024-09-14",
         "vuelo": "EJU7286",
         "aerolinea": "Iberia",
@@ -7357,7 +7357,7 @@
         "hora_programada": "22:42",
         "fecha": "2024-09-14",
         "vuelo": "DK1752",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "ESTOCOLMO /ARLANDA (ARN)",
         "estado": "Finalizado"
     },
@@ -7366,7 +7366,7 @@
         "hora_programada": "22:54",
         "fecha": "2024-09-14",
         "vuelo": "EJU7336",
-        "aerolinea": "Air Serbia",
+        "aerolinea": "Etihad Airways",
         "origen": "BERLIN BRANDENBURG (BER)",
         "estado": "Finalizado"
     },
