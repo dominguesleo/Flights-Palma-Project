@@ -75,6 +75,8 @@ def get_aena_data():
     details = soup.find_all("div", class_="fila micro")
     for flight in details:
         div_hora = flight.find("div", class_="hora")
+        hora_inicial = None
+        hora_programada = None
         hora = div_hora.find_all("span")
         if len(hora) > 1:
             hora_inicial = hora[-1].text.strip()
