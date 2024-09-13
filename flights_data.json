@@ -402,7 +402,7 @@
         "vuelo": "X32322",
         "aerolinea": "Tui Fly",
         "origen": "DUSSELDORF (DUS)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "16:45",
@@ -519,7 +519,7 @@
         "vuelo": "IB8507",
         "aerolinea": "Iberia",
         "origen": "MENORCA (MAH)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "17:30",
@@ -573,7 +573,7 @@
         "vuelo": "DE1778",
         "aerolinea": "Condor",
         "origen": "DUSSELDORF (DUS)",
-        "estado": "Aproximándose"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": "18:10",
@@ -640,21 +640,21 @@
     },
     {
         "hora_inicial": "17:10",
-        "hora_programada": "17:16",
+        "hora_programada": "17:15",
         "fecha": "2024-09-13",
         "vuelo": "DE1498",
         "aerolinea": "Condor",
         "origen": "FRANKFURT (FRA)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "17:10",
-        "hora_programada": "17:16",
+        "hora_programada": "17:15",
         "fecha": "2024-09-13",
         "vuelo": "ASA8969",
         "aerolinea": null,
         "origen": "FRANKFURT (FRA)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "09:40",
@@ -672,7 +672,7 @@
         "vuelo": "UX4027",
         "aerolinea": "Air Europa",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "15:35",
@@ -901,7 +901,7 @@
     },
     {
         "hora_inicial": "16:15",
-        "hora_programada": "17:51",
+        "hora_programada": "17:50",
         "fecha": "2024-09-13",
         "vuelo": "RYR2896",
         "aerolinea": "Ryanair",
@@ -4456,12 +4456,12 @@
     },
     {
         "hora_inicial": "17:15",
-        "hora_programada": "17:21",
+        "hora_programada": "17:20",
         "fecha": "2024-09-13",
         "vuelo": "RYR4615",
         "aerolinea": "Ryanair",
         "origen": "VITORIA (VIT)",
-        "estado": "En vuelo"
+        "estado": "En tierra"
     },
     {
         "hora_inicial": null,
@@ -6391,12 +6391,12 @@
     },
     {
         "hora_inicial": "17:40",
-        "hora_programada": "17:15",
+        "hora_programada": "17:13",
         "fecha": "2024-09-13",
         "vuelo": "IB8535",
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "17:45",
@@ -7084,7 +7084,7 @@
     },
     {
         "hora_inicial": "17:20",
-        "hora_programada": "17:40",
+        "hora_programada": "17:39",
         "fecha": "2024-09-13",
         "vuelo": "LH1794",
         "aerolinea": "Lufthansa",
@@ -7096,13 +7096,13 @@
         "hora_programada": "17:32",
         "fecha": "2024-09-13",
         "vuelo": "TB1451",
-        "aerolinea": "TUI FLY BELGIUM",
+        "aerolinea": null,
         "origen": "OSTEND-BRUGES (OST) (OST)",
         "estado": "En vuelo"
     },
     {
         "hora_inicial": "17:45",
-        "hora_programada": "17:46",
+        "hora_programada": "17:47",
         "fecha": "2024-09-13",
         "vuelo": "BT981",
         "aerolinea": "Air Baltic",
