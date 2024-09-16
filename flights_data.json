@@ -19,7 +19,7 @@
     },
     {
         "hora_inicial": "13:30",
-        "hora_programada": "14:07",
+        "hora_programada": "14:21",
         "fecha": "2024-09-16",
         "vuelo": "DE1162",
         "aerolinea": "Condor",
@@ -37,12 +37,12 @@
     },
     {
         "hora_inicial": "13:15",
-        "hora_programada": "13:23",
+        "hora_programada": "13:20",
         "fecha": "2024-09-16",
         "vuelo": "EWG1992",
         "aerolinea": "Eurowingss",
         "origen": "MUNICH (MUC)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "07:45",
@@ -99,22 +99,22 @@
         "estado": ""
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:30",
+        "hora_programada": "14:26",
         "fecha": "2024-09-16",
         "vuelo": "VLG3981",
         "aerolinea": "Vueling",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:30",
+        "hora_programada": "14:26",
         "fecha": "2024-09-16",
         "vuelo": "IB5508",
         "aerolinea": "Iberia",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -828,13 +828,13 @@
         "estado": ""
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:25",
+        "hora_programada": "14:08",
         "fecha": "2024-09-16",
         "vuelo": "IB5451",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": "08:40",
@@ -1108,7 +1108,7 @@
     },
     {
         "hora_inicial": "14:10",
-        "hora_programada": "14:11",
+        "hora_programada": "14:01",
         "fecha": "2024-09-16",
         "vuelo": "EWG6801",
         "aerolinea": "Eurowingss",
@@ -1216,7 +1216,7 @@
     },
     {
         "hora_inicial": "14:00",
-        "hora_programada": "13:57",
+        "hora_programada": "14:05",
         "fecha": "2024-09-16",
         "vuelo": "EWG1994",
         "aerolinea": "Eurowingss",
@@ -1935,13 +1935,13 @@
         "estado": "Finalizado"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:30",
+        "hora_programada": "14:27",
         "fecha": "2024-09-16",
         "vuelo": "EWG580",
         "aerolinea": "Eurowingss",
         "origen": "KOELN/BONN (CGN)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -2629,12 +2629,12 @@
     },
     {
         "hora_inicial": "14:05",
-        "hora_programada": "14:19",
+        "hora_programada": "14:28",
         "fecha": "2024-09-16",
         "vuelo": "RYR104",
         "aerolinea": "Ryanair",
         "origen": "VIENA (VIE)",
-        "estado": "En hora"
+        "estado": "Retrasado"
     },
     {
         "hora_inicial": "10:45",
@@ -2697,7 +2697,7 @@
         "vuelo": "SWT7772",
         "aerolinea": "Uep!Fly",
         "origen": "IBIZA (IBZ)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "11:05",
@@ -2706,7 +2706,7 @@
         "vuelo": "UX2052",
         "aerolinea": "Air Europa",
         "origen": "IBIZA (IBZ)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "11:15",
@@ -2737,7 +2737,7 @@
     },
     {
         "hora_inicial": "11:15",
-        "hora_programada": "12:27",
+        "hora_programada": "12:28",
         "fecha": "2024-09-16",
         "vuelo": "LS1775",
         "aerolinea": "Jet2.com",
@@ -2751,7 +2751,7 @@
         "vuelo": "LS229",
         "aerolinea": "Jet2.com",
         "origen": "LEEDS/BRADFORD (LBA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "08:45",
@@ -2796,7 +2796,7 @@
         "vuelo": "UX6013",
         "aerolinea": "Air Europa",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "11:35",
@@ -2805,7 +2805,7 @@
         "vuelo": "AF4800",
         "aerolinea": "Air France",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "11:35",
@@ -2814,7 +2814,7 @@
         "vuelo": "EY4363",
         "aerolinea": "Etihad Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "11:35",
@@ -2823,7 +2823,7 @@
         "vuelo": "AM6952",
         "aerolinea": "Aeromexico",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "11:05",
@@ -2845,7 +2845,7 @@
     },
     {
         "hora_inicial": "11:55",
-        "hora_programada": "12:12",
+        "hora_programada": "12:22",
         "fecha": "2024-09-16",
         "vuelo": "SWT7883",
         "aerolinea": "Uep!Fly",
@@ -2854,7 +2854,7 @@
     },
     {
         "hora_inicial": "11:55",
-        "hora_programada": "12:12",
+        "hora_programada": "12:22",
         "fecha": "2024-09-16",
         "vuelo": "UX2058",
         "aerolinea": "Air Europa",
@@ -2863,12 +2863,12 @@
     },
     {
         "hora_inicial": "11:55",
-        "hora_programada": "11:40",
+        "hora_programada": "11:38",
         "fecha": "2024-09-16",
         "vuelo": "LX2158",
         "aerolinea": "Swiss International Airlines",
         "origen": "ZURICH (ZRH)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": null,
@@ -2881,12 +2881,12 @@
     },
     {
         "hora_inicial": "11:55",
-        "hora_programada": "11:43",
+        "hora_programada": "11:44",
         "fecha": "2024-09-16",
         "vuelo": "RYR2310",
         "aerolinea": "Ryanair",
         "origen": "LEEDS/BRADFORD (LBA)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": null,
@@ -2917,7 +2917,7 @@
     },
     {
         "hora_inicial": "12:25",
-        "hora_programada": "12:23",
+        "hora_programada": "12:22",
         "fecha": "2024-09-16",
         "vuelo": "4Y512",
         "aerolinea": "Discover Airlines",
@@ -2926,7 +2926,7 @@
     },
     {
         "hora_inicial": "12:25",
-        "hora_programada": "12:23",
+        "hora_programada": "12:22",
         "fecha": "2024-09-16",
         "vuelo": "LH4302",
         "aerolinea": "Lufthansa",
@@ -2998,75 +2998,75 @@
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "I23914",
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "VLG5762",
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "AV6112",
         "aerolinea": "Avianca",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "BA7158",
         "aerolinea": "British Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "QTR6997",
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "AA8689",
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "CPA1831",
         "aerolinea": "Cathay Pacific",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:40",
-        "hora_programada": "12:45",
+        "hora_programada": "12:56",
         "fecha": "2024-09-16",
         "vuelo": "IB3914",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": null,
@@ -3133,12 +3133,12 @@
     },
     {
         "hora_inicial": "13:00",
-        "hora_programada": "12:52",
+        "hora_programada": "13:01",
         "fecha": "2024-09-16",
         "vuelo": "EWG6811",
         "aerolinea": "Eurowingss",
         "origen": "BASEL /MULHOUSE (BSL)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "12:35",
@@ -3151,7 +3151,7 @@
     },
     {
         "hora_inicial": "13:20",
-        "hora_programada": "13:32",
+        "hora_programada": "13:23",
         "fecha": "2024-09-16",
         "vuelo": "EWG6837",
         "aerolinea": "Eurowingss",
@@ -3178,12 +3178,12 @@
     },
     {
         "hora_inicial": "13:40",
-        "hora_programada": "13:23",
+        "hora_programada": "13:19",
         "fecha": "2024-09-16",
         "vuelo": "BA496",
         "aerolinea": "British Airways",
         "origen": "LONDRES / HEATHROW (LHR)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": null,
@@ -3205,7 +3205,7 @@
     },
     {
         "hora_inicial": "12:50",
-        "hora_programada": "13:24",
+        "hora_programada": "13:34",
         "fecha": "2024-09-16",
         "vuelo": "RYR1103",
         "aerolinea": "Ryanair",
@@ -3222,13 +3222,13 @@
         "estado": ""
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:35",
+        "hora_programada": "14:23",
         "fecha": "2024-09-16",
         "vuelo": "EWG9594",
         "aerolinea": "Eurowingss",
         "origen": "DUSSELDORF (DUS)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": "13:35",
@@ -3330,13 +3330,13 @@
         "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:31",
         "fecha": "2024-09-16",
         "vuelo": "I23972",
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -3403,7 +3403,7 @@
     },
     {
         "hora_inicial": "14:25",
-        "hora_programada": "14:22",
+        "hora_programada": "14:16",
         "fecha": "2024-09-16",
         "vuelo": "EIN860",
         "aerolinea": "Aer Lingus",
@@ -3430,7 +3430,7 @@
     },
     {
         "hora_inicial": "13:00",
-        "hora_programada": "12:57",
+        "hora_programada": "13:04",
         "fecha": "2024-09-16",
         "vuelo": "EWG9580",
         "aerolinea": "Eurowingss",
@@ -3564,13 +3564,13 @@
         "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:25",
+        "hora_programada": "14:26",
         "fecha": "2024-09-16",
         "vuelo": "IB5488",
         "aerolinea": "Iberia",
         "origen": "SEVILLA (SVQ)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -3619,12 +3619,12 @@
     },
     {
         "hora_inicial": "13:20",
-        "hora_programada": "13:11",
+        "hora_programada": "13:17",
         "fecha": "2024-09-16",
         "vuelo": "EWG2584",
         "aerolinea": "Eurowingss",
         "origen": "STUTTGART (STR)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "20:05",
@@ -3646,12 +3646,12 @@
     },
     {
         "hora_inicial": "13:50",
-        "hora_programada": "13:38",
+        "hora_programada": "13:25",
         "fecha": "2024-09-16",
         "vuelo": "RYR8234",
         "aerolinea": "Ryanair",
         "origen": "BRISTOL (BRS)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "hora_inicial": "11:30",
@@ -3691,7 +3691,7 @@
     },
     {
         "hora_inicial": "13:20",
-        "hora_programada": "13:19",
+        "hora_programada": "13:25",
         "fecha": "2024-09-16",
         "vuelo": "TRA6511",
         "aerolinea": "Transavia",
@@ -3709,7 +3709,7 @@
     },
     {
         "hora_inicial": "12:35",
-        "hora_programada": "12:15",
+        "hora_programada": "12:14",
         "fecha": "2024-09-16",
         "vuelo": "RYR5655",
         "aerolinea": "Ryanair",
@@ -3781,7 +3781,7 @@
     },
     {
         "hora_inicial": "12:20",
-        "hora_programada": "12:15",
+        "hora_programada": "12:16",
         "fecha": "2024-09-16",
         "vuelo": "VOE2800",
         "aerolinea": "Volotea",
@@ -4410,13 +4410,13 @@
         "estado": "Finalizado"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:37",
         "fecha": "2024-09-16",
         "vuelo": "IB8533",
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": "18:30",
@@ -4437,13 +4437,13 @@
         "estado": ""
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:25",
+        "hora_programada": "14:08",
         "fecha": "2024-09-16",
         "vuelo": "QTR3625",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": "20:50",
@@ -4600,12 +4600,12 @@
     },
     {
         "hora_inicial": "11:45",
-        "hora_programada": "11:37",
+        "hora_programada": "11:36",
         "fecha": "2024-09-16",
         "vuelo": "RYR7208",
         "aerolinea": "Ryanair",
         "origen": "KOELN/BONN (CGN)",
-        "estado": "Aproximándose"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "14:20",
@@ -4654,7 +4654,7 @@
     },
     {
         "hora_inicial": "13:55",
-        "hora_programada": "13:43",
+        "hora_programada": "13:35",
         "fecha": "2024-09-16",
         "vuelo": "TO4714",
         "aerolinea": "Transavia",
@@ -4698,13 +4698,13 @@
         "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:26",
         "fecha": "2024-09-16",
         "vuelo": "LX2168",
         "aerolinea": "Swiss International Airlines",
         "origen": "GINEBRA (GVA)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -4725,13 +4725,13 @@
         "estado": ""
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:33",
         "fecha": "2024-09-16",
         "vuelo": "BA494",
         "aerolinea": "British Airways",
         "origen": "LONDRES / HEATHROW (LHR)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": "14:10",
@@ -5940,13 +5940,13 @@
         "estado": "Finalizado"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:35",
+        "hora_programada": "14:21",
         "fecha": "2024-09-16",
         "vuelo": "VLG3264",
         "aerolinea": "Vueling",
         "origen": "SANTANDER-SEVE BALLESTEROS (SDR)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
@@ -7557,7 +7557,7 @@
         "vuelo": "RYR9997",
         "aerolinea": "Ryanair",
         "origen": "DUBLIN (DUB)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "11:10",
@@ -7566,7 +7566,7 @@
         "vuelo": "DE1136",
         "aerolinea": "Condor",
         "origen": "ROSTOCK-LAAGE (RLG)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "11:30",
@@ -7575,7 +7575,7 @@
         "vuelo": "LS1289",
         "aerolinea": "Jet2.com",
         "origen": "BIRMINGHAM / INTERNACIONAL (BHX)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "hora_inicial": "11:30",
@@ -7597,12 +7597,12 @@
     },
     {
         "hora_inicial": "12:05",
-        "hora_programada": "11:34",
+        "hora_programada": "11:40",
         "fecha": "2024-09-16",
         "vuelo": "LS765",
         "aerolinea": "Jet2.com",
         "origen": "EDIMBURGO (EDI)",
-        "estado": "En tierra"
+        "estado": "Entrega equip."
     },
     {
         "hora_inicial": "12:20",
@@ -7704,31 +7704,31 @@
         "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:25",
+        "hora_programada": "14:08",
         "fecha": "2024-09-16",
         "vuelo": "LA5861",
         "aerolinea": "LATAM Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:18",
         "fecha": "2024-09-16",
         "vuelo": "RYR8464",
         "aerolinea": "Ryanair",
         "origen": "AARHUS/TIRSTRUP (AAR)",
-        "estado": ""
+        "estado": "En vuelo"
     },
     {
-        "hora_inicial": null,
-        "hora_programada": null,
+        "hora_inicial": "14:40",
+        "hora_programada": "14:34",
         "fecha": "2024-09-16",
         "vuelo": "RYR2162",
         "aerolinea": "Ryanair",
         "origen": "BIRMINGHAM / INTERNACIONAL (BHX)",
-        "estado": ""
+        "estado": "En hora"
     },
     {
         "hora_inicial": null,
