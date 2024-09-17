@@ -28,7 +28,7 @@ def update_script_status(status, message):
 def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless') #* Evita que se abra el navegador
+    #options.add_argument('--headless') #* Evita que se abra el navegador
     options.add_argument('--window-size=1920,1080')
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3") #* Evita el bloqueo por parte de la página
     driver = Chrome(service=service, options=options)
@@ -43,7 +43,9 @@ def get_aena_data(airports=AIRPORT):
             time.sleep(1)
 
             # Seleccionamos el aeropuerto
-            driver.find_element(By.ID, "Llegadasen la red Aena:").send_keys(airport)
+            field = driver.find_element(By.ID, "Llegadasen la red Aena:")
+            field.clear()
+            field.send_keys(airport)
             time.sleep(1)
 
             # Cargar todos los vuelos del dia
@@ -108,8 +110,6 @@ def get_aena_data(airports=AIRPORT):
         return
     finally:
         driver.quit()
-
-    print(new_flights_data)
 
     #* Leer el archivo JSON existente
     try:
