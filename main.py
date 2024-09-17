@@ -28,7 +28,7 @@ def update_script_status(status, message):
 def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    #options.add_argument('--headless') #* Evita que se abra el navegador
+    options.add_argument('--headless') #* Evita que se abra el navegador
     options.add_argument('--window-size=1920,1080')
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3") #* Evita el bloqueo por parte de la página
     driver = Chrome(service=service, options=options)
