@@ -94,7 +94,7 @@ def get_aena_data():
         origen = origen_element.text.strip() if origen_element else None
 
         estado_element = flight.find("span", class_="a")
-        estado = estado_element.text.strip() if estado_element else None
+        estado = estado_element.text.strip() if estado_element != "" else None
 
         new_flights_data.append({
             'hora_inicial': hora_inicial,
