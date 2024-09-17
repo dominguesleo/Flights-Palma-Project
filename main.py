@@ -71,7 +71,6 @@ def get_aena_data():
 
     soup = BeautifulSoup(html_flights_day, 'html.parser')
     new_flights_data = []
-    date = soup.find("div", class_="container").text.strip()
     details = soup.find_all("div", class_="fila micro")
     for flight in details:
         div_hora = flight.find("div", class_="hora")
@@ -82,7 +81,7 @@ def get_aena_data():
             hora_inicial = hora[-1].text.strip()
             hora_programada = hora[0].text.strip()
         else:
-            hora_programada = hora[0].text.strip()
+            hora_inicial = hora[0].text.strip()
             hora_programada = None
 
         vuelo_element = flight.find("div", class_="vuelo")
