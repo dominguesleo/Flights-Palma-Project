@@ -28,9 +28,16 @@ def update_script_status(status, message):
 def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless') #* Evita que se abra el navegador
+    options.add_argument('--headless')  # Evita que se abra el navegador
     options.add_argument('--window-size=1920,1080')
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3") #* Evita el bloqueo por parte de la página
+    options.add_argument('--disable-extensions')  # Deshabilitar extensiones
+    options.add_argument('--disable-dev-shm-usage')  # Deshabilitar el uso compartido de memoria
+    options.add_argument('--disable-gpu')  # Deshabilitar la aceleración de hardware
+    options.add_argument('--no-sandbox')  # Añadir esta opción si estás ejecutando en un entorno de contenedor
+    options.add_argument('--disable-notifications')  # Deshabilitar notificaciones
+    options.add_argument('--disable-infobars')  # Deshabilitar la barra de información de Chrome
+    options.add_argument('--disable-blink-features=AutomationControlled')  # Deshabilitar la automatización de Chrome
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3")  # Evita el bloqueo por parte de la página
     driver = Chrome(service=service, options=options)
 
     try:
@@ -38,6 +45,7 @@ def get_aena_data(airports=AIRPORT):
         driver.get("https://www.aena.es/es/infovuelos.html")
         time.sleep(1)
         driver.execute_script("document.getElementById('modal_footer').style.visibility = 'hidden';")
+        new_flights_data = []
 
         for airport in airports:
             time.sleep(1)
@@ -65,7 +73,6 @@ def get_aena_data(airports=AIRPORT):
             html_flights_day = flights_day.get_attribute("outerHTML")
 
             soup = BeautifulSoup(html_flights_day, 'html.parser')
-            new_flights_data = []
             details = soup.find_all("div", class_="fila micro")
             for flight in details:
                 div_hora = flight.find("div", class_="hora")
@@ -89,7 +96,7 @@ def get_aena_data(airports=AIRPORT):
                 origen = origen_element.text.strip() if origen_element else None
 
                 estado_element = flight.find("span", class_="a")
-                estado = estado_element.text.strip() if estado_element != "" else None
+                estado = estado_element.text.strip() if estado_element else None
 
                 new_flights_data.append({
                     'aeropuerto': airport,
@@ -101,6 +108,8 @@ def get_aena_data(airports=AIRPORT):
                     'origen': origen,
                     'estado': estado,
                 })
+
+        print(new_flights_data)
 
     except TimeoutException:
         update_script_status("Error", "TimeoutException")
@@ -115,7 +124,7 @@ def get_aena_data(airports=AIRPORT):
     try:
         with open('flights_data.json', 'r', encoding='utf-8') as file:
             existing_flights_data = json.load(file)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError):
         existing_flights_data = []
 
     #* Obtener la fecha actual
@@ -134,7 +143,7 @@ def get_aena_data(airports=AIRPORT):
         new_flight_date = datetime.strptime(new_flight["fecha"], "%Y-%m-%d").date()
         flight_exists = False
         for i, flight in enumerate(updated_flights):
-            if flight["vuelo"] == new_flight["vuelo"]:
+            if flight["vuelo"] == new_flight["vuelo"] and flight["aeropuerto"] == new_flight["aeropuerto"]:
                 updated_flights[i] = new_flight
                 flight_exists = True
                 break
