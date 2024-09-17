@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 import time
 import json
 
-AIRPORT = "PALMA DE MALLORCA"
+AIRPORT = ["PALMA DE MALLORCA", "GRAN CANARIA", "TENERIFE SUR"]
 TIMEZONE = ZoneInfo("Europe/Madrid")
 
 def update_script_status(status, message):
@@ -25,7 +25,7 @@ def update_script_status(status, message):
     with open('script_status.json', 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
-def get_aena_data():
+def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
     options.add_argument('--headless') #* Evita que se abra el navegador
@@ -38,27 +38,67 @@ def get_aena_data():
         driver.get("https://www.aena.es/es/infovuelos.html")
         time.sleep(1)
         driver.execute_script("document.getElementById('modal_footer').style.visibility = 'hidden';")
-        time.sleep(1)
 
-        # Seleccionamos el aeropuerto
-        driver.find_element(By.ID, "Llegadasen la red Aena:").send_keys(AIRPORT)
-        time.sleep(1)
+        for airport in airports:
+            time.sleep(1)
 
-        # Cargar todos los vuelos del dia
-        more_button = Wait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/main/section[3]/p")))
+            # Seleccionamos el aeropuerto
+            driver.find_element(By.ID, "Llegadasen la red Aena:").send_keys(airport)
+            time.sleep(1)
 
-        while True:
-            try:  # Rompe el bucle cuando encuentra el contenedor del dia siguiente
-                elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[2]")
-                if elemento:
-                    break
-            except NoSuchElementException:
-                pass
-            driver.execute_script("arguments[0].click();", more_button)
+            # Cargar todos los vuelos del dia
+            more_button = Wait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/main/section[3]/p")))
 
-        # Extraemos la información
-        flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[1]")
-        html_flights_day = flights_day.get_attribute("outerHTML")
+            while True:
+                try:  # Rompe el bucle cuando encuentra el contenedor del dia siguiente
+                    elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[2]")
+                    if elemento:
+                        break
+                except NoSuchElementException:
+                    pass
+                driver.execute_script("arguments[0].click();", more_button)
+
+            # Extraemos la información
+            flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[1]")
+            html_flights_day = flights_day.get_attribute("outerHTML")
+
+            soup = BeautifulSoup(html_flights_day, 'html.parser')
+            new_flights_data = []
+            details = soup.find_all("div", class_="fila micro")
+            for flight in details:
+                div_hora = flight.find("div", class_="hora")
+                hora_inicial = None
+                hora_programada = None
+                hora = div_hora.find_all("span")
+                if len(hora) > 1:
+                    hora_inicial = hora[-1].text.strip()
+                    hora_programada = hora[0].text.strip()
+                else:
+                    hora_inicial = hora[0].text.strip()
+                    hora_programada = None
+
+                vuelo_element = flight.find("div", class_="vuelo")
+                vuelo = vuelo_element.text.strip() if vuelo_element else None
+
+                aerolinea_element = flight.find("p", class_="d-none")
+                aerolinea = aerolinea_element.text.strip() if aerolinea_element else None
+
+                origen_element = flight.find("div", class_="origen-destino")
+                origen = origen_element.text.strip() if origen_element else None
+
+                estado_element = flight.find("span", class_="a")
+                estado = estado_element.text.strip() if estado_element != "" else None
+
+                new_flights_data.append({
+                    'aeropuerto': airport,
+                    'hora_inicial': hora_inicial,
+                    'hora_programada': hora_programada,
+                    'fecha': datetime.now(TIMEZONE).strftime("%Y-%m-%d"),
+                    'vuelo': vuelo,
+                    'aerolinea': aerolinea,
+                    'origen': origen,
+                    'estado': estado,
+                })
 
     except TimeoutException:
         update_script_status("Error", "TimeoutException")
@@ -69,42 +109,7 @@ def get_aena_data():
     finally:
         driver.quit()
 
-    soup = BeautifulSoup(html_flights_day, 'html.parser')
-    new_flights_data = []
-    details = soup.find_all("div", class_="fila micro")
-    for flight in details:
-        div_hora = flight.find("div", class_="hora")
-        hora_inicial = None
-        hora_programada = None
-        hora = div_hora.find_all("span")
-        if len(hora) > 1:
-            hora_inicial = hora[-1].text.strip()
-            hora_programada = hora[0].text.strip()
-        else:
-            hora_inicial = hora[0].text.strip()
-            hora_programada = None
-
-        vuelo_element = flight.find("div", class_="vuelo")
-        vuelo = vuelo_element.text.strip() if vuelo_element else None
-
-        aerolinea_element = flight.find("p", class_="d-none")
-        aerolinea = aerolinea_element.text.strip() if aerolinea_element else None
-
-        origen_element = flight.find("div", class_="origen-destino")
-        origen = origen_element.text.strip() if origen_element else None
-
-        estado_element = flight.find("span", class_="a")
-        estado = estado_element.text.strip() if estado_element != "" else None
-
-        new_flights_data.append({
-            'hora_inicial': hora_inicial,
-            'hora_programada': hora_programada,
-            'fecha': datetime.now(TIMEZONE).strftime("%Y-%m-%d"),
-            'vuelo': vuelo,
-            'aerolinea': aerolinea,
-            'origen': origen,
-            'estado': estado,
-        })
+    print(new_flights_data)
 
     #* Leer el archivo JSON existente
     try:
