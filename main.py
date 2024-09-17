@@ -109,8 +109,6 @@ def get_aena_data(airports=AIRPORT):
                     'estado': estado,
                 })
 
-        print(new_flights_data)
-
     except TimeoutException:
         update_script_status("Error", "TimeoutException")
         return
