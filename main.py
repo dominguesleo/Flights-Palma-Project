@@ -28,7 +28,7 @@ def update_script_status(status, message):
 def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Evita que se abra el navegador
+    # options.add_argument('--headless')  # Evita que se abra el navegador
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--disable-extensions')  # Deshabilitar extensiones
     options.add_argument('--disable-dev-shm-usage')  # Deshabilitar el uso compartido de memoria
@@ -46,10 +46,19 @@ def get_aena_data(airports=AIRPORT):
         time.sleep(1)
         driver.execute_script("document.getElementById('modal_footer').style.visibility = 'hidden';")
         new_flights_data = []
+        time.sleep(1)
+    except TimeoutException:
+        update_script_status("Error", "TimeoutException")
+        driver.quit()
+        return
+    except Exception as e:
+        update_script_status("Error", str(e))
+        driver.quit()
+        return
 
-        for airport in airports:
+    for airport in airports:
+        try:
             time.sleep(1)
-
             # Seleccionamos el aeropuerto
             field = driver.find_element(By.ID, "Llegadasen la red Aena:")
             field.clear()
@@ -57,11 +66,12 @@ def get_aena_data(airports=AIRPORT):
             time.sleep(1)
 
             # Cargar todos los vuelos del dia
-            more_button = Wait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/main/section[3]/p")))
-
+            # more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/main/section[3]/p")))
+            more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/div/section[2]/p")))
             while True:
                 try:  # Rompe el bucle cuando encuentra el contenedor del dia siguiente
-                    elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[2]")
+                    # elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[2]")
+                    elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/div/section[2]/div[2]/div[2]")
                     if elemento:
                         break
                 except NoSuchElementException:
@@ -69,7 +79,8 @@ def get_aena_data(airports=AIRPORT):
                 driver.execute_script("arguments[0].click();", more_button)
 
             # Extraemos la información
-            flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[1]")
+            # flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[1]")
+            flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/div/section[2]/div[2]/div")
             html_flights_day = flights_day.get_attribute("outerHTML")
 
             soup = BeautifulSoup(html_flights_day, 'html.parser')
@@ -96,7 +107,7 @@ def get_aena_data(airports=AIRPORT):
                 origen = origen_element.text.strip() if origen_element else None
 
                 estado_element = flight.find("span", class_="a")
-                estado = estado_element.text.strip() if estado_element else None
+                estado = estado_element.text.strip() if estado_element.text.strip() != "" else None
 
                 new_flights_data.append({
                     'aeropuerto': airport,
@@ -109,14 +120,15 @@ def get_aena_data(airports=AIRPORT):
                     'estado': estado,
                 })
 
-    except TimeoutException:
-        update_script_status("Error", "TimeoutException")
-        return
-    except Exception as e:
-        update_script_status("Error", str(e))
-        return
-    finally:
-        driver.quit()
+        except TimeoutException:
+            update_script_status("Error", f"TimeoutException ({airport})")
+            driver.quit()
+            return
+        except Exception as e:
+            update_script_status("Error", f"{str(e)} ({airport})")
+            driver.quit()
+            return
+
 
     #* Leer el archivo JSON existente
     try:
