@@ -1,5 +1,5 @@
 {
-    "last_run": "2024-09-18 17:14:54",
+    "last_run": "2024-09-18 17:30:08",
     "status": "Error",
-    "message": "TimeoutException (TENERIFE SUR)"
+    "message": "HTTPConnectionPool(host='localhost', port=55191): Max retries exceeded with url: /session/a81d1f7676602555758c59749936b01b/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f24966a99a0>: Failed to establish a new connection: [Errno 111] Connection refused')) (TENERIFE SUR)"
 }
