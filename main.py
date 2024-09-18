@@ -120,15 +120,16 @@ def get_aena_data(airports=AIRPORT):
                     'estado': estado,
                 })
 
+                update_script_status("Success", "Data updated successfully")
+
         except TimeoutException:
             update_script_status("Error", f"TimeoutException ({airport})")
-            driver.quit()
             continue
         except Exception as e:
             update_script_status("Error", f"{str(e)} ({airport})")
-            driver.quit()
             continue
 
+        driver.quit()
 
     #* Leer el archivo JSON existente
     try:
@@ -164,7 +165,6 @@ def get_aena_data(airports=AIRPORT):
     with open('flights_data.json', 'w', encoding='utf-8') as json_file:
         json.dump(updated_flights, json_file, ensure_ascii=False, indent=4)
 
-    update_script_status("Success", "Data updated successfully")
 
 if __name__ == "__main__":
     get_aena_data()
