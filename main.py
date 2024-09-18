@@ -28,7 +28,7 @@ def update_script_status(status, message):
 def get_aena_data(airports=AIRPORT):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    # options.add_argument('--headless')  # Evita que se abra el navegador
+    options.add_argument('--headless')  # Evita que se abra el navegador
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--disable-extensions')  # Deshabilitar extensiones
     options.add_argument('--disable-dev-shm-usage')  # Deshabilitar el uso compartido de memoria
