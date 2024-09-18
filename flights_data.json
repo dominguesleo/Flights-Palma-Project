@@ -62,12 +62,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:21",
+        "hora_programada": "14:17",
         "fecha": "2024-09-18",
         "vuelo": "RYR5677",
         "aerolinea": "Ryanair",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En vuelo"
+        "estado": "En tierra"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -102,12 +102,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:35",
-        "hora_programada": "14:02",
+        "hora_programada": "14:04",
         "fecha": "2024-09-18",
         "vuelo": "DE1162",
         "aerolinea": "Condor",
         "origen": "ZURICH (ZRH)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -122,12 +122,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:20",
-        "hora_programada": "15:10",
+        "hora_programada": null,
         "fecha": "2024-09-18",
         "vuelo": "RYR8552",
         "aerolinea": "Ryanair",
         "origen": "MEMMINGEN (FMM)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -522,22 +522,22 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:50",
-        "hora_programada": "16:04",
+        "hora_programada": "16:15",
         "fecha": "2024-09-18",
         "vuelo": "DE1498",
         "aerolinea": "Condor",
         "origen": "FRANKFURT (FRA)",
-        "estado": "En hora"
+        "estado": "Retrasado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:50",
-        "hora_programada": "16:04",
+        "hora_programada": "16:15",
         "fecha": "2024-09-18",
         "vuelo": "ASA8969",
         "aerolinea": null,
         "origen": "FRANKFURT (FRA)",
-        "estado": "En hora"
+        "estado": "Retrasado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -547,7 +547,7 @@
         "vuelo": "EWG6819",
         "aerolinea": "Eurowingss",
         "origen": "SAARBRUCKEN (SCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -582,7 +582,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:30",
-        "hora_programada": "14:47",
+        "hora_programada": "14:49",
         "fecha": "2024-09-18",
         "vuelo": "RYR6656",
         "aerolinea": "Ryanair",
@@ -652,12 +652,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:58",
         "fecha": "2024-09-18",
         "vuelo": "RYR029",
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -1682,7 +1682,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:00",
-        "hora_programada": "15:06",
+        "hora_programada": "15:02",
         "fecha": "2024-09-18",
         "vuelo": "RYR6565",
         "aerolinea": "Ryanair",
@@ -7647,7 +7647,7 @@
         "vuelo": "TOM2318",
         "aerolinea": "Tui Airways",
         "origen": "MANCHESTER (MAN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -7967,7 +7967,7 @@
         "vuelo": "EJU8095",
         "aerolinea": "easyJet",
         "origen": "LONDRES /GATWICK (LGW)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8217,7 +8217,7 @@
         "vuelo": "EJU7334",
         "aerolinea": "easyJet",
         "origen": "BERLIN BRANDENBURG (BER)",
-        "estado": "Aproximándose"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8237,7 +8237,7 @@
         "vuelo": "EWG6801",
         "aerolinea": "Eurowingss",
         "origen": "LEIPZIG (LEJ)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8257,7 +8257,7 @@
         "vuelo": "EWG6805",
         "aerolinea": "Eurowingss",
         "origen": "BADEN BADEN-KARLSRUHE (FKB) (FKB)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8267,7 +8267,7 @@
         "vuelo": "BA496",
         "aerolinea": "British Airways",
         "origen": "LONDRES / HEATHROW (LHR)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8287,7 +8287,7 @@
         "vuelo": "4Y450",
         "aerolinea": "Discover Airlines",
         "origen": "MUNICH (MUC)",
-        "estado": "En tierra"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8297,7 +8297,7 @@
         "vuelo": "LH4300",
         "aerolinea": "Lufthansa",
         "origen": "MUNICH (MUC)",
-        "estado": "En tierra"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8317,7 +8317,7 @@
         "vuelo": "RYR1485",
         "aerolinea": "Ryanair",
         "origen": "PISA / GALILEO GALILEI (PSA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8327,7 +8327,7 @@
         "vuelo": "EJU7358",
         "aerolinea": "easyJet",
         "origen": "GLASGOW (GLA)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8337,7 +8337,7 @@
         "vuelo": "EWG7588",
         "aerolinea": "Eurowingss",
         "origen": "HAMBURGO (HAM)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8357,7 +8357,7 @@
         "vuelo": "EJU7256",
         "aerolinea": "easyJet",
         "origen": "NEWCASTLE (NCL)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8367,7 +8367,7 @@
         "vuelo": "GM100",
         "aerolinea": "Chair Airlines AG",
         "origen": "ZURICH (ZRH)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8377,7 +8377,7 @@
         "vuelo": "WK246",
         "aerolinea": "Edelweiss",
         "origen": "ZURICH (ZRH)",
-        "estado": "Aproximándose"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8387,7 +8387,7 @@
         "vuelo": "LX8246",
         "aerolinea": "Swiss International Airlines",
         "origen": "ZURICH (ZRH)",
-        "estado": "Aproximándose"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8397,7 +8397,7 @@
         "vuelo": "VLG3906",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8407,7 +8407,7 @@
         "vuelo": "IB5447",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8417,7 +8417,7 @@
         "vuelo": "LA5803",
         "aerolinea": "LATAM Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8427,37 +8427,37 @@
         "vuelo": "QTR3619",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Entrega equip."
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:30",
-        "hora_programada": "14:10",
+        "hora_programada": "14:11",
         "fecha": "2024-09-18",
         "vuelo": "RYR2495",
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:35",
-        "hora_programada": "13:40",
+        "hora_programada": "13:42",
         "fecha": "2024-09-18",
         "vuelo": "EWG6867",
         "aerolinea": "Eurowingss",
         "origen": "LINZ (LNZ)",
-        "estado": "Aproximándose"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:35",
-        "hora_programada": "13:49",
+        "hora_programada": "13:47",
         "fecha": "2024-09-18",
         "vuelo": "RYR7372",
         "aerolinea": "Ryanair",
         "origen": "VALENCIA (VLC)",
-        "estado": "En vuelo"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8467,52 +8467,52 @@
         "vuelo": "RYR216",
         "aerolinea": "Ryanair",
         "origen": "BERLIN BRANDENBURG (BER)",
-        "estado": "Aproximándose"
+        "estado": "Finalizado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:45",
-        "hora_programada": "13:58",
+        "hora_programada": "14:07",
         "fecha": "2024-09-18",
         "vuelo": "EZY3011",
         "aerolinea": "easyJet UK",
         "origen": "BELFAST (BFS)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:45",
-        "hora_programada": "14:04",
+        "hora_programada": "14:06",
         "fecha": "2024-09-18",
         "vuelo": "EJU6737",
         "aerolinea": "easyJet",
         "origen": "LISBOA (LIS)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:50",
-        "hora_programada": "14:00",
+        "hora_programada": "14:02",
         "fecha": "2024-09-18",
         "vuelo": "RYR4212",
         "aerolinea": "Ryanair",
         "origen": "FRANKFURT /HAHN (HHN)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:50",
-        "hora_programada": "14:07",
+        "hora_programada": "14:11",
         "fecha": "2024-09-18",
         "vuelo": "RYR8300",
         "aerolinea": "Ryanair",
         "origen": "PRAGA (PRG)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "13:55",
-        "hora_programada": "14:29",
+        "hora_programada": "14:28",
         "fecha": "2024-09-18",
         "vuelo": "EWG584",
         "aerolinea": "Eurowingss",
@@ -8522,27 +8522,27 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:00",
-        "hora_programada": "13:58",
+        "hora_programada": "13:55",
         "fecha": "2024-09-18",
         "vuelo": "NSZ5619",
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "BILLUND (BLL)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:00",
-        "hora_programada": "14:03",
+        "hora_programada": "14:08",
         "fecha": "2024-09-18",
         "vuelo": "EWG5648",
         "aerolinea": "Eurowingss",
         "origen": "INNSBRUCK (INN)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:00",
-        "hora_programada": "14:46",
+        "hora_programada": "14:49",
         "fecha": "2024-09-18",
         "vuelo": "EWG1990",
         "aerolinea": "Eurowingss",
@@ -8557,42 +8557,42 @@
         "vuelo": "TVS2140",
         "aerolinea": "Smartwings Hungary",
         "origen": "PARDUBICE (PED)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:05",
-        "hora_programada": "14:19",
+        "hora_programada": "14:17",
         "fecha": "2024-09-18",
         "vuelo": "LX2156",
         "aerolinea": "Swiss International Airlines",
         "origen": "ZURICH (ZRH)",
+        "estado": "En tierra"
+    },
+    {
+        "aeropuerto": "PALMA DE MALLORCA",
+        "hora_inicial": "14:10",
+        "hora_programada": "14:22",
+        "fecha": "2024-09-18",
+        "vuelo": "SWT7885",
+        "aerolinea": "Uep!Fly",
+        "origen": "IBIZA (IBZ)",
         "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:10",
-        "hora_programada": null,
-        "fecha": "2024-09-18",
-        "vuelo": "SWT7885",
-        "aerolinea": "Uep!Fly",
-        "origen": "IBIZA (IBZ)",
-        "estado": "En hora"
-    },
-    {
-        "aeropuerto": "PALMA DE MALLORCA",
-        "hora_inicial": "14:10",
-        "hora_programada": null,
+        "hora_programada": "14:22",
         "fecha": "2024-09-18",
         "vuelo": "UX2060",
         "aerolinea": "Air Europa",
         "origen": "IBIZA (IBZ)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:10",
-        "hora_programada": "14:38",
+        "hora_programada": "14:36",
         "fecha": "2024-09-18",
         "vuelo": "EWG4206",
         "aerolinea": "Eurowingss",
@@ -8602,7 +8602,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:15",
-        "hora_programada": "14:39",
+        "hora_programada": "14:37",
         "fecha": "2024-09-18",
         "vuelo": "EWG6893",
         "aerolinea": "Eurowingss",
@@ -8612,107 +8612,107 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:15",
-        "hora_programada": "14:03",
+        "hora_programada": "14:02",
         "fecha": "2024-09-18",
         "vuelo": "VLG3981",
         "aerolinea": "Vueling",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:15",
-        "hora_programada": "14:03",
+        "hora_programada": "14:02",
         "fecha": "2024-09-18",
         "vuelo": "IB5508",
         "aerolinea": "Iberia",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "I23972",
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "CPA1909",
         "aerolinea": "Cathay Pacific",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "IB3972",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "AV6132",
         "aerolinea": "Avianca",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "QTR8041",
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "VLG5274",
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "AA8519",
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:15",
+        "hora_programada": "14:13",
         "fecha": "2024-09-18",
         "vuelo": "LA1681",
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo"
+        "estado": "Entrega equip."
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:20",
-        "hora_programada": "14:22",
+        "hora_programada": "14:24",
         "fecha": "2024-09-18",
         "vuelo": "EWG1992",
         "aerolinea": "Eurowingss",
@@ -8722,17 +8722,17 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:25",
-        "hora_programada": "14:20",
+        "hora_programada": "14:19",
         "fecha": "2024-09-18",
         "vuelo": "EWG9574",
         "aerolinea": "Eurowingss",
         "origen": "DUSSELDORF (DUS)",
-        "estado": "En vuelo"
+        "estado": "Aproximándose"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:30",
-        "hora_programada": "14:44",
+        "hora_programada": "14:48",
         "fecha": "2024-09-18",
         "vuelo": "TVS1564",
         "aerolinea": "Smartwings Hungary",
@@ -8742,7 +8742,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:30",
-        "hora_programada": "14:45",
+        "hora_programada": "14:42",
         "fecha": "2024-09-18",
         "vuelo": "EWG582",
         "aerolinea": "Eurowingss",
@@ -8752,7 +8752,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:35",
-        "hora_programada": "14:41",
+        "hora_programada": "14:40",
         "fecha": "2024-09-18",
         "vuelo": "TRA5625",
         "aerolinea": "Transavia",
@@ -8762,7 +8762,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:35",
-        "hora_programada": "14:41",
+        "hora_programada": "14:40",
         "fecha": "2024-09-18",
         "vuelo": "KL2554",
         "aerolinea": "KLM",
@@ -8772,7 +8772,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:35",
-        "hora_programada": "14:41",
+        "hora_programada": "14:40",
         "fecha": "2024-09-18",
         "vuelo": "DL7486",
         "aerolinea": "Delta",
@@ -8782,7 +8782,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:35",
-        "hora_programada": "14:44",
+        "hora_programada": "14:40",
         "fecha": "2024-09-18",
         "vuelo": "RYR5182",
         "aerolinea": "Ryanair",
@@ -8792,7 +8792,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "14:53",
+        "hora_programada": "14:55",
         "fecha": "2024-09-18",
         "vuelo": "EWG9594",
         "aerolinea": "Eurowingss",
@@ -8802,7 +8802,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "14:29",
+        "hora_programada": "14:25",
         "fecha": "2024-09-18",
         "vuelo": "IB8411",
         "aerolinea": "Iberia",
@@ -8812,7 +8812,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "14:29",
+        "hora_programada": "14:25",
         "fecha": "2024-09-18",
         "vuelo": "VLG5731",
         "aerolinea": "Vueling",
@@ -8822,17 +8822,17 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "15:07",
+        "hora_programada": "15:14",
         "fecha": "2024-09-18",
         "vuelo": "EJU7310",
         "aerolinea": "easyJet",
         "origen": "MILAN /MALPENSA (MXP)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "14:35",
+        "hora_programada": "14:32",
         "fecha": "2024-09-18",
         "vuelo": "VLG3951",
         "aerolinea": "Vueling",
@@ -8842,7 +8842,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:45",
-        "hora_programada": "14:35",
+        "hora_programada": "14:32",
         "fecha": "2024-09-18",
         "vuelo": "IB5488",
         "aerolinea": "Iberia",
@@ -8862,7 +8862,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:50",
-        "hora_programada": "14:41",
+        "hora_programada": "14:37",
         "fecha": "2024-09-18",
         "vuelo": "TVS2060",
         "aerolinea": "Smartwings Hungary",
@@ -8882,7 +8882,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "14:55",
-        "hora_programada": "14:53",
+        "hora_programada": "14:52",
         "fecha": "2024-09-18",
         "vuelo": "RYR500",
         "aerolinea": "Ryanair",
@@ -8907,7 +8907,7 @@
         "vuelo": "VLG3148",
         "aerolinea": "Vueling",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8917,7 +8917,7 @@
         "vuelo": "IB5293",
         "aerolinea": "Iberia",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -8932,17 +8932,17 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:05",
-        "hora_programada": "15:53",
+        "hora_programada": "16:01",
         "fecha": "2024-09-18",
         "vuelo": "EWG9580",
         "aerolinea": "Eurowingss",
         "origen": "DUSSELDORF (DUS)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:05",
-        "hora_programada": "14:52",
+        "hora_programada": "14:51",
         "fecha": "2024-09-18",
         "vuelo": "RYR6218",
         "aerolinea": "Ryanair",
@@ -8952,7 +8952,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:10",
-        "hora_programada": "15:00",
+        "hora_programada": "15:03",
         "fecha": "2024-09-18",
         "vuelo": "VLG3910",
         "aerolinea": "Vueling",
@@ -8962,7 +8962,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:10",
-        "hora_programada": "15:00",
+        "hora_programada": "15:03",
         "fecha": "2024-09-18",
         "vuelo": "IB5451",
         "aerolinea": "Iberia",
@@ -8972,7 +8972,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:10",
-        "hora_programada": "15:00",
+        "hora_programada": "15:03",
         "fecha": "2024-09-18",
         "vuelo": "LA5861",
         "aerolinea": "LATAM Airlines",
@@ -8982,7 +8982,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:10",
-        "hora_programada": "15:00",
+        "hora_programada": "15:03",
         "fecha": "2024-09-18",
         "vuelo": "QTR3623",
         "aerolinea": "Qatar Airways",
@@ -9022,42 +9022,42 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:15",
-        "hora_programada": "15:28",
+        "hora_programada": "15:29",
         "fecha": "2024-09-18",
         "vuelo": "LH1158",
         "aerolinea": "Lufthansa",
         "origen": "FRANKFURT (FRA)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:15",
-        "hora_programada": "15:41",
+        "hora_programada": "16:03",
         "fecha": "2024-09-18",
         "vuelo": "EWG1994",
         "aerolinea": "Eurowingss",
         "origen": "MUNICH (MUC)",
-        "estado": "Retrasado"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:25",
-        "hora_programada": "15:14",
+        "hora_programada": "15:10",
         "fecha": "2024-09-18",
         "vuelo": "VLG3930",
         "aerolinea": "Vueling",
         "origen": "GRANADA-JAÉN F.G.L. (GRX)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:25",
-        "hora_programada": "15:14",
+        "hora_programada": "15:10",
         "fecha": "2024-09-18",
         "vuelo": "IB5471",
         "aerolinea": "Iberia",
         "origen": "GRANADA-JAÉN F.G.L. (GRX)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -9082,7 +9082,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:35",
-        "hora_programada": "16:02",
+        "hora_programada": "16:17",
         "fecha": "2024-09-18",
         "vuelo": "RYR2889",
         "aerolinea": "Ryanair",
@@ -9092,17 +9092,17 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:40",
-        "hora_programada": "15:38",
+        "hora_programada": "16:15",
         "fecha": "2024-09-18",
         "vuelo": "RYR6583",
         "aerolinea": "Ryanair",
         "origen": "TREVISO/S.ANGELO (MIL) (TSF)",
-        "estado": "En hora"
+        "estado": "Retrasado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:45",
-        "hora_programada": "15:38",
+        "hora_programada": "15:53",
         "fecha": "2024-09-18",
         "vuelo": "VLG8349",
         "aerolinea": "Vueling",
@@ -9112,7 +9112,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:45",
-        "hora_programada": "15:38",
+        "hora_programada": "15:53",
         "fecha": "2024-09-18",
         "vuelo": "IB5765",
         "aerolinea": "Iberia",
@@ -9122,12 +9122,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:50",
-        "hora_programada": "15:48",
+        "hora_programada": "16:44",
         "fecha": "2024-09-18",
         "vuelo": "RYR2326",
         "aerolinea": "Ryanair",
         "origen": "LEEDS/BRADFORD (LBA)",
-        "estado": "En hora"
+        "estado": "Retrasado"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -9152,7 +9152,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "UX6067",
         "aerolinea": "Air Europa",
@@ -9162,7 +9162,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "AM6842",
         "aerolinea": "Aeromexico",
@@ -9172,7 +9172,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "AF4806",
         "aerolinea": "Air France",
@@ -9182,7 +9182,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "TK9390",
         "aerolinea": "Turkish Airlines",
@@ -9192,7 +9192,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "EY4320",
         "aerolinea": "Etihad Airways",
@@ -9202,7 +9202,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "AZ2444",
         "aerolinea": "ITA Airways",
@@ -9212,7 +9212,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "KL3351",
         "aerolinea": "KLM",
@@ -9222,7 +9222,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "ME4067",
         "aerolinea": "Middle East Airlines",
@@ -9232,7 +9232,7 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "15:55",
-        "hora_programada": "15:50",
+        "hora_programada": "15:51",
         "fecha": "2024-09-18",
         "vuelo": "RO9413",
         "aerolinea": "Tarom",
@@ -9262,12 +9262,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:05",
-        "hora_programada": "15:55",
+        "hora_programada": "16:08",
         "fecha": "2024-09-18",
         "vuelo": "RYR9489",
         "aerolinea": "Ryanair",
         "origen": "EAST MIDLANDS (EMA)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -9282,12 +9282,12 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:10",
-        "hora_programada": "15:59",
+        "hora_programada": "16:02",
         "fecha": "2024-09-18",
         "vuelo": "SR2632",
         "aerolinea": "SUNDAIR",
         "origen": "DRESDEN (DRS)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -9297,7 +9297,7 @@
         "vuelo": "EWG6825",
         "aerolinea": "Eurowingss",
         "origen": "NUREMBERG (NUE)",
-        "estado": "En hora"
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -9352,212 +9352,212 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:40",
-        "hora_programada": null,
+        "hora_programada": "16:44",
         "fecha": "2024-09-18",
         "vuelo": "EWG9592",
         "aerolinea": "Eurowingss",
         "origen": "DUSSELDORF (DUS)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:40",
-        "hora_programada": null,
+        "hora_programada": "16:27",
         "fecha": "2024-09-18",
         "vuelo": "IB8519",
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:40",
-        "hora_programada": null,
+        "hora_programada": "16:20",
         "fecha": "2024-09-18",
         "vuelo": "RUK3441",
         "aerolinea": "Ryanair",
         "origen": "MANCHESTER (MAN)",
-        "estado": null
+        "estado": "En vuelo"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:50",
-        "hora_programada": null,
+        "hora_programada": "16:45",
         "fecha": "2024-09-18",
         "vuelo": "VLG3912",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:50",
-        "hora_programada": null,
+        "hora_programada": "16:45",
         "fecha": "2024-09-18",
         "vuelo": "IB5453",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:50",
-        "hora_programada": null,
+        "hora_programada": "16:45",
         "fecha": "2024-09-18",
         "vuelo": "QTR3620",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:50",
-        "hora_programada": null,
+        "hora_programada": "16:48",
         "fecha": "2024-09-18",
         "vuelo": "RYR7248",
         "aerolinea": "Ryanair",
         "origen": "MUENSTER (FMO)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:55",
-        "hora_programada": null,
+        "hora_programada": "16:42",
         "fecha": "2024-09-18",
         "vuelo": "X32322",
         "aerolinea": "Tui Fly",
         "origen": "DUSSELDORF (DUS)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "16:55",
-        "hora_programada": null,
+        "hora_programada": "16:58",
         "fecha": "2024-09-18",
         "vuelo": "OR1517",
         "aerolinea": "Tui Airlines Nederland",
         "origen": "GRONINGA (GRQ)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:00",
-        "hora_programada": null,
+        "hora_programada": "17:01",
         "fecha": "2024-09-18",
         "vuelo": "RYR3484",
         "aerolinea": "Ryanair",
         "origen": "BOLONIA (BLQ)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "I23912",
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "BA7174",
         "aerolinea": "British Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "AV6077",
         "aerolinea": "Avianca",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "AA8688",
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "IB3912",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "LA7115",
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "QTR6550",
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "16:55",
         "fecha": "2024-09-18",
         "vuelo": "VLG5157",
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:05",
-        "hora_programada": null,
+        "hora_programada": "17:00",
         "fecha": "2024-09-18",
         "vuelo": "RYR1580",
         "aerolinea": "Ryanair",
         "origen": "MILAN /MALPENSA (MXP)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:10",
-        "hora_programada": null,
+        "hora_programada": "16:52",
         "fecha": "2024-09-18",
         "vuelo": "EJU7278",
         "aerolinea": "easyJet",
         "origen": "BASEL /MULHOUSE (BSL)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "17:10",
-        "hora_programada": null,
+        "hora_programada": "17:07",
         "fecha": "2024-09-18",
         "vuelo": "VOE3963",
         "aerolinea": "Volotea",
         "origen": "ESTRASBURGO (SXB)",
-        "estado": null
+        "estado": "En hora"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
