@@ -123,11 +123,11 @@ def get_aena_data(airports=AIRPORT):
         except TimeoutException:
             update_script_status("Error", f"TimeoutException ({airport})")
             driver.quit()
-            return
+            continue
         except Exception as e:
             update_script_status("Error", f"{str(e)} ({airport})")
             driver.quit()
-            return
+            continue
 
 
     #* Leer el archivo JSON existente
