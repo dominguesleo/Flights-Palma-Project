@@ -37,16 +37,39 @@ def get_aena_data(airports=AIRPORT):
     options.add_argument('--disable-notifications')  # Deshabilitar notificaciones
     options.add_argument('--disable-infobars')  # Deshabilitar la barra de información de Chrome
     options.add_argument('--disable-blink-features=AutomationControlled')  # Deshabilitar la automatización de Chrome
+    options.add_argument('--disable-popup-blocking')  # Deshabilitar el bloqueo de ventanas emergentes
+    options.add_argument('--disable-default-apps')  # Deshabilitar las aplicaciones predeterminadas de Chrome
+    options.add_argument('--disable-features=TranslateUI')  # Deshabilitar la interfaz de traducción
+    options.add_argument('--disable-prompt-on-repost')  # Deshabilitar el aviso de reenvío
+    options.add_argument('--disable-sync')  # Deshabilitar la sincronización
+    options.add_argument('--disable-background-networking')  # Deshabilitar la red en segundo plano
+    options.add_argument('--disable-component-extensions-with-background-pages')  # Deshabilitar extensiones con páginas en segundo plano
+    options.add_argument('--disable-background-timer-throttling')  # Deshabilitar la limitación de temporizadores en segundo plano
+    options.add_argument('--disable-renderer-backgrounding')  # Deshabilitar el renderizado en segundo plano
+    options.add_argument('--disable-device-discovery-notifications')  # Deshabilitar las notificaciones de descubrimiento de dispositivos
+    options.add_argument('--disable-translate')  # Deshabilitar la traducción
+    options.add_argument('--disable-client-side-phishing-detection')  # Deshabilitar la detección de phishing del lado del cliente
+    options.add_argument('--disable-component-update')  # Deshabilitar la actualización de componentes
+    options.add_argument('--disable-domain-reliability')  # Deshabilitar la fiabilidad del dominio
+    options.add_argument('--disable-print-preview')  # Deshabilitar la vista previa de impresión
+    options.add_argument('--disable-speech-api')  # Deshabilitar la API de voz
+    options.add_argument('--disable-web-security')  # Deshabilitar la seguridad web
+    options.add_argument('--disable-site-isolation-trials')  # Deshabilitar las pruebas de aislamiento de sitios
+    options.add_argument('--disable-remote-fonts')  # Deshabilitar las fuentes remotas
+    options.add_argument('--disable-remote-playback-api')  # Deshabilitar la API de reproducción remota
+    options.add_argument('--disable-remote-playback')  # Deshabilitar la reproducción remota
+    options.add_argument('--disable-remote-debugging')  # Deshabilitar la depuración remota
+    options.add_argument('--disable-remote-extensions')  # Deshabilitar las extensiones remotas
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3")  # Evita el bloqueo por parte de la página
     driver = Chrome(service=service, options=options)
 
     try:
         # Navegamos a la página
         driver.get("https://www.aena.es/es/infovuelos.html")
-        time.sleep(1)
+        time.sleep(2)
         driver.execute_script("document.getElementById('modal_footer').style.visibility = 'hidden';")
         new_flights_data = []
-        time.sleep(1)
+        time.sleep(2)
     except TimeoutException:
         update_script_status("Error", "TimeoutException")
         driver.quit()
@@ -66,21 +89,19 @@ def get_aena_data(airports=AIRPORT):
             time.sleep(1)
 
             # Cargar todos los vuelos del dia
-            # more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/main/section[3]/p")))
-            more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, "/html/body/div[2]/div/section[2]/p")))
+            more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME, "btn-see-more")))
             while True:
                 try:  # Rompe el bucle cuando encuentra el contenedor del dia siguiente
-                    # elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[2]")
-                    elemento = driver.find_elements(By.XPATH, "/html/body/div[2]/div/section[2]/div[2]/div[2]")
-                    if elemento:
+                    day_separator = driver.find_elements(By.CLASS_NAME, "listado")
+                    if len(day_separator) >= 2:
                         break
                 except NoSuchElementException:
                     pass
                 driver.execute_script("arguments[0].click();", more_button)
+            time.sleep(1)
 
             # Extraemos la información
-            # flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/main/section[3]/div[2]/div[1]")
-            flights_day = driver.find_element(By.XPATH, "/html/body/div[2]/div/section[2]/div[2]/div")
+            flights_day = driver.find_element(By.CLASS_NAME, "listado")
             html_flights_day = flights_day.get_attribute("outerHTML")
 
             soup = BeautifulSoup(html_flights_day, 'html.parser')
@@ -118,8 +139,8 @@ def get_aena_data(airports=AIRPORT):
                     'aerolinea': aerolinea,
                     'origen': origen,
                     'estado': estado,
+                    'hora_actualizacion': datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S")
                 })
-
                 update_script_status("Success", "Data updated successfully")
 
         except TimeoutException:
@@ -129,7 +150,7 @@ def get_aena_data(airports=AIRPORT):
             update_script_status("Error", f"{str(e)} ({airport})")
             continue
 
-        driver.quit()
+    driver.quit()
 
     #* Leer el archivo JSON existente
     try:
@@ -168,4 +189,3 @@ def get_aena_data(airports=AIRPORT):
 
 if __name__ == "__main__":
     get_aena_data()
-
