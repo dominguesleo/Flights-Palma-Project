@@ -16,12 +16,15 @@ import json
 AIRPORT = ["PALMA DE MALLORCA", "GRAN CANARIA", "TENERIFE SUR"]
 TIMEZONE = ZoneInfo("Europe/Madrid")
 
-def update_script_status(status, message):
-    data = {
-        "last_run": datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S"),
-        "status": status,
-        "message": message,
-    }
+def read_script_status():
+    try:
+        with open('script_status.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {}
+    return data
+
+def update_script_status(data):
     with open('script_status.json', 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
@@ -63,6 +66,12 @@ def get_aena_data(airports=AIRPORT):
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3")  # Evita el bloqueo por parte de la página
     driver = Chrome(service=service, options=options)
 
+    script_status = read_script_status()
+    script_status["last_run"] = datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S")
+    script_status["status"] = None
+    if 'airports' not in script_status:
+        script_status['airports'] = {}
+
     try:
         # Navegamos a la página
         driver.get("https://www.aena.es/es/infovuelos.html")
@@ -71,15 +80,19 @@ def get_aena_data(airports=AIRPORT):
         new_flights_data = []
         time.sleep(2)
     except TimeoutException:
-        update_script_status("Error", "TimeoutException")
+        script_status["status"] = f"Error: {TimeoutException}"
+        update_script_status(script_status)
         driver.quit()
         return
     except Exception as e:
-        update_script_status("Error", str(e))
+        script_status["status"] = f"Error: {str(e)}"
+        update_script_status(script_status)
         driver.quit()
         return
 
     for airport in airports:
+        if airport not in script_status['airports']:
+            script_status['airports'][airport] = {}
         try:
             time.sleep(1)
             # Seleccionamos el aeropuerto
@@ -141,16 +154,27 @@ def get_aena_data(airports=AIRPORT):
                     'estado': estado,
                     'hora_actualizacion': datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S")
                 })
-                update_script_status("Success", "Data updated successfully")
-
+                script_status['airports'][airport] = {
+                    'status': 'Success',
+                    'message': 'Data collected successfully',
+                    'last_update': script_status["last_run"]
+                }
         except TimeoutException:
-            update_script_status("Error", f"TimeoutException ({airport})")
+            script_status['airports'][airport].update({
+                'status': 'Error',
+                'message': 'TimeoutException',
+            })
             continue
         except Exception as e:
-            update_script_status("Error", f"{str(e)} ({airport})")
+            script_status['airports'][airport].update({
+                'status': 'Error',
+                'message': str(e),
+            })
             continue
 
     driver.quit()
+    script_status["status"] = "Success"
+    update_script_status(script_status)
 
     #* Leer el archivo JSON existente
     try:
