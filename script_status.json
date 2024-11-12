@@ -1,20 +1,20 @@
 {
-    "last_run": "2024-11-12 06:32:34",
+    "last_run": "2024-11-12 06:41:35",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-11-12 06:17:30"
-        },
-        "GRAN CANARIA": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-11-12 06:17:30"
-        },
-        "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
+            "last_update": "2024-11-12 06:41:35"
+        },
+        "GRAN CANARIA": {
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-11-12 06:41:35"
+        },
+        "TENERIFE SUR": {
+            "status": "Error",
+            "message": "TimeoutException",
             "last_update": "2024-11-12 06:32:34"
         }
     }
