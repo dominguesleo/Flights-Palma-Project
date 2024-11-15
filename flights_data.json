@@ -145,24 +145,24 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:35",
-        "hora_programada": "22:42",
+        "hora_programada": "22:40",
         "fecha": "2024-11-15",
         "vuelo": "VLG3920",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En tierra",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-11-15",
         "vuelo": "ASL7447",
         "aerolinea": "Air Serbia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -173,7 +173,7 @@
         "aerolinea": "Vueling",
         "origen": "BILBAO (BIO)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:27"
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -189,13 +189,13 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:35",
-        "hora_programada": "00:07",
+        "hora_programada": "23:57",
         "fecha": "2024-11-15",
         "vuelo": "VLG3943",
-        "aerolinea": "Etihad Airways",
+        "aerolinea": "KLM",
         "origen": "SEVILLA (SVQ)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:27"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -338,7 +338,7 @@
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -349,7 +349,7 @@
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -480,8 +480,8 @@
         "vuelo": "QTR8031",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -657,7 +657,7 @@
         "aerolinea": "Binter Canarias",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": null,
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -843,8 +843,8 @@
         "vuelo": "RYR027",
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -887,8 +887,8 @@
         "vuelo": "RYR2049",
         "aerolinea": "Ryanair",
         "origen": "HAMBURGO (HAM)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -975,8 +975,8 @@
         "vuelo": "RYR2061",
         "aerolinea": "Ryanair",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -1438,7 +1438,7 @@
         "aerolinea": "Naysa",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -1602,8 +1602,8 @@
         "vuelo": "IBS1629",
         "aerolinea": "Binter Canarias",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -1625,7 +1625,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -2227,10 +2227,10 @@
         "hora_programada": "23:51",
         "fecha": "2024-11-15",
         "vuelo": "QTR6858",
-        "aerolinea": "Iberia",
+        "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -2752,13 +2752,13 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:35",
-        "hora_programada": "22:42",
+        "hora_programada": "22:40",
         "fecha": "2024-11-15",
         "vuelo": "IBE5126",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "En tierra",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -2768,41 +2768,41 @@
         "vuelo": "IBE2523",
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-11-15",
         "vuelo": "AEA6103",
         "aerolinea": "Air Europa",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-11-15",
         "vuelo": "ETD4303",
         "aerolinea": "Etihad Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-11-15",
         "vuelo": "KLM3363",
         "aerolinea": "KLM",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -2813,62 +2813,62 @@
         "aerolinea": "Iberia",
         "origen": "BILBAO (BIO)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:27"
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:05",
-        "hora_programada": "23:04",
+        "hora_programada": "22:59",
         "fecha": "2024-11-15",
         "vuelo": "AEA6049",
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:05",
-        "hora_programada": "23:04",
+        "hora_programada": "22:59",
         "fecha": "2024-11-15",
         "vuelo": "AFR4804",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:05",
-        "hora_programada": "23:04",
+        "hora_programada": "22:59",
         "fecha": "2024-11-15",
         "vuelo": "AMX6819",
         "aerolinea": "Air Europa",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:05",
-        "hora_programada": "23:04",
+        "hora_programada": "22:59",
         "fecha": "2024-11-15",
         "vuelo": "ETD4323",
-        "aerolinea": "Air France",
+        "aerolinea": "Aeromexico",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:05",
-        "hora_programada": "23:04",
+        "hora_programada": "22:59",
         "fecha": "2024-11-15",
         "vuelo": "KLM3349",
-        "aerolinea": "Aeromexico",
+        "aerolinea": "Air France",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -2884,13 +2884,13 @@
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "23:35",
-        "hora_programada": "00:07",
+        "hora_programada": "23:57",
         "fecha": "2024-11-15",
         "vuelo": "IBE5543",
-        "aerolinea": "KLM",
+        "aerolinea": "Etihad Airways",
         "origen": "SEVILLA (SVQ)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:27"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -2912,7 +2912,7 @@
         "aerolinea": "Vueling",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3176,7 +3176,7 @@
         "aerolinea": null,
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3203,13 +3203,13 @@
     {
         "aeropuerto": "GRAN CANARIA",
         "hora_inicial": "21:50",
-        "hora_programada": "22:14",
+        "hora_programada": "22:24",
         "fecha": "2024-11-15",
         "vuelo": "IBB6005",
         "aerolinea": "Canair",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3236,13 +3236,13 @@
     {
         "aeropuerto": "GRAN CANARIA",
         "hora_inicial": "22:05",
-        "hora_programada": "22:53",
+        "hora_programada": "22:42",
         "fecha": "2024-11-15",
         "vuelo": "NAY349",
         "aerolinea": "Naysa",
         "origen": "LA PALMA (SPC)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3253,7 +3253,7 @@
         "aerolinea": "Canair",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": null,
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3263,8 +3263,8 @@
         "vuelo": "IBE1629",
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3275,7 +3275,7 @@
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -3294,10 +3294,10 @@
         "hora_programada": "23:51",
         "fecha": "2024-11-15",
         "vuelo": "IBE1631",
-        "aerolinea": "Iberia Express",
+        "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -3500,13 +3500,13 @@
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "22:55",
-        "hora_programada": "23:17",
+        "hora_programada": "23:32",
         "fecha": "2024-11-15",
         "vuelo": "RSC849",
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:33"
+        "hora_actualizacion": "2024-11-15 23:18:24"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -5618,18 +5618,18 @@
         "aerolinea": "Mauritania Airlines International",
         "origen": "MURCIA INTERNACIONAL (RMU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
         "hora_inicial": "21:10",
-        "hora_programada": "22:44",
+        "hora_programada": "22:37",
         "fecha": "2024-11-15",
         "vuelo": "IBB5213",
         "aerolinea": "Binter Canarias",
         "origen": "VIGO (VGO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -6729,7 +6729,7 @@
         "aerolinea": "Canair",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -8676,7 +8676,7 @@
         "aerolinea": null,
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -10342,13 +10342,13 @@
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "22:10",
-        "hora_programada": "23:02",
+        "hora_programada": "22:58",
         "fecha": "2024-11-15",
         "vuelo": "RYR1960",
         "aerolinea": "Ryanair",
         "origen": "SEVILLA (SVQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:33"
+        "hora_actualizacion": "2024-11-15 23:18:24"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -10777,18 +10777,18 @@
         "aerolinea": "Ryanair",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
         "hora_inicial": "22:40",
-        "hora_programada": "23:27",
+        "hora_programada": "23:25",
         "fecha": "2024-11-15",
         "vuelo": "RYR5677",
         "aerolinea": "Ryanair",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:26"
+        "hora_actualizacion": "2024-11-15 23:18:18"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11486,13 +11486,13 @@
     {
         "aeropuerto": "GRAN CANARIA",
         "hora_inicial": "20:30",
-        "hora_programada": "22:20",
+        "hora_programada": "22:17",
         "fecha": "2024-11-15",
         "vuelo": "NAY184",
         "aerolinea": "Naysa",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11500,10 +11500,10 @@
         "hora_programada": "00:15",
         "fecha": "2024-11-15",
         "vuelo": "MAI120",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "NOUAKCHOTT-OUMTOUNSY (NKC)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11547,18 +11547,18 @@
         "aerolinea": "Canair",
         "origen": "BODO (BOO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
         "hora_inicial": "21:50",
-        "hora_programada": "22:30",
+        "hora_programada": "22:44",
         "fecha": "2024-11-15",
         "vuelo": "RSC291",
         "aerolinea": null,
         "origen": "FUERTEVENTURA (FUE)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11566,10 +11566,10 @@
         "hora_programada": "23:30",
         "fecha": "2024-11-15",
         "vuelo": "NAY192",
-        "aerolinea": "Saudia",
+        "aerolinea": "Qatar Airways",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11580,7 +11580,7 @@
         "aerolinea": null,
         "origen": "FUERTEVENTURA (FUE)",
         "estado": null,
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -11591,7 +11591,7 @@
         "aerolinea": "Canaryfly",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": null,
-        "hora_actualizacion": "2024-11-15 22:58:30"
+        "hora_actualizacion": "2024-11-15 23:18:21"
     },
     {
         "aeropuerto": "GRAN CANARIA",
