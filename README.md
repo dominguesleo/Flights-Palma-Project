@@ -50,3 +50,57 @@ Run the main script:
     ├── script_status.json
     ├── main.py
     └── venv/
+
+## Automation with GitHub Actions
+
+This project uses GitHub Actions to automate the execution of the script and the update of flight data. The workflow is defined in the [`.github/workflows/main.yml`](.github/workflows/main.yml) file.
+
+### Workflow Description
+
+The workflow runs automatically every 5 minutes and can also be triggered manually. Here are the steps it follows:
+
+1. **Checkout the Repository:** The repository is cloned to access the source code.
+2. **Set Up Python:** The specified version of Python is installed.
+3. **Install Dependencies:** The necessary dependencies (`selenium`, `webdriver_manager`, `beautifulsoup4`) are installed.
+4. **Run the Script:** The `main.py` script is executed to fetch and update the flight data.
+5. **Commit and Push Changes:** Git credentials are configured, and the updated `flights_data.json` and `script_status.json` files are committed and pushed.
+
+### Workflow File
+
+```yml
+name: Run Flight Script
+
+on:
+    schedule:
+      - cron: '*/5 * * * *'
+    workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver_manager beautifulsoup4
+
+    - name: Run script
+      run: |
+       python main.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -f flights_data.json script_status.json
+        git commit -m 'Update flight data and script status'
+        git push
