@@ -13,8 +13,11 @@ from zoneinfo import ZoneInfo
 import time
 import json
 
-AIRPORT = ["PALMA DE MALLORCA", "GRAN CANARIA", "TENERIFE SUR"]
+AIRPORT = ["PALMA DE MALLORCA", "GRAN CANARIA", "TENERIFE SUR", "TENERIFE NORTE-CIUDAD DE LA LAGUNA", "CÉSAR MANRIQUE-LANZAROTE",
+            "FUERTEVENTURA", "MENORCA", "IBIZA", "MÁLAGA-COSTA DEL SOL", "SEVILLA", "JEREZ", "ALMERÍA", "JOSEP TARRADELLAS BARCELONA-EL PRAT",
+            "GIRONA-COSTA BRAVA", "ALICANTE-ELCHE MIGUEL HERNÁNDEZ", "VALENCIA"]
 TIMEZONE = ZoneInfo("Europe/Madrid")
+HISTORY_DAYS = 5
 
 def read_script_status():
     try:
@@ -28,11 +31,11 @@ def update_script_status(data):
     with open('script_status.json', 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
-def get_aena_data(airports=AIRPORT):
+def get_aena_data(airports=AIRPORT, TIMEZONE=TIMEZONE, HISTORY_DAYS=HISTORY_DAYS):
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Evita que se abra el navegador
-    options.add_argument('--window-size=1920,1080')
+    #options.add_argument('--headless')  # Evita que se abra el navegador
+    options.add_argument('--window-size=1920,1080') # Tamaño de la ventana
     options.add_argument('--disable-extensions')  # Deshabilitar extensiones
     options.add_argument('--disable-dev-shm-usage')  # Deshabilitar el uso compartido de memoria
     options.add_argument('--disable-gpu')  # Deshabilitar la aceleración de hardware
@@ -141,7 +144,9 @@ def get_aena_data(airports=AIRPORT):
                 origen = origen_element.text.strip() if origen_element else None
 
                 estado_element = flight.find("span", class_="a")
-                estado = estado_element.text.strip() if estado_element.text.strip() != "" else None
+                estado = estado_element.text.strip() if  estado_element and estado_element.text.strip() != "" else None
+                print(estado)
+
 
                 new_flights_data.append({
                     'aeropuerto': airport,
@@ -190,7 +195,7 @@ def get_aena_data(airports=AIRPORT):
     updated_flights = []
     for flight in existing_flights_data:
         flight_date = datetime.strptime(flight["fecha"], "%Y-%m-%d").date()
-        if flight_date < current_date - timedelta(days=2):
+        if flight_date < current_date - timedelta(days=HISTORY_DAYS):
             continue
         updated_flights.append(flight)
 
@@ -209,7 +214,6 @@ def get_aena_data(airports=AIRPORT):
     #* Guardar los datos actualizados en el archivo JSON
     with open('flights_data.json', 'w', encoding='utf-8') as json_file:
         json.dump(updated_flights, json_file, ensure_ascii=False, indent=4)
-
 
 if __name__ == "__main__":
     get_aena_data()
