@@ -145,8 +145,6 @@ def get_aena_data(airports=AIRPORT, TIMEZONE=TIMEZONE, HISTORY_DAYS=HISTORY_DAYS
 
                 estado_element = flight.find("span", class_="a")
                 estado = estado_element.text.strip() if  estado_element and estado_element.text.strip() != "" else None
-                print(estado)
-
 
                 new_flights_data.append({
                     'aeropuerto': airport,
