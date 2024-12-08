@@ -1,71 +1,71 @@
 {
-    "last_run": "2024-12-09 00:20:30",
+    "last_run": "2024-12-09 00:30:45",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "TENERIFE SUR": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "TimeoutException",
             "last_update": "2024-12-09 00:20:30"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-08 23:43:18"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-09 00:30:45"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "FUERTEVENTURA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "MÁLAGA-COSTA DEL SOL": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "SEVILLA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "JEREZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "ALMERÍA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Error",
@@ -74,12 +74,12 @@
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-09 00:20:30"
+            "last_update": "2024-12-09 00:30:45"
         }
     }
 }
