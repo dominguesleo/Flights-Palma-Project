@@ -115,7 +115,10 @@ def get_aena_data(airports=AIRPORT, TIMEZONE=TIMEZONE, HISTORY_DAYS=HISTORY_DAYS
                     break
                 except NoSuchElementException:
                     pass
-                driver.execute_script("arguments[0].click();", more_button)
+                try:
+                    driver.execute_script("arguments[0].click();", more_button)
+                except NoSuchElementException:
+                    break
             time.sleep(1)
 
             # Extraemos la información
