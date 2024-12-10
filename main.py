@@ -105,12 +105,14 @@ def get_aena_data(airports=AIRPORT, TIMEZONE=TIMEZONE, HISTORY_DAYS=HISTORY_DAYS
             time.sleep(1)
 
             # Cargar todos los vuelos del dia
-            more_button = Wait(driver, 20).until(EC.visibility_of_element_located((By.CLASS_NAME, "btn-see-more")))
             while True:
                 try:  # Rompe el bucle cuando encuentra el contenedor del dia siguiente
+                    more_button = Wait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "btn-see-more")))
                     day_separator = driver.find_elements(By.CLASS_NAME, "listado")
                     if len(day_separator) >= 2:
                         break
+                except TimeoutException:
+                    break
                 except NoSuchElementException:
                     pass
                 driver.execute_script("arguments[0].click();", more_button)
