@@ -1,51 +1,51 @@
 {
-    "last_run": "2024-12-10 11:26:51",
+    "last_run": "2024-12-10 11:44:21",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "TimeoutException",
             "last_update": "2024-12-10 11:26:51"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "TENERIFE SUR": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-10 10:59:58"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-10 11:44:21"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-10 10:59:58"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-10 11:44:21"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "FUERTEVENTURA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "MÁLAGA-COSTA DEL SOL": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-10 10:59:58"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-10 11:44:21"
         },
         "SEVILLA": {
             "status": "Error",
@@ -53,33 +53,33 @@
             "last_update": "2024-12-10 10:59:58"
         },
         "JEREZ": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "TimeoutException",
             "last_update": "2024-12-10 11:26:51"
         },
         "ALMERÍA": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-10 10:59:58"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-10 11:44:21"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Error",
             "message": "TimeoutException"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
-            "status": "Error",
-            "message": "TimeoutException",
-            "last_update": "2024-12-10 10:59:58"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2024-12-10 11:44:21"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-10 11:26:51"
+            "last_update": "2024-12-10 11:44:21"
         }
     }
 }
