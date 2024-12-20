@@ -1,86 +1,86 @@
 {
-    "last_run": "2024-12-20 19:16:57",
+    "last_run": "2024-12-20 19:38:01",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.139); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x5642693c38fa <unknown>\n#1 0x564268ed4d20 <unknown>\n#2 0x564268f23a66 <unknown>\n#3 0x564268f23d01 <unknown>\n#4 0x564268f69184 <unknown>\n#5 0x564268f47b1d <unknown>\n#6 0x564268f66560 <unknown>\n#7 0x564268f47893 <unknown>\n#8 0x564268f1630d <unknown>\n#9 0x564268f1732e <unknown>\n#10 0x56426939000b <unknown>\n#11 0x564269393f97 <unknown>\n#12 0x56426937c71c <unknown>\n#13 0x564269394b17 <unknown>\n#14 0x5642693616cf <unknown>\n#15 0x5642693b26b8 <unknown>\n#16 0x5642693b2880 <unknown>\n#17 0x5642693c2776 <unknown>\n#18 0x7f846f89ca94 <unknown>\n#19 0x7f846f929c3c <unknown>\n",
             "last_update": "2024-12-20 19:16:57"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "FUERTEVENTURA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "MÁLAGA-COSTA DEL SOL": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "SEVILLA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "JEREZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "ALMERÍA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2024-12-20 19:16:57"
+            "last_update": "2024-12-20 19:38:01"
         }
     }
 }
