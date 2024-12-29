@@ -1245,13 +1245,13 @@
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "21:10",
-        "hora_programada": "21:24",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "NSZ2876",
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "HELSINKI (HEL)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -2923,7 +2923,7 @@
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -2967,7 +2967,7 @@
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -4699,13 +4699,13 @@
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "23:55",
-        "hora_programada": "23:22",
+        "hora_programada": "23:47",
         "fecha": "2024-12-29",
         "vuelo": "RYR565",
         "aerolinea": "Ryanair",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "estado": "En hora",
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "TENERIFE SUR",
@@ -8401,7 +8401,7 @@
         "aerolinea": "Canaryfly",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8577,7 +8577,7 @@
         "aerolinea": "Naysa",
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8588,7 +8588,7 @@
         "aerolinea": "Vueling",
         "origen": "SEVILLA (SVQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8599,18 +8599,18 @@
         "aerolinea": "Iberia",
         "origen": "SEVILLA (SVQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
         "hora_inicial": "21:40",
-        "hora_programada": null,
+        "hora_programada": "21:48",
         "fecha": "2024-12-29",
         "vuelo": "NAY489",
         "aerolinea": "Naysa",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8621,7 +8621,7 @@
         "aerolinea": "Air Europa",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8632,7 +8632,7 @@
         "aerolinea": "Binter Canarias",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8643,7 +8643,7 @@
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8654,7 +8654,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8665,7 +8665,7 @@
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8709,7 +8709,7 @@
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8720,7 +8720,7 @@
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8731,7 +8731,7 @@
         "aerolinea": "Royal Air Maroc",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8742,7 +8742,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8753,7 +8753,7 @@
         "aerolinea": "Avianca",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8764,7 +8764,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -8940,7 +8940,7 @@
         "aerolinea": "Ryanair",
         "origen": "DUBLIN (DUB)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9050,7 +9050,7 @@
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9061,7 +9061,7 @@
         "aerolinea": "Canaryfly",
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9083,7 +9083,7 @@
         "aerolinea": "Naysa",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9094,7 +9094,7 @@
         "aerolinea": "Naysa",
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9105,7 +9105,7 @@
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9116,7 +9116,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9127,7 +9127,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -9138,7 +9138,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -9358,7 +9358,7 @@
         "aerolinea": "Iberia Express",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -9369,7 +9369,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -9380,7 +9380,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -9391,7 +9391,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -9402,7 +9402,7 @@
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "IBIZA",
@@ -9506,13 +9506,13 @@
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "20:40",
-        "hora_programada": "21:55",
+        "hora_programada": "22:04",
         "fecha": "2024-12-29",
         "vuelo": "IBE2536",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
@@ -9533,8 +9533,8 @@
         "vuelo": "SWT7777",
         "aerolinea": "Uep!Fly",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
@@ -9544,19 +9544,19 @@
         "vuelo": "AEA2063",
         "aerolinea": "Air Europa",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "21:55",
-        "hora_programada": null,
+        "hora_programada": "21:45",
         "fecha": "2024-12-29",
         "vuelo": "IBE2524",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
@@ -9583,24 +9583,24 @@
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:00",
         "fecha": "2024-12-29",
         "vuelo": "VLG3512",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:00",
         "fecha": "2024-12-29",
         "vuelo": "IBE5073",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
@@ -9633,7 +9633,7 @@
         "aerolinea": "Ryanair",
         "origen": "DUSSELDORF /WEEZE (NRN)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -9718,10 +9718,10 @@
         "hora_programada": "00:03",
         "fecha": "2024-12-29",
         "vuelo": "VLG8173",
-        "aerolinea": "sata-internacional",
+        "aerolinea": "",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -9729,10 +9729,10 @@
         "hora_programada": "00:03",
         "fecha": "2024-12-29",
         "vuelo": "IBE5516",
-        "aerolinea": "",
+        "aerolinea": "Etihad Airways",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -9842,7 +9842,7 @@
         "aerolinea": "Vueling",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -9853,7 +9853,7 @@
         "aerolinea": "Iberia",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10051,7 +10051,7 @@
         "aerolinea": "Ryanair",
         "origen": "MANCHESTER (MAN)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10133,24 +10133,24 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:45",
-        "hora_programada": "22:44",
+        "hora_programada": "22:48",
         "fecha": "2024-12-29",
         "vuelo": "IBE2279",
         "aerolinea": "Hisky Europe",
         "origen": "MELILLA (MLN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:45",
-        "hora_programada": "22:44",
+        "hora_programada": "22:48",
         "fecha": "2024-12-29",
         "vuelo": "VLG5679",
         "aerolinea": "Ryanair",
         "origen": "MELILLA (MLN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10221,24 +10221,24 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:55",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-12-29",
         "vuelo": "VLG2611",
         "aerolinea": "Iberia",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:55",
-        "hora_programada": "22:48",
+        "hora_programada": "22:47",
         "fecha": "2024-12-29",
         "vuelo": "IBE5361",
         "aerolinea": "Vueling",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10260,7 +10260,7 @@
         "aerolinea": "Air France",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10271,7 +10271,7 @@
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10282,7 +10282,7 @@
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10315,7 +10315,7 @@
         "aerolinea": "Vueling",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10326,7 +10326,7 @@
         "aerolinea": "Iberia",
         "origen": "MUNICH (MUC)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10337,7 +10337,7 @@
         "aerolinea": "Ryanair",
         "origen": "COPENHAGUE (CPH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -10414,7 +10414,7 @@
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10590,7 +10590,7 @@
         "aerolinea": "easyJet UK",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10612,7 +10612,7 @@
         "aerolinea": "Wizz Air Malta (WMT)",
         "origen": "ROMA /FIUMICINO (FCO)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10738,35 +10738,35 @@
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:49",
         "fecha": "2024-12-29",
         "vuelo": "VLG2220",
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:49",
         "fecha": "2024-12-29",
         "vuelo": "IBE5170",
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:49",
         "fecha": "2024-12-29",
         "vuelo": "AAL8860",
         "aerolinea": "American Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10854,7 +10854,7 @@
         "aerolinea": "Vueling",
         "origen": "GRAN CANARIA (LPA)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10865,18 +10865,18 @@
         "aerolinea": "Iberia",
         "origen": "GRAN CANARIA (LPA)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "23:35",
-        "hora_programada": "23:17",
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "VLG8991",
         "aerolinea": "Vueling",
         "origen": "BRUSELAS (BRU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10887,7 +10887,7 @@
         "aerolinea": "Ryanair",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -10942,7 +10942,7 @@
         "aerolinea": "Binter Canarias",
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11019,7 +11019,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11030,7 +11030,7 @@
         "aerolinea": null,
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11041,7 +11041,7 @@
         "aerolinea": "Air Baltic",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11052,7 +11052,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11063,7 +11063,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11074,7 +11074,7 @@
         "aerolinea": "Royal Air Maroc",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
@@ -11085,18 +11085,18 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "ALMERÍA",
         "hora_inicial": "22:30",
-        "hora_programada": "22:00",
+        "hora_programada": "21:58",
         "fecha": "2024-12-29",
         "vuelo": "IBE2303",
         "aerolinea": "Iberia",
         "origen": "SEVILLA (SVQ)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:54"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:52"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -11398,13 +11398,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "20:30",
-        "hora_programada": "22:46",
+        "hora_programada": "22:42",
         "fecha": "2024-12-29",
         "vuelo": "DAH2014",
-        "aerolinea": "Air Algerie",
+        "aerolinea": "easyJet UK",
         "origen": "ARGEL/ HOUARI BOUMEDIEN (ALG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -11508,13 +11508,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:45",
-        "hora_programada": "23:40",
+        "hora_programada": "23:54",
         "fecha": "2024-12-29",
         "vuelo": "QTR3511",
         "aerolinea": "Qatar Airways",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -11943,7 +11943,7 @@
         "aerolinea": "Iberia",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -11951,10 +11951,10 @@
         "hora_programada": "00:20",
         "fecha": "2024-12-29",
         "vuelo": "BAW8073",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -11965,7 +11965,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -12655,10 +12655,10 @@
         "hora_programada": "22:51",
         "fecha": "2024-12-29",
         "vuelo": "VLG1899",
-        "aerolinea": "Etihad Airways",
+        "aerolinea": "Qatar Airways",
         "origen": "DUSSELDORF (DUS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -12666,10 +12666,10 @@
         "hora_programada": "22:51",
         "fecha": "2024-12-29",
         "vuelo": "IBE5321",
-        "aerolinea": "KOREAN AIR",
+        "aerolinea": "Ryanair",
         "origen": "DUSSELDORF (DUS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -12677,10 +12677,10 @@
         "hora_programada": "22:51",
         "fecha": "2024-12-29",
         "vuelo": "QTR5510",
-        "aerolinea": "Saudia",
+        "aerolinea": "Swiss International Airlines",
         "origen": "DUSSELDORF (DUS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -12894,35 +12894,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:00",
+        "hora_programada": "21:55",
         "fecha": "2024-12-29",
         "vuelo": "VLG2112",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:00",
+        "hora_programada": "21:55",
         "fecha": "2024-12-29",
         "vuelo": "IBE5004",
         "aerolinea": "Qatar Airways",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:00",
+        "hora_programada": "21:55",
         "fecha": "2024-12-29",
         "vuelo": "QTR3503",
         "aerolinea": "Vueling",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13119,41 +13119,41 @@
         "vuelo": "AEA6102",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:15",
-        "hora_programada": "22:03",
+        "hora_programada": "22:00",
         "fecha": "2024-12-29",
         "vuelo": "VLG3511",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "British Airways",
         "origen": "IBIZA (IBZ)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:15",
-        "hora_programada": "22:03",
+        "hora_programada": "22:00",
         "fecha": "2024-12-29",
         "vuelo": "QTR3684",
         "aerolinea": "Ryanair",
         "origen": "IBIZA (IBZ)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:15",
-        "hora_programada": "22:03",
+        "hora_programada": "22:00",
         "fecha": "2024-12-29",
         "vuelo": "IBE5072",
-        "aerolinea": "easyJet UK",
+        "aerolinea": "Tunisair",
         "origen": "IBIZA (IBZ)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13290,24 +13290,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:35",
-        "hora_programada": "21:50",
+        "hora_programada": "21:51",
         "fecha": "2024-12-29",
         "vuelo": "ELY391",
-        "aerolinea": "Vueling",
+        "aerolinea": "Qatar Airways",
         "origen": "TEL AVIV (TLV)",
-        "estado": "En tierra",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:35",
-        "hora_programada": "21:50",
+        "hora_programada": "21:51",
         "fecha": "2024-12-29",
         "vuelo": "IBE7710",
         "aerolinea": "Iberia",
         "origen": "TEL AVIV (TLV)",
-        "estado": "En tierra",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13315,10 +13315,10 @@
         "hora_programada": "21:31",
         "fecha": "2024-12-29",
         "vuelo": "VLG1309",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Air Europa",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13326,10 +13326,10 @@
         "hora_programada": "21:31",
         "fecha": "2024-12-29",
         "vuelo": "IBE5141",
-        "aerolinea": "El Al Israel Airlines",
+        "aerolinea": "Vueling",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13337,10 +13337,10 @@
         "hora_programada": "21:31",
         "fecha": "2024-12-29",
         "vuelo": "QTR3516",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "ALICANTE-ELCHE MIGUEL HDEZ. (ALC)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13356,35 +13356,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:50",
-        "hora_programada": "22:14",
+        "hora_programada": "22:10",
         "fecha": "2024-12-29",
         "vuelo": "VLG8307",
-        "aerolinea": "Iberia",
+        "aerolinea": "El Al Israel Airlines",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:50",
-        "hora_programada": "22:14",
+        "hora_programada": "22:10",
         "fecha": "2024-12-29",
         "vuelo": "IBE5221",
         "aerolinea": "Iberia",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:50",
-        "hora_programada": "22:14",
+        "hora_programada": "22:10",
         "fecha": "2024-12-29",
         "vuelo": "QTR3520",
         "aerolinea": "Vueling",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13438,8 +13438,8 @@
         "vuelo": "WMT5153",
         "aerolinea": "Vueling",
         "origen": "TIRANA (TIA)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13447,10 +13447,10 @@
         "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "BAW482",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13458,10 +13458,10 @@
         "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "IBE7483",
-        "aerolinea": "Wizz Air Malta (WMT)",
+        "aerolinea": "Qatar Airways",
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13469,10 +13469,10 @@
         "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "FIN5893",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13480,10 +13480,10 @@
         "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "AAL6820",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Wizz Air Malta (WMT)",
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13491,10 +13491,10 @@
         "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "IBE3664",
-        "aerolinea": "easyJet",
+        "aerolinea": "Volotea",
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13505,7 +13505,7 @@
         "aerolinea": null,
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13516,7 +13516,7 @@
         "aerolinea": null,
         "origen": "LONDRES / HEATHROW (LHR)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13524,10 +13524,10 @@
         "hora_programada": "23:31",
         "fecha": "2024-12-29",
         "vuelo": "EJU7136",
-        "aerolinea": "",
+        "aerolinea": "Iberia",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13587,200 +13587,200 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:44",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG2017",
-        "aerolinea": "Iberia",
+        "aerolinea": "Ryanair",
         "origen": "GRANADA-JAÉN F.G.L. (GRX)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:44",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5339",
-        "aerolinea": "TAP Air Portugal",
+        "aerolinea": "Vueling",
         "origen": "GRANADA-JAÉN F.G.L. (GRX)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:44",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "QTR3681",
         "aerolinea": "Qatar Airways",
         "origen": "GRANADA-JAÉN F.G.L. (GRX)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "VLG5091",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "QTR6927",
-        "aerolinea": "Iberia",
+        "aerolinea": "Ryanair",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "RAM5339",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "easyJet",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "LAN1530",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "JAL9403",
         "aerolinea": null,
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "IBE0427S",
-        "aerolinea": "LATAM Airlines",
+        "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "FIN5575",
-        "aerolinea": "",
+        "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:50",
-        "hora_programada": null,
+        "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "IBE0427",
-        "aerolinea": "Royal Air Maroc",
+        "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "23:19",
+        "hora_programada": "23:13",
         "fecha": "2024-12-29",
         "vuelo": "EJU7174",
-        "aerolinea": "American Airlines",
+        "aerolinea": "British Airways",
         "origen": "BERLIN BRANDENBURG (BER)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:36",
         "fecha": "2024-12-29",
         "vuelo": "AFR1448",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:36",
         "fecha": "2024-12-29",
         "vuelo": "AMX6031",
-        "aerolinea": "Ryanair",
+        "aerolinea": "LATAM Airlines",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:36",
         "fecha": "2024-12-29",
         "vuelo": "GLO5279",
         "aerolinea": null,
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:36",
         "fecha": "2024-12-29",
         "vuelo": "JAL5353",
         "aerolinea": null,
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:36",
         "fecha": "2024-12-29",
         "vuelo": "KAL6341",
-        "aerolinea": "Iberia",
+        "aerolinea": "",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "DLH1816",
-        "aerolinea": "Air France",
+        "aerolinea": "Finnair",
         "origen": "MUNICH (MUC)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13796,35 +13796,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "00:25",
         "fecha": "2024-12-29",
         "vuelo": "VLG3919",
-        "aerolinea": "",
+        "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "00:25",
         "fecha": "2024-12-29",
         "vuelo": "QTR3755",
-        "aerolinea": "Aeromexico",
+        "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "00:25",
         "fecha": "2024-12-29",
         "vuelo": "IBE5125",
-        "aerolinea": "KOREAN AIR",
+        "aerolinea": "Qatar Airways",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13832,10 +13832,10 @@
         "hora_programada": "23:11",
         "fecha": "2024-12-29",
         "vuelo": "SWR1950",
-        "aerolinea": "Lufthansa",
+        "aerolinea": "Ryanair",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13843,10 +13843,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "KLM1521",
-        "aerolinea": "Vueling",
+        "aerolinea": "easyJet",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13854,10 +13854,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "CES1843",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13865,10 +13865,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "AMX6303",
-        "aerolinea": "Iberia",
+        "aerolinea": "Aeromexico",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13876,10 +13876,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "SVA6337",
-        "aerolinea": "Aeromexico",
+        "aerolinea": "KOREAN AIR",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13890,7 +13890,7 @@
         "aerolinea": null,
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13898,10 +13898,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "KAL6413",
-        "aerolinea": "KLM",
+        "aerolinea": "Air France",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13912,7 +13912,7 @@
         "aerolinea": null,
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13920,10 +13920,10 @@
         "hora_programada": "23:26",
         "fecha": "2024-12-29",
         "vuelo": "ETD7306",
-        "aerolinea": "Swiss International Airlines",
+        "aerolinea": "Vueling",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13931,10 +13931,10 @@
         "hora_programada": "23:22",
         "fecha": "2024-12-29",
         "vuelo": "EJU7104",
-        "aerolinea": "Vueling",
+        "aerolinea": "Royal Air Maroc",
         "origen": "BASEL /MULHOUSE (BSL)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -13983,79 +13983,79 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "ITY078",
-        "aerolinea": "",
+        "aerolinea": "KLM",
         "origen": "ROMA /FIUMICINO (FCO)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "VLG1815",
-        "aerolinea": "easyJet",
+        "aerolinea": "Emirates",
         "origen": "MUNICH (MUC)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "QTR3756",
-        "aerolinea": "Vueling",
+        "aerolinea": "El Al Israel Airlines",
         "origen": "MUNICH (MUC)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "IBE5297",
-        "aerolinea": "Iberia",
+        "aerolinea": "",
         "origen": "MUNICH (MUC)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": "22:54",
+        "hora_programada": "22:57",
         "fecha": "2024-12-29",
         "vuelo": "VLG6249",
-        "aerolinea": "Vueling",
+        "aerolinea": "Aeromexico",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": "22:54",
+        "hora_programada": "22:57",
         "fecha": "2024-12-29",
         "vuelo": "IBE5135",
-        "aerolinea": "Iberia",
+        "aerolinea": "China Eastern",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": "22:54",
+        "hora_programada": "22:57",
         "fecha": "2024-12-29",
         "vuelo": "QTR3713",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14173,10 +14173,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG6337",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Vueling",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14184,10 +14184,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5439",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14195,10 +14195,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "QTR3711",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14206,10 +14206,10 @@
         "hora_programada": "23:33",
         "fecha": "2024-12-29",
         "vuelo": "VLG2975",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Vueling",
         "origen": "NANTES-ATLANTIQUE (NTE)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14220,7 +14220,7 @@
         "aerolinea": "Vueling",
         "origen": "NANTES-ATLANTIQUE (NTE)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14228,10 +14228,10 @@
         "hora_programada": "23:33",
         "fecha": "2024-12-29",
         "vuelo": "QTR3725",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "NANTES-ATLANTIQUE (NTE)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14272,10 +14272,10 @@
         "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "VLG1873",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "COPENHAGUE (CPH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14283,10 +14283,10 @@
         "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "IBE5309",
-        "aerolinea": "Turkish Airlines",
+        "aerolinea": "Vueling",
         "origen": "COPENHAGUE (CPH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14294,10 +14294,10 @@
         "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "QTR4694",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "COPENHAGUE (CPH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14305,10 +14305,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "THY1851",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "ESTAMBUL (IST)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14316,10 +14316,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "TAP1040",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14330,7 +14330,7 @@
         "aerolinea": null,
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14341,7 +14341,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14349,10 +14349,10 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "RZO8942",
-        "aerolinea": "Vueling",
+        "aerolinea": "Qatar Airways",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14360,32 +14360,32 @@
         "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "UAE4862",
-        "aerolinea": "Iberia",
+        "aerolinea": "Vueling",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "23:58",
         "fecha": "2024-12-29",
         "vuelo": "VLG8655",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "KOREAN AIR",
         "origen": "PRAGA (PRG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:15",
-        "hora_programada": null,
+        "hora_programada": "23:58",
         "fecha": "2024-12-29",
         "vuelo": "IBE5714",
-        "aerolinea": "ITA Airways",
+        "aerolinea": "Saudia",
         "origen": "PRAGA (PRG)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14423,46 +14423,46 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG1009",
-        "aerolinea": "sata-internacional",
+        "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5245S",
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "QTR4704",
-        "aerolinea": "Vueling",
-        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
-    },
-    {
-        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
-        "hora_inicial": "23:55",
-        "hora_programada": "23:49",
-        "fecha": "2024-12-29",
-        "vuelo": "IBE5245",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
+    },
+    {
+        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
+        "hora_inicial": "23:55",
+        "hora_programada": null,
+        "fecha": "2024-12-29",
+        "vuelo": "IBE5245",
+        "aerolinea": "Vueling",
+        "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
+        "estado": "En hora",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14470,10 +14470,10 @@
         "hora_programada": "23:42",
         "fecha": "2024-12-29",
         "vuelo": "VLG1887",
-        "aerolinea": "Iberia",
+        "aerolinea": "ITA Airways",
         "origen": "BERLIN BRANDENBURG (BER)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14484,7 +14484,7 @@
         "aerolinea": "Vueling",
         "origen": "BERLIN BRANDENBURG (BER)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14492,10 +14492,10 @@
         "hora_programada": "23:42",
         "fecha": "2024-12-29",
         "vuelo": "IBE5315",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "BERLIN BRANDENBURG (BER)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14503,10 +14503,10 @@
         "hora_programada": "23:53",
         "fecha": "2024-12-29",
         "vuelo": "VLG8465",
-        "aerolinea": "El Al Israel Airlines",
+        "aerolinea": "Iberia",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14514,10 +14514,10 @@
         "hora_programada": "23:53",
         "fecha": "2024-12-29",
         "vuelo": "QTR4707",
-        "aerolinea": "Emirates",
+        "aerolinea": "Turkish Airlines",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -14525,10 +14525,10 @@
         "hora_programada": "23:53",
         "fecha": "2024-12-29",
         "vuelo": "IBE5233",
-        "aerolinea": "",
+        "aerolinea": "Ryanair",
         "origen": "LISBOA (LIS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -14599,13 +14599,13 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "22:20",
-        "hora_programada": "22:07",
+        "hora_programada": "22:59",
         "fecha": "2024-12-29",
         "vuelo": "RYR6566",
         "aerolinea": "Ryanair",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -14984,13 +14984,13 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "20:25",
-        "hora_programada": "22:24",
+        "hora_programada": "22:26",
         "fecha": "2024-12-29",
         "vuelo": "EZY8111",
         "aerolinea": "easyJet UK",
         "origen": "LONDRES /GATWICK (LGW)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Aproximándose",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15006,24 +15006,24 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "22:05",
-        "hora_programada": "22:09",
+        "hora_programada": "22:11",
         "fecha": "2024-12-29",
         "vuelo": "RYR7523",
         "aerolinea": "Ryanair",
         "origen": "EINDHOVEN (EIN)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "22:55",
-        "hora_programada": "23:32",
+        "hora_programada": "23:44",
         "fecha": "2024-12-29",
         "vuelo": "RYR6173",
         "aerolinea": "Ryanair",
         "origen": "MARRAKECH (RAK)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15050,24 +15050,24 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "23:05",
-        "hora_programada": "22:42",
+        "hora_programada": "22:44",
         "fecha": "2024-12-29",
         "vuelo": "VLG8256",
         "aerolinea": "Ryanair",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "23:05",
-        "hora_programada": "22:42",
+        "hora_programada": "22:44",
         "fecha": "2024-12-29",
         "vuelo": "IBE5865",
         "aerolinea": "Vueling",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15089,7 +15089,7 @@
         "aerolinea": "Iberia",
         "origen": "OSLO / GARDERMOEN (OSL)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15108,10 +15108,10 @@
         "hora_programada": "23:57",
         "fecha": "2024-12-29",
         "vuelo": "VLG1308",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15122,7 +15122,7 @@
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -15391,24 +15391,24 @@
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "23:40",
-        "hora_programada": "00:15",
+        "hora_programada": "00:05",
         "fecha": "2024-12-29",
         "vuelo": "VLG8921",
         "aerolinea": "Ryanair",
         "origen": "BRUSELAS (BRU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "23:40",
-        "hora_programada": "00:15",
+        "hora_programada": "00:05",
         "fecha": "2024-12-29",
         "vuelo": "IBE5732",
         "aerolinea": "Ryanair",
         "origen": "BRUSELAS (BRU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15424,24 +15424,24 @@
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "20:30",
-        "hora_programada": "22:05",
+        "hora_programada": "22:09",
         "fecha": "2024-12-29",
         "vuelo": "IBE2400",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "20:30",
-        "hora_programada": "22:05",
+        "hora_programada": "22:09",
         "fecha": "2024-12-29",
         "vuelo": "VLG5800",
         "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15463,7 +15463,7 @@
         "aerolinea": "Ryanair",
         "origen": "TREVISO/S.ANGELO (MIL) (TSF)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15479,35 +15479,35 @@
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "21:20",
-        "hora_programada": "22:05",
+        "hora_programada": "22:04",
         "fecha": "2024-12-29",
         "vuelo": "TVS1054",
         "aerolinea": "Smartwings Hungary",
         "origen": "PRAGA (PRG)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "21:20",
-        "hora_programada": "22:05",
+        "hora_programada": "22:04",
         "fecha": "2024-12-29",
         "vuelo": "EWG3014",
         "aerolinea": "Eurowingss",
         "origen": "PRAGA (PRG)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "21:20",
-        "hora_programada": "22:05",
+        "hora_programada": "22:04",
         "fecha": "2024-12-29",
         "vuelo": "CSA4688",
         "aerolinea": "Czech Airlines",
         "origen": "PRAGA (PRG)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15529,7 +15529,7 @@
         "aerolinea": "KLM",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15540,7 +15540,7 @@
         "aerolinea": "Air France",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15551,7 +15551,7 @@
         "aerolinea": "China Eastern",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15562,7 +15562,7 @@
         "aerolinea": "SAS Scandinavian Airlines",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15573,7 +15573,7 @@
         "aerolinea": null,
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15584,7 +15584,7 @@
         "aerolinea": "Air France",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15595,7 +15595,7 @@
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15606,7 +15606,7 @@
         "aerolinea": "Vueling",
         "origen": "IBIZA (IBZ)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15633,35 +15633,35 @@
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "23:35",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "IBE2380",
         "aerolinea": "Iberia",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "23:35",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "VLG5780",
         "aerolinea": "Vueling",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "23:35",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "QTR8074",
         "aerolinea": "Qatar Airways",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15672,7 +15672,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15683,7 +15683,7 @@
         "aerolinea": "Avianca",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15694,7 +15694,7 @@
         "aerolinea": "",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15705,7 +15705,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15716,7 +15716,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15727,7 +15727,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15738,7 +15738,7 @@
         "aerolinea": null,
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15749,7 +15749,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -15760,7 +15760,7 @@
         "aerolinea": "Ryanair",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "MENORCA",
@@ -15853,13 +15853,13 @@
     {
         "aeropuerto": "MENORCA",
         "hora_inicial": "21:45",
-        "hora_programada": "21:40",
+        "hora_programada": "21:44",
         "fecha": "2024-12-29",
         "vuelo": "IBE1041",
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:35:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:25"
     },
     {
         "aeropuerto": "MENORCA",
@@ -15875,35 +15875,35 @@
     {
         "aeropuerto": "MENORCA",
         "hora_inicial": "21:45",
-        "hora_programada": "21:40",
+        "hora_programada": "21:44",
         "fecha": "2024-12-29",
         "vuelo": "LAN1711",
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:35:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:25"
     },
     {
         "aeropuerto": "MENORCA",
         "hora_inicial": "21:45",
-        "hora_programada": "21:40",
+        "hora_programada": "21:44",
         "fecha": "2024-12-29",
         "vuelo": "QTR8026",
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:35:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:25"
     },
     {
         "aeropuerto": "MENORCA",
         "hora_inicial": "21:50",
-        "hora_programada": null,
+        "hora_programada": "21:42",
         "fecha": "2024-12-29",
         "vuelo": "IBE2496",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:35:26"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:25"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -16123,7 +16123,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16134,7 +16134,7 @@
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16145,7 +16145,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16156,7 +16156,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16167,7 +16167,7 @@
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16178,7 +16178,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16189,7 +16189,7 @@
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16200,7 +16200,7 @@
         "aerolinea": "Cathay Pacific",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16211,7 +16211,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16222,7 +16222,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16233,7 +16233,7 @@
         "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16244,7 +16244,7 @@
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16321,7 +16321,7 @@
         "aerolinea": "Iberia",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16332,7 +16332,7 @@
         "aerolinea": "British Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16343,7 +16343,7 @@
         "aerolinea": null,
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16354,7 +16354,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16365,7 +16365,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16376,7 +16376,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16387,7 +16387,7 @@
         "aerolinea": "Vueling",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16398,7 +16398,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16409,7 +16409,7 @@
         "aerolinea": "Iberia",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "JEREZ",
@@ -16420,7 +16420,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     },
     {
         "aeropuerto": "MENORCA",
@@ -17888,13 +17888,13 @@
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "20:50",
-        "hora_programada": "22:25",
+        "hora_programada": "22:55",
         "fecha": "2024-12-29",
         "vuelo": "RYR3174",
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "IBIZA",
@@ -18719,7 +18719,7 @@
         "aerolinea": "Vueling",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -18730,7 +18730,7 @@
         "aerolinea": "Iberia",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -19324,7 +19324,7 @@
         "aerolinea": null,
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -19335,7 +19335,7 @@
         "aerolinea": "Naysa",
         "origen": "LANZAROTE CÉSAR MANRIQUE (ACE)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -19621,7 +19621,7 @@
         "aerolinea": "Ryanair",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -20017,7 +20017,7 @@
         "aerolinea": "Ryanair",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -20061,7 +20061,7 @@
         "aerolinea": "Naysa",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -20072,7 +20072,7 @@
         "aerolinea": "Ryanair",
         "origen": "MARRAKECH (RAK)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -20187,24 +20187,24 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "21:25",
-        "hora_programada": "22:49",
+        "hora_programada": "22:50",
         "fecha": "2024-12-29",
         "vuelo": "VLG2654",
         "aerolinea": "Vueling",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "21:25",
-        "hora_programada": "22:49",
+        "hora_programada": "22:50",
         "fecha": "2024-12-29",
         "vuelo": "IBE5362",
         "aerolinea": "Iberia",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -20468,7 +20468,7 @@
         "aerolinea": "Ryanair",
         "origen": "MILAN/BERGAMO (BGY)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -20963,7 +20963,7 @@
         "aerolinea": "easyJet UK",
         "origen": "LONDRES /LUTON (LTN)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -21936,13 +21936,13 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:05",
-        "hora_programada": "22:11",
+        "hora_programada": "22:12",
         "fecha": "2024-12-29",
         "vuelo": "RYR7634",
         "aerolinea": "Ryanair",
         "origen": "OPORTO (OPO)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -21980,13 +21980,13 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:00",
-        "hora_programada": "23:13",
+        "hora_programada": "23:18",
         "fecha": "2024-12-29",
         "vuelo": "RYR5692",
         "aerolinea": "Ryanair",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -21997,7 +21997,7 @@
         "aerolinea": "Vueling",
         "origen": "LISBOA (LIS)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -22005,10 +22005,10 @@
         "hora_programada": "23:33",
         "fecha": "2024-12-29",
         "vuelo": "RZO8756",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "LISBOA (LIS)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -22019,7 +22019,7 @@
         "aerolinea": null,
         "origen": "LISBOA (LIS)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -22027,10 +22027,10 @@
         "hora_programada": "23:33",
         "fecha": "2024-12-29",
         "vuelo": "ETD2703",
-        "aerolinea": "Emirates",
+        "aerolinea": "TAP Air Portugal",
         "origen": "LISBOA (LIS)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -22038,10 +22038,10 @@
         "hora_programada": "23:33",
         "fecha": "2024-12-29",
         "vuelo": "UAE4874",
-        "aerolinea": "Iberia",
+        "aerolinea": "sata-internacional",
         "origen": "LISBOA (LIS)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -23762,24 +23762,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:20",
-        "hora_programada": "23:15",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG1221",
-        "aerolinea": "Vueling",
+        "aerolinea": "",
         "origen": "LYON (LYS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:20",
-        "hora_programada": "23:15",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5249",
-        "aerolinea": "Vueling",
+        "aerolinea": "Etihad Airways",
         "origen": "LYON (LYS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -23795,13 +23795,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:20",
-        "hora_programada": "23:15",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "QTR3700",
-        "aerolinea": "Iberia",
+        "aerolinea": "easyJet",
         "origen": "LYON (LYS)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -25137,13 +25137,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:19",
+        "hora_programada": "22:15",
         "fecha": "2024-12-29",
         "vuelo": "QTR3620",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Finnair",
         "origen": "CAGLIARI (CAG)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -27106,35 +27106,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:40",
+        "hora_programada": "22:43",
         "fecha": "2024-12-29",
         "vuelo": "VLG1509",
-        "aerolinea": "easyJet",
+        "aerolinea": "",
         "origen": "MARSELLA (MRS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:40",
+        "hora_programada": "22:43",
         "fecha": "2024-12-29",
         "vuelo": "IBE5285",
-        "aerolinea": "Vueling",
-        "origen": "MARSELLA (MRS)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
-    },
-    {
-        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
-        "hora_inicial": "22:45",
-        "hora_programada": "22:40",
-        "fecha": "2024-12-29",
-        "vuelo": "QTR3690",
         "aerolinea": "Ryanair",
         "origen": "MARSELLA (MRS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
+    },
+    {
+        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
+        "hora_inicial": "22:45",
+        "hora_programada": "22:43",
+        "fecha": "2024-12-29",
+        "vuelo": "QTR3690",
+        "aerolinea": "American Airlines",
+        "origen": "MARSELLA (MRS)",
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -27689,13 +27689,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:25",
-        "hora_programada": "23:26",
+        "hora_programada": "01:35",
         "fecha": "2024-12-29",
         "vuelo": "RYR6331",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -27725,10 +27725,10 @@
         "hora_programada": "22:26",
         "fecha": "2024-12-29",
         "vuelo": "RYR6875",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Vueling",
         "origen": "DUBLIN (DUB)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -28151,13 +28151,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:20",
+        "hora_programada": "22:15",
         "fecha": "2024-12-29",
         "vuelo": "RYR9369",
-        "aerolinea": "",
+        "aerolinea": "Iberia",
         "origen": "BOLONIA (BLQ)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -28393,13 +28393,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:55",
         "fecha": "2024-12-29",
         "vuelo": "RYR866",
-        "aerolinea": "",
+        "aerolinea": "Iberia",
         "origen": "VENECIA /MARCO POLO (VCE)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -28723,35 +28723,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:20",
-        "hora_programada": "22:19",
+        "hora_programada": "22:13",
         "fecha": "2024-12-29",
         "vuelo": "VLG1885",
         "aerolinea": "Vueling",
         "origen": "BERLIN BRANDENBURG (BER)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:20",
-        "hora_programada": "22:19",
+        "hora_programada": "22:13",
         "fecha": "2024-12-29",
         "vuelo": "IBE5313",
         "aerolinea": "Iberia",
         "origen": "BERLIN BRANDENBURG (BER)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:20",
-        "hora_programada": "22:19",
+        "hora_programada": "22:13",
         "fecha": "2024-12-29",
         "vuelo": "QTR4711",
         "aerolinea": "Qatar Airways",
         "origen": "BERLIN BRANDENBURG (BER)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -28976,24 +28976,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:24",
+        "hora_programada": "22:17",
         "fecha": "2024-12-29",
         "vuelo": "VLG3923",
-        "aerolinea": "Vueling",
+        "aerolinea": "Qatar Airways",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:24",
+        "hora_programada": "22:17",
         "fecha": "2024-12-29",
         "vuelo": "IBE5129",
-        "aerolinea": "Iberia",
+        "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29254,21 +29254,21 @@
         "hora_programada": "22:26",
         "fecha": "2024-12-29",
         "vuelo": "RYR4586",
-        "aerolinea": "Iberia",
+        "aerolinea": "Ryanair",
         "origen": "OPORTO (OPO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "QTR3676",
         "aerolinea": "Iberia",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29386,10 +29386,10 @@
         "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "RYR3175",
-        "aerolinea": "Iberia",
+        "aerolinea": "sata-internacional",
         "origen": "IBIZA (IBZ)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29565,18 +29565,18 @@
         "aerolinea": "Qatar Airways",
         "origen": "DUBLIN (DUB)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "21:20",
-        "hora_programada": "22:53",
+        "hora_programada": "22:48",
         "fecha": "2024-12-29",
         "vuelo": "RYR2508",
-        "aerolinea": "",
+        "aerolinea": "easyJet UK",
         "origen": "KOELN/BONN (CGN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29584,10 +29584,10 @@
         "hora_programada": "23:03",
         "fecha": "2024-12-29",
         "vuelo": "TAR514",
-        "aerolinea": "British Airways",
+        "aerolinea": "Air Algerie",
         "origen": "TUNEZ (TUN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29658,35 +29658,35 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:20",
-        "hora_programada": null,
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "VLG1867",
-        "aerolinea": "Qatar Airways",
-        "origen": "STUTTGART (STR)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
-    },
-    {
-        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
-        "hora_inicial": "23:20",
-        "hora_programada": null,
-        "fecha": "2024-12-29",
-        "vuelo": "IBE5303",
         "aerolinea": "Vueling",
         "origen": "STUTTGART (STR)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:20",
-        "hora_programada": null,
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
-        "vuelo": "QTR3762",
+        "vuelo": "IBE5303",
         "aerolinea": "Iberia",
         "origen": "STUTTGART (STR)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
+    },
+    {
+        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
+        "hora_inicial": "23:20",
+        "hora_programada": "00:00",
+        "fecha": "2024-12-29",
+        "vuelo": "QTR3762",
+        "aerolinea": "Qatar Airways",
+        "origen": "STUTTGART (STR)",
+        "estado": "Retrasado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29749,21 +29749,21 @@
         "hora_programada": "22:58",
         "fecha": "2024-12-29",
         "vuelo": "RYR5711",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Ryanair",
         "origen": "NAPOLES (NAP)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:45",
-        "hora_programada": "23:40",
+        "hora_programada": "23:54",
         "fecha": "2024-12-29",
         "vuelo": "VLG8313",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -29779,13 +29779,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:45",
-        "hora_programada": "23:40",
+        "hora_programada": "23:54",
         "fecha": "2024-12-29",
         "vuelo": "IBE5227",
-        "aerolinea": "Iberia",
+        "aerolinea": "Vueling",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30136,8 +30136,8 @@
         "vuelo": "RYR4818",
         "aerolinea": "Ryanair",
         "origen": "EAST MIDLANDS (EMA)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30312,8 +30312,8 @@
         "vuelo": "RYR7062",
         "aerolinea": "Ryanair",
         "origen": "DUBLIN (DUB)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30456,7 +30456,7 @@
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30629,10 +30629,10 @@
         "hora_programada": "23:31",
         "fecha": "2024-12-29",
         "vuelo": "RYR8756",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "VITORIA (VIT)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30720,7 +30720,7 @@
         "aerolinea": "Ryanair",
         "origen": "BRUSELAS (BRU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30731,7 +30731,7 @@
         "aerolinea": "Vueling",
         "origen": "BRUSELAS (BRU)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -30841,7 +30841,7 @@
         "aerolinea": "Ryanair",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -31105,7 +31105,7 @@
         "aerolinea": "Qatar Airways",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -31113,10 +31113,10 @@
         "hora_programada": "23:20",
         "fecha": "2024-12-29",
         "vuelo": "IBE5534",
-        "aerolinea": "Vueling",
+        "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -31132,13 +31132,13 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "23:25",
-        "hora_programada": "23:56",
+        "hora_programada": "00:31",
         "fecha": "2024-12-29",
         "vuelo": "RYR9053",
-        "aerolinea": "Iberia",
+        "aerolinea": "Ryanair",
         "origen": "BRUSELAS /CHARLEROI (CRL)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -31500,8 +31500,8 @@
         "vuelo": "VLG3255",
         "aerolinea": "Vueling",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31511,8 +31511,8 @@
         "vuelo": "IBE5458",
         "aerolinea": "Iberia",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31523,7 +31523,7 @@
         "aerolinea": "Ryanair",
         "origen": "VALENCIA (VLC)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31644,7 +31644,7 @@
         "aerolinea": "Ryanair",
         "origen": "TREVISO/S.ANGELO (MIL) (TSF)",
         "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31775,8 +31775,8 @@
         "vuelo": "RYR3042",
         "aerolinea": "Ryanair",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
-        "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31919,7 +31919,7 @@
         "aerolinea": "Vueling",
         "origen": "PARIS /CHARLES DE GAULLE (CDG)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -31996,7 +31996,7 @@
         "aerolinea": "Ryanair",
         "origen": "EDIMBURGO (EDI)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -32133,13 +32133,13 @@
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:15",
-        "hora_programada": "22:27",
+        "hora_programada": "22:49",
         "fecha": "2024-12-29",
         "vuelo": "QTR4691",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -32743,8 +32743,8 @@
         "vuelo": "RYR2208",
         "aerolinea": "Ryanair",
         "origen": "SEVILLA (SVQ)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -32777,7 +32777,7 @@
         "aerolinea": "Royal Air Maroc",
         "origen": "KOELN/BONN (CGN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -32859,24 +32859,24 @@
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "22:40",
-        "hora_programada": "22:25",
+        "hora_programada": "22:20",
         "fecha": "2024-12-29",
         "vuelo": "IBE2441",
         "aerolinea": "Iberia",
         "origen": "MENORCA (MAH)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Aproximándose",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
         "hora_inicial": "22:40",
-        "hora_programada": "22:25",
+        "hora_programada": "22:20",
         "fecha": "2024-12-29",
         "vuelo": "VLG5841",
         "aerolinea": "Vueling",
         "origen": "MENORCA (MAH)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Aproximándose",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -32975,7 +32975,7 @@
         "aerolinea": "Volotea",
         "origen": "BILBAO (BIO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33074,7 +33074,7 @@
         "aerolinea": "Ryanair",
         "origen": "MANCHESTER (MAN)",
         "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33272,7 +33272,7 @@
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33305,7 +33305,7 @@
         "aerolinea": "Finnair",
         "origen": "SANTIAGO-ROSALÍA DE CASTRO (SCQ)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33371,7 +33371,7 @@
         "aerolinea": "Ryanair",
         "origen": "MALAGA-COSTA DEL SOL (AGP)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33393,7 +33393,7 @@
         "aerolinea": "Ryanair",
         "origen": "ROMA /FIUMICINO (FCO)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33437,7 +33437,7 @@
         "aerolinea": "Vueling",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Cancelado",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33448,7 +33448,7 @@
         "aerolinea": "Iberia",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Cancelado",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33459,7 +33459,7 @@
         "aerolinea": "British Airways",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Cancelado",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33492,7 +33492,7 @@
         "aerolinea": "TAP Air Portugal",
         "origen": "LISBOA (LIS)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33503,7 +33503,7 @@
         "aerolinea": "sata-internacional",
         "origen": "LISBOA (LIS)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33514,7 +33514,7 @@
         "aerolinea": "Emirates",
         "origen": "LISBOA (LIS)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33525,7 +33525,7 @@
         "aerolinea": null,
         "origen": "LISBOA (LIS)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -33536,7 +33536,7 @@
         "aerolinea": null,
         "origen": "LISBOA (LIS)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -34724,7 +34724,7 @@
         "aerolinea": "Ryanair",
         "origen": "PRAGA (PRG)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -34999,18 +34999,18 @@
         "aerolinea": "Ryanair",
         "origen": "GDANSK/REBIECHOWO (GDN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "20:00",
-        "hora_programada": "22:35",
+        "hora_programada": "22:34",
         "fecha": "2024-12-29",
         "vuelo": "EZY3205",
         "aerolinea": "easyJet UK",
         "origen": "EDIMBURGO (EDI)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -35208,7 +35208,7 @@
         "aerolinea": "Wizz Air",
         "origen": "BUDAPEST (BUD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -35235,13 +35235,13 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "20:20",
-        "hora_programada": "22:22",
+        "hora_programada": "22:23",
         "fecha": "2024-12-29",
         "vuelo": "RYR9942",
         "aerolinea": "Ryanair",
         "origen": "BUDAPEST (BUD)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -35262,8 +35262,8 @@
         "vuelo": "RYR9057",
         "aerolinea": "Ryanair",
         "origen": "BREMEN (BRE)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -36104,13 +36104,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "20:15",
-        "hora_programada": "23:00",
+        "hora_programada": "00:00",
         "fecha": "2024-12-29",
         "vuelo": "EZY2325",
-        "aerolinea": "easyJet UK",
+        "aerolinea": "TAP Air Portugal",
         "origen": "LONDRES /LUTON (LTN)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Cancelado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -36500,13 +36500,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "20:55",
-        "hora_programada": "23:00",
+        "hora_programada": "00:10",
         "fecha": "2024-12-29",
         "vuelo": "QTR3712",
-        "aerolinea": "Ryanair",
+        "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -36742,24 +36742,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:19",
+        "hora_programada": "22:15",
         "fecha": "2024-12-29",
         "vuelo": "VLG6165",
         "aerolinea": "",
         "origen": "CAGLIARI (CAG)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:19",
+        "hora_programada": "22:15",
         "fecha": "2024-12-29",
         "vuelo": "IBE5570",
-        "aerolinea": "Norwegian SWEDEN (NSZ)",
+        "aerolinea": "Iberia",
         "origen": "CAGLIARI (CAG)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -36830,24 +36830,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG8019",
-        "aerolinea": "Vueling",
+        "aerolinea": "Qatar Airways",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:49",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5209",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Ryanair",
         "origen": "PARIS /ORLY (ORY)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -37056,7 +37056,7 @@
         "aerolinea": "Ryanair",
         "origen": "MILAN /MALPENSA (MXP)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -37595,7 +37595,7 @@
         "aerolinea": "Ryanair",
         "origen": "VALENCIA (VLC)",
         "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -37727,7 +37727,7 @@
         "aerolinea": "Finnair",
         "origen": "HELSINKI (HEL)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -38068,7 +38068,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -38211,7 +38211,7 @@
         "aerolinea": "LATAM Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -38222,7 +38222,7 @@
         "aerolinea": null,
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -38233,7 +38233,7 @@
         "aerolinea": "Bulgaria Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -38244,7 +38244,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -38255,7 +38255,7 @@
         "aerolinea": "Binter Canarias",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -38684,7 +38684,7 @@
         "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -38827,7 +38827,7 @@
         "aerolinea": "Vueling",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -38959,7 +38959,7 @@
         "aerolinea": "easyJet UK",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -38970,7 +38970,7 @@
         "aerolinea": "Iberia",
         "origen": "OSLO /SANDEFJORD (TRF)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -39341,10 +39341,10 @@
         "hora_programada": "21:19",
         "fecha": "2024-12-29",
         "vuelo": "RYR6377",
-        "aerolinea": "Wizz Air Malta (WMT)",
+        "aerolinea": "Vueling",
         "origen": "TENERIFE SUR (TFS)",
         "estado": "Finalizado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -39352,10 +39352,10 @@
         "hora_programada": "00:36",
         "fecha": "2024-12-29",
         "vuelo": "EZY6325",
-        "aerolinea": "Iberia",
+        "aerolinea": "Vueling",
         "origen": "LONDRES /GATWICK (LGW)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -39363,10 +39363,10 @@
         "hora_programada": "21:26",
         "fecha": "2024-12-29",
         "vuelo": "VLG1881",
-        "aerolinea": "Iberia",
+        "aerolinea": "Qatar Airways",
         "origen": "BILLUND (BLL)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -39374,10 +39374,10 @@
         "hora_programada": "21:26",
         "fecha": "2024-12-29",
         "vuelo": "IBE5821",
-        "aerolinea": "Vueling",
+        "aerolinea": "Ryanair",
         "origen": "BILLUND (BLL)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -39385,10 +39385,10 @@
         "hora_programada": "23:54",
         "fecha": "2024-12-29",
         "vuelo": "RYR7823",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "GLASGOW /PRESTWICK (PIK)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -39514,13 +39514,13 @@
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "21:15",
-        "hora_programada": "22:37",
+        "hora_programada": "22:38",
         "fecha": "2024-12-29",
         "vuelo": "RYR8286",
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -39531,7 +39531,7 @@
         "aerolinea": "Norwegian SWEDEN (NSZ)",
         "origen": "MUNICH (MUC)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -39679,24 +39679,24 @@
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:30",
+        "hora_programada": "22:40",
         "fecha": "2024-12-29",
         "vuelo": "VLG2425",
         "aerolinea": "Vueling",
         "origen": "IBIZA (IBZ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
         "hora_inicial": "22:45",
-        "hora_programada": "22:30",
+        "hora_programada": "22:40",
         "fecha": "2024-12-29",
         "vuelo": "IBE5347",
         "aerolinea": "Iberia",
         "origen": "IBIZA (IBZ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "SEVILLA",
@@ -39707,7 +39707,7 @@
         "aerolinea": "TAP Air Portugal",
         "origen": "BADEN BADEN-KARLSRUHE (FKB) (FKB)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:37"
+        "hora_actualizacion": "2024-12-29 22:19:35"
     },
     {
         "aeropuerto": "MENORCA",
@@ -40064,13 +40064,13 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:10",
-        "hora_programada": "21:58",
+        "hora_programada": "21:59",
         "fecha": "2024-12-29",
         "vuelo": "VOE1414",
-        "aerolinea": "easyJet",
+        "aerolinea": "Qatar Airways",
         "origen": "VERONA (VRN)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -40697,7 +40697,7 @@
         "aerolinea": "Naysa",
         "origen": "LA PALMA (SPC)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "CÉSAR MANRIQUE-LANZAROTE",
@@ -40735,13 +40735,13 @@
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:30",
         "fecha": "2024-12-29",
         "vuelo": "IBE2534",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "GRAN CANARIA",
@@ -41126,7 +41126,7 @@
         "aerolinea": "Ryanair",
         "origen": "LONDRES /STANSTED (STN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:01:20"
+        "hora_actualizacion": "2024-12-29 22:20:09"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -41780,13 +41780,13 @@
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
         "hora_inicial": "21:30",
-        "hora_programada": "21:32",
+        "hora_programada": "21:24",
         "fecha": "2024-12-29",
         "vuelo": "RSC995",
         "aerolinea": null,
         "origen": "FUERTEVENTURA (FUE)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -42203,8 +42203,8 @@
         "vuelo": "FOE231",
         "aerolinea": null,
         "origen": "YEREVAN / ZVARTNOTS (EVN)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "FUERTEVENTURA",
@@ -43056,13 +43056,13 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "22:20",
-        "hora_programada": "22:04",
+        "hora_programada": "22:07",
         "fecha": "2024-12-29",
         "vuelo": "HYS261",
         "aerolinea": "Ryanair",
         "origen": "BUCAREST (OTP)",
-        "estado": "Aproximándose",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -43188,24 +43188,24 @@
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "20:55",
-        "hora_programada": "23:00",
+        "hora_programada": "00:10",
         "fecha": "2024-12-29",
         "vuelo": "VLG3925",
-        "aerolinea": "Transavia",
+        "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "20:55",
-        "hora_programada": "23:00",
+        "hora_programada": "00:10",
         "fecha": "2024-12-29",
         "vuelo": "IBE5522",
-        "aerolinea": "Tunisair",
+        "aerolinea": "Qatar Airways",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -43353,24 +43353,24 @@
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "23:55",
-        "hora_programada": "00:17",
+        "hora_programada": "00:11",
         "fecha": "2024-12-29",
         "vuelo": "EDW218",
         "aerolinea": "Edelweiss",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "TENERIFE SUR",
         "hora_inicial": "23:55",
-        "hora_programada": "00:17",
+        "hora_programada": "00:11",
         "fecha": "2024-12-29",
         "vuelo": "SWR8218",
         "aerolinea": "Swiss International Airlines",
         "origen": "ZURICH (ZRH)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:59:53"
+        "hora_actualizacion": "2024-12-29 22:19:12"
     },
     {
         "aeropuerto": "IBIZA",
@@ -44508,13 +44508,13 @@
     {
         "aeropuerto": "FUERTEVENTURA",
         "hora_inicial": "21:25",
-        "hora_programada": "21:30",
+        "hora_programada": "21:20",
         "fecha": "2024-12-29",
         "vuelo": "NAY288",
         "aerolinea": "Naysa",
         "origen": "GRAN CANARIA (LPA)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "MENORCA",
@@ -44530,13 +44530,13 @@
     {
         "aeropuerto": "IBIZA",
         "hora_inicial": "22:55",
-        "hora_programada": null,
+        "hora_programada": "23:00",
         "fecha": "2024-12-29",
         "vuelo": "QTR4680",
         "aerolinea": "Qatar Airways",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:35:29"
+        "hora_actualizacion": "2024-12-29 22:19:29"
     },
     {
         "aeropuerto": "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -44635,7 +44635,7 @@
         "aerolinea": null,
         "origen": "GRAN CANARIA (LPA)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:00"
+        "hora_actualizacion": "2024-12-29 22:19:19"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -44860,13 +44860,13 @@
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
         "hora_inicial": "23:00",
-        "hora_programada": "00:44",
+        "hora_programada": "00:39",
         "fecha": "2024-12-29",
         "vuelo": "RYR8168",
         "aerolinea": "Vueling",
         "origen": "LONDRES /STANSTED (STN)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -51411,7 +51411,7 @@
         "aerolinea": "Naysa",
         "origen": "FUERTEVENTURA (FUE)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 21:59:56"
+        "hora_actualizacion": "2024-12-29 22:19:15"
     },
     {
         "aeropuerto": "IBIZA",
@@ -51675,7 +51675,7 @@
         "aerolinea": "Naysa",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:03"
+        "hora_actualizacion": "2024-12-29 22:19:22"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -59229,10 +59229,10 @@
         "hora_programada": "00:05",
         "fecha": "2024-12-29",
         "vuelo": "RYR8564",
-        "aerolinea": "Etihad Airways",
+        "aerolinea": "Emirates",
         "origen": "DUBLIN (DUB)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -59242,8 +59242,8 @@
         "vuelo": "RYR9862",
         "aerolinea": "Ryanair",
         "origen": "LIVERPOOL (LPL)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "estado": "Aproximándose",
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -59254,7 +59254,7 @@
         "aerolinea": "Ryanair",
         "origen": "BIRMINGHAM / INTERNACIONAL (BHX)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -59265,7 +59265,7 @@
         "aerolinea": "British Airways",
         "origen": "MARRAKECH (RAK)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:00:34"
+        "hora_actualizacion": "2024-12-29 22:19:32"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -59647,43 +59647,43 @@
         "hora_programada": "21:26",
         "fecha": "2024-12-29",
         "vuelo": "QTR4687",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Ryanair",
         "origen": "BILLUND (BLL)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:50",
+        "hora_programada": "23:22",
         "fecha": "2024-12-29",
         "vuelo": "EJU7110",
         "aerolinea": "Iberia",
         "origen": "GINEBRA (GVA)",
-        "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:05",
-        "hora_programada": "22:24",
+        "hora_programada": "22:17",
         "fecha": "2024-12-29",
         "vuelo": "QTR3793",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "En tierra",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:20",
-        "hora_programada": "22:16",
+        "hora_programada": "22:12",
         "fecha": "2024-12-29",
         "vuelo": "EJU3751",
-        "aerolinea": "Volotea",
+        "aerolinea": "easyJet",
         "origen": "MILAN /MALPENSA (MXP)",
-        "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "estado": "Entrega equip.",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -59691,21 +59691,21 @@
         "hora_programada": "23:50",
         "fecha": "2024-12-29",
         "vuelo": "RYR9815",
-        "aerolinea": "Qatar Airways",
+        "aerolinea": "Iberia",
         "origen": "LONDRES /STANSTED (STN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "22:45",
-        "hora_programada": "22:42",
+        "hora_programada": "22:41",
         "fecha": "2024-12-29",
         "vuelo": "NSZ5503",
-        "aerolinea": "Finnair",
+        "aerolinea": "Ryanair",
         "origen": "ESTOCOLMO /ARLANDA (ARN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
@@ -59716,40 +59716,40 @@
         "aerolinea": "Vueling",
         "origen": "TENERIFE NORTE-C. LA LAGUNA (TFN)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:50",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "VLG3921",
         "aerolinea": "Vueling",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
         "hora_inicial": "23:55",
-        "hora_programada": "23:50",
+        "hora_programada": null,
         "fecha": "2024-12-29",
         "vuelo": "IBE5127",
-        "aerolinea": "Qatar Airways",
-        "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
-    },
-    {
-        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
-        "hora_inicial": "23:55",
-        "hora_programada": "23:50",
-        "fecha": "2024-12-29",
-        "vuelo": "QTR3623",
         "aerolinea": "Iberia",
         "origen": "PALMA DE MALLORCA (PMI)",
         "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 21:52:42"
+        "hora_actualizacion": "2024-12-29 22:19:56"
+    },
+    {
+        "aeropuerto": "JOSEP TARRADELLAS BARCELONA-EL PRAT",
+        "hora_inicial": "23:55",
+        "hora_programada": null,
+        "fecha": "2024-12-29",
+        "vuelo": "QTR3623",
+        "aerolinea": "Qatar Airways",
+        "origen": "PALMA DE MALLORCA (PMI)",
+        "estado": "En hora",
+        "hora_actualizacion": "2024-12-29 22:19:56"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -59902,19 +59902,19 @@
         "vuelo": "RYR8296",
         "aerolinea": "Ryanair",
         "origen": "BRISTOL (BRS)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "21:35",
-        "hora_programada": "22:40",
+        "hora_programada": "22:34",
         "fecha": "2024-12-29",
         "vuelo": "RYR5065",
         "aerolinea": "Ryanair",
         "origen": "SEVILLA (SVQ)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
@@ -59922,21 +59922,21 @@
         "hora_programada": "23:57",
         "fecha": "2024-12-29",
         "vuelo": "QTR3533",
-        "aerolinea": "Iberia",
+        "aerolinea": "Ryanair",
         "origen": "BARCELONA-EL PRAT JOSEP TARRADELLAS (BCN)",
         "estado": "Retrasado",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
         "hora_inicial": "23:35",
-        "hora_programada": null,
+        "hora_programada": "23:38",
         "fecha": "2024-12-29",
         "vuelo": "RYR9748",
-        "aerolinea": "Iberia",
+        "aerolinea": "Vueling",
         "origen": "LISBOA (LIS)",
-        "estado": "En hora",
-        "hora_actualizacion": "2024-12-29 22:01:24"
+        "estado": "En vuelo",
+        "hora_actualizacion": "2024-12-29 22:20:13"
     },
     {
         "aeropuerto": "PALMA DE MALLORCA",
@@ -60254,8 +60254,8 @@
         "vuelo": "RYR7373",
         "aerolinea": "Ryanair",
         "origen": "PALMA DE MALLORCA (PMI)",
-        "estado": "Entrega equip.",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "estado": "Finalizado",
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "VALENCIA",
@@ -60266,7 +60266,7 @@
         "aerolinea": "Delta",
         "origen": "AMSTERDAM /SCHIPHOL (AMS)",
         "estado": "En vuelo",
-        "hora_actualizacion": "2024-12-29 22:01:27"
+        "hora_actualizacion": "2024-12-29 22:20:16"
     },
     {
         "aeropuerto": "MÁLAGA-COSTA DEL SOL",
@@ -60288,6 +60288,6 @@
         "aerolinea": "American Airlines",
         "origen": "MADRID-BARAJAS ADOLFO SUÁREZ (MAD)",
         "estado": null,
-        "hora_actualizacion": "2024-12-29 22:00:50"
+        "hora_actualizacion": "2024-12-29 22:19:49"
     }
 ]
