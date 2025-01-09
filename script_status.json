@@ -1,86 +1,86 @@
 {
-    "last_run": "2025-01-09 23:50:15",
-    "status": "Error: HTTPConnectionPool(host='localhost', port=55855): Read timed out. (read timeout=120)",
+    "last_run": "2025-01-09 23:58:40",
+    "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "FUERTEVENTURA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "MÁLAGA-COSTA DEL SOL": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "SEVILLA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "JEREZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "ALMERÍA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         },
         "GIRONA-COSTA BRAVA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x5562a180e1fa <unknown>\n#1 0x5562a131e810 <unknown>\n#2 0x5562a136d506 <unknown>\n#3 0x5562a136d7a1 <unknown>\n#4 0x5562a13b2c24 <unknown>\n#5 0x5562a13915ad <unknown>\n#6 0x5562a13b0007 <unknown>\n#7 0x5562a1391323 <unknown>\n#8 0x5562a135fde0 <unknown>\n#9 0x5562a1360dbe <unknown>\n#10 0x5562a17da12b <unknown>\n#11 0x5562a17de0c7 <unknown>\n#12 0x5562a17c76cc <unknown>\n#13 0x5562a17dec47 <unknown>\n#14 0x5562a17ac67f <unknown>\n#15 0x5562a17fd288 <unknown>\n#16 0x5562a17fd450 <unknown>\n#17 0x5562a180d076 <unknown>\n#18 0x7f2cd249ca94 <unknown>\n#19 0x7f2cd2529c3c <unknown>\n",
             "last_update": "2025-01-09 23:42:10"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c9515391fa <unknown>\n#1 0x55c951049810 <unknown>\n#2 0x55c951098506 <unknown>\n#3 0x55c9510987a1 <unknown>\n#4 0x55c9510ddc24 <unknown>\n#5 0x55c9510bc5ad <unknown>\n#6 0x55c9510db007 <unknown>\n#7 0x55c9510bc323 <unknown>\n#8 0x55c95108ade0 <unknown>\n#9 0x55c95108bdbe <unknown>\n#10 0x55c95150512b <unknown>\n#11 0x55c9515090c7 <unknown>\n#12 0x55c9514f26cc <unknown>\n#13 0x55c951509c47 <unknown>\n#14 0x55c9514d767f <unknown>\n#15 0x55c951528288 <unknown>\n#16 0x55c951528450 <unknown>\n#17 0x55c951538076 <unknown>\n#18 0x7f7a2be9ca94 <unknown>\n#19 0x7f7a2bf29c3c <unknown>\n",
-            "last_update": "2025-01-09 23:30:51"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2025-01-09 23:58:40"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-09 23:42:10"
+            "last_update": "2025-01-09 23:58:40"
         }
     }
 }
