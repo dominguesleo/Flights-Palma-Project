@@ -1,86 +1,86 @@
 {
-    "last_run": "2025-01-13 19:17:52",
+    "last_run": "2025-01-13 19:41:00",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "FUERTEVENTURA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "MÁLAGA-COSTA DEL SOL": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55ffdb3b21fa <unknown>\n#1 0x55ffdaec2810 <unknown>\n#2 0x55ffdaf11506 <unknown>\n#3 0x55ffdaf117a1 <unknown>\n#4 0x55ffdaf56c24 <unknown>\n#5 0x55ffdaf355ad <unknown>\n#6 0x55ffdaf54007 <unknown>\n#7 0x55ffdaf35323 <unknown>\n#8 0x55ffdaf03de0 <unknown>\n#9 0x55ffdaf04dbe <unknown>\n#10 0x55ffdb37e12b <unknown>\n#11 0x55ffdb3820c7 <unknown>\n#12 0x55ffdb36b6cc <unknown>\n#13 0x55ffdb382c47 <unknown>\n#14 0x55ffdb35067f <unknown>\n#15 0x55ffdb3a1288 <unknown>\n#16 0x55ffdb3a1450 <unknown>\n#17 0x55ffdb3b1076 <unknown>\n#18 0x7f855b89ca94 <unknown>\n#19 0x7f855b929c3c <unknown>\n",
             "last_update": "2025-01-13 19:17:52"
         },
         "SEVILLA": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556573e6d1fa <unknown>\n#1 0x55657397d810 <unknown>\n#2 0x5565739cc506 <unknown>\n#3 0x5565739cc7a1 <unknown>\n#4 0x556573a11c24 <unknown>\n#5 0x5565739f05ad <unknown>\n#6 0x556573a0f007 <unknown>\n#7 0x5565739f0323 <unknown>\n#8 0x5565739bede0 <unknown>\n#9 0x5565739bfdbe <unknown>\n#10 0x556573e3912b <unknown>\n#11 0x556573e3d0c7 <unknown>\n#12 0x556573e266cc <unknown>\n#13 0x556573e3dc47 <unknown>\n#14 0x556573e0b67f <unknown>\n#15 0x556573e5c288 <unknown>\n#16 0x556573e5c450 <unknown>\n#17 0x556573e6c076 <unknown>\n#18 0x7f438a89ca94 <unknown>\n#19 0x7f438a929c3c <unknown>\n",
-            "last_update": "2025-01-13 18:55:09"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2025-01-13 19:41:00"
         },
         "JEREZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "ALMERÍA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55ffdb3b21fa <unknown>\n#1 0x55ffdaec2810 <unknown>\n#2 0x55ffdaf11506 <unknown>\n#3 0x55ffdaf117a1 <unknown>\n#4 0x55ffdaf56c24 <unknown>\n#5 0x55ffdaf355ad <unknown>\n#6 0x55ffdaf54007 <unknown>\n#7 0x55ffdaf35323 <unknown>\n#8 0x55ffdaf03de0 <unknown>\n#9 0x55ffdaf04dbe <unknown>\n#10 0x55ffdb37e12b <unknown>\n#11 0x55ffdb3820c7 <unknown>\n#12 0x55ffdb36b6cc <unknown>\n#13 0x55ffdb382c47 <unknown>\n#14 0x55ffdb35067f <unknown>\n#15 0x55ffdb3a1288 <unknown>\n#16 0x55ffdb3a1450 <unknown>\n#17 0x55ffdb3b1076 <unknown>\n#18 0x7f855b89ca94 <unknown>\n#19 0x7f855b929c3c <unknown>\n",
             "last_update": "2025-01-13 19:17:52"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-13 19:17:52"
+            "last_update": "2025-01-13 19:41:00"
         }
     }
 }
