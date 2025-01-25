@@ -1,85 +1,85 @@
 {
-    "last_run": "2025-01-25 10:36:41",
+    "last_run": "2025-01-25 10:45:17",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "GRAN CANARIA": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c3384a1dca <unknown>\n#1 0x55c337f983f0 <unknown>\n#2 0x55c337fe810c <unknown>\n#3 0x55c337fe8331 <unknown>\n#4 0x55c33802e154 <unknown>\n#5 0x55c33800cabd <unknown>\n#6 0x55c33802b4b3 <unknown>\n#7 0x55c33800c833 <unknown>\n#8 0x55c337fd95a0 <unknown>\n#9 0x55c337fdaece <unknown>\n#10 0x55c33846bbdb <unknown>\n#11 0x55c33846fb67 <unknown>\n#12 0x55c3384573bc <unknown>\n#13 0x55c338470727 <unknown>\n#14 0x55c33843b74f <unknown>\n#15 0x55c338490938 <unknown>\n#16 0x55c338490b00 <unknown>\n#17 0x55c3384a0c46 <unknown>\n#18 0x7f5e9b89ca94 <unknown>\n#19 0x7f5e9b929c3c <unknown>\n",
-            "last_update": "2025-01-25 10:27:23"
-        },
-        "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
+            "last_update": "2025-01-25 10:45:17"
+        },
+        "TENERIFE SUR": {
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56330b858dca <unknown>\n#1 0x56330b34f3f0 <unknown>\n#2 0x56330b39f10c <unknown>\n#3 0x56330b39f331 <unknown>\n#4 0x56330b3e5154 <unknown>\n#5 0x56330b3c3abd <unknown>\n#6 0x56330b3e24b3 <unknown>\n#7 0x56330b3c3833 <unknown>\n#8 0x56330b3905a0 <unknown>\n#9 0x56330b391ece <unknown>\n#10 0x56330b822bdb <unknown>\n#11 0x56330b826b67 <unknown>\n#12 0x56330b80e3bc <unknown>\n#13 0x56330b827727 <unknown>\n#14 0x56330b7f274f <unknown>\n#15 0x56330b847938 <unknown>\n#16 0x56330b847b00 <unknown>\n#17 0x56330b857c46 <unknown>\n#18 0x7f275ac9ca94 <unknown>\n#19 0x7f275ad29c3c <unknown>\n",
             "last_update": "2025-01-25 10:36:41"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "FUERTEVENTURA": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c3384a1dca <unknown>\n#1 0x55c337f983f0 <unknown>\n#2 0x55c337fe810c <unknown>\n#3 0x55c337fe8331 <unknown>\n#4 0x55c33802e154 <unknown>\n#5 0x55c33800cabd <unknown>\n#6 0x55c33802b4b3 <unknown>\n#7 0x55c33800c833 <unknown>\n#8 0x55c337fd95a0 <unknown>\n#9 0x55c337fdaece <unknown>\n#10 0x55c33846bbdb <unknown>\n#11 0x55c33846fb67 <unknown>\n#12 0x55c3384573bc <unknown>\n#13 0x55c338470727 <unknown>\n#14 0x55c33843b74f <unknown>\n#15 0x55c338490938 <unknown>\n#16 0x55c338490b00 <unknown>\n#17 0x55c3384a0c46 <unknown>\n#18 0x7f5e9b89ca94 <unknown>\n#19 0x7f5e9b929c3c <unknown>\n",
-            "last_update": "2025-01-25 10:27:23"
-        },
-        "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
+            "last_update": "2025-01-25 10:45:17"
+        },
+        "MENORCA": {
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56330b858dca <unknown>\n#1 0x56330b34f3f0 <unknown>\n#2 0x56330b39f10c <unknown>\n#3 0x56330b39f331 <unknown>\n#4 0x56330b3e5154 <unknown>\n#5 0x56330b3c3abd <unknown>\n#6 0x56330b3e24b3 <unknown>\n#7 0x56330b3c3833 <unknown>\n#8 0x56330b3905a0 <unknown>\n#9 0x56330b391ece <unknown>\n#10 0x56330b822bdb <unknown>\n#11 0x56330b826b67 <unknown>\n#12 0x56330b80e3bc <unknown>\n#13 0x56330b827727 <unknown>\n#14 0x56330b7f274f <unknown>\n#15 0x56330b847938 <unknown>\n#16 0x56330b847b00 <unknown>\n#17 0x56330b857c46 <unknown>\n#18 0x7f275ac9ca94 <unknown>\n#19 0x7f275ad29c3c <unknown>\n",
             "last_update": "2025-01-25 10:36:41"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "MÁLAGA-COSTA DEL SOL": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "SEVILLA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56330b858dca <unknown>\n#1 0x56330b34f3f0 <unknown>\n#2 0x56330b39f10c <unknown>\n#3 0x56330b39f331 <unknown>\n#4 0x56330b3e5154 <unknown>\n#5 0x56330b3c3abd <unknown>\n#6 0x56330b3e24b3 <unknown>\n#7 0x56330b3c3833 <unknown>\n#8 0x56330b3905a0 <unknown>\n#9 0x56330b391ece <unknown>\n#10 0x56330b822bdb <unknown>\n#11 0x56330b826b67 <unknown>\n#12 0x56330b80e3bc <unknown>\n#13 0x56330b827727 <unknown>\n#14 0x56330b7f274f <unknown>\n#15 0x56330b847938 <unknown>\n#16 0x56330b847b00 <unknown>\n#17 0x56330b857c46 <unknown>\n#18 0x7f275ac9ca94 <unknown>\n#19 0x7f275ad29c3c <unknown>\n",
             "last_update": "2025-01-25 10:36:41"
         },
         "JEREZ": {
             "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c3384a1dca <unknown>\n#1 0x55c337f983f0 <unknown>\n#2 0x55c337fe810c <unknown>\n#3 0x55c337fe8331 <unknown>\n#4 0x55c33802e154 <unknown>\n#5 0x55c33800cabd <unknown>\n#6 0x55c33802b4b3 <unknown>\n#7 0x55c33800c833 <unknown>\n#8 0x55c337fd95a0 <unknown>\n#9 0x55c337fdaece <unknown>\n#10 0x55c33846bbdb <unknown>\n#11 0x55c33846fb67 <unknown>\n#12 0x55c3384573bc <unknown>\n#13 0x55c338470727 <unknown>\n#14 0x55c33843b74f <unknown>\n#15 0x55c338490938 <unknown>\n#16 0x55c338490b00 <unknown>\n#17 0x55c3384a0c46 <unknown>\n#18 0x7f5e9b89ca94 <unknown>\n#19 0x7f5e9b929c3c <unknown>\n",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56330b858dca <unknown>\n#1 0x56330b34f3f0 <unknown>\n#2 0x56330b39f10c <unknown>\n#3 0x56330b39f331 <unknown>\n#4 0x56330b3e5154 <unknown>\n#5 0x56330b3c3abd <unknown>\n#6 0x56330b3e24b3 <unknown>\n#7 0x56330b3c3833 <unknown>\n#8 0x56330b3905a0 <unknown>\n#9 0x56330b391ece <unknown>\n#10 0x56330b822bdb <unknown>\n#11 0x56330b826b67 <unknown>\n#12 0x56330b80e3bc <unknown>\n#13 0x56330b827727 <unknown>\n#14 0x56330b7f274f <unknown>\n#15 0x56330b847938 <unknown>\n#16 0x56330b847b00 <unknown>\n#17 0x56330b857c46 <unknown>\n#18 0x7f275ac9ca94 <unknown>\n#19 0x7f275ad29c3c <unknown>\n",
             "last_update": "2025-01-25 10:27:23"
         },
         "ALMERÍA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-25 10:36:41"
+            "last_update": "2025-01-25 10:45:17"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c3384a1dca <unknown>\n#1 0x55c337f983f0 <unknown>\n#2 0x55c337fe810c <unknown>\n#3 0x55c337fe8331 <unknown>\n#4 0x55c33802e154 <unknown>\n#5 0x55c33800cabd <unknown>\n#6 0x55c33802b4b3 <unknown>\n#7 0x55c33800c833 <unknown>\n#8 0x55c337fd95a0 <unknown>\n#9 0x55c337fdaece <unknown>\n#10 0x55c33846bbdb <unknown>\n#11 0x55c33846fb67 <unknown>\n#12 0x55c3384573bc <unknown>\n#13 0x55c338470727 <unknown>\n#14 0x55c33843b74f <unknown>\n#15 0x55c338490938 <unknown>\n#16 0x55c338490b00 <unknown>\n#17 0x55c3384a0c46 <unknown>\n#18 0x7f5e9b89ca94 <unknown>\n#19 0x7f5e9b929c3c <unknown>\n",
-            "last_update": "2025-01-25 10:27:23"
-        },
-        "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
+            "last_update": "2025-01-25 10:45:17"
+        },
+        "VALENCIA": {
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56330b858dca <unknown>\n#1 0x56330b34f3f0 <unknown>\n#2 0x56330b39f10c <unknown>\n#3 0x56330b39f331 <unknown>\n#4 0x56330b3e5154 <unknown>\n#5 0x56330b3c3abd <unknown>\n#6 0x56330b3e24b3 <unknown>\n#7 0x56330b3c3833 <unknown>\n#8 0x56330b3905a0 <unknown>\n#9 0x56330b391ece <unknown>\n#10 0x56330b822bdb <unknown>\n#11 0x56330b826b67 <unknown>\n#12 0x56330b80e3bc <unknown>\n#13 0x56330b827727 <unknown>\n#14 0x56330b7f274f <unknown>\n#15 0x56330b847938 <unknown>\n#16 0x56330b847b00 <unknown>\n#17 0x56330b857c46 <unknown>\n#18 0x7f275ac9ca94 <unknown>\n#19 0x7f275ad29c3c <unknown>\n",
             "last_update": "2025-01-25 10:36:41"
         }
     }
