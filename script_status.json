@@ -1,86 +1,86 @@
 {
-    "last_run": "2025-01-28 22:11:08",
+    "last_run": "2025-01-28 22:24:59",
     "status": "Success",
     "airports": {
         "PALMA DE MALLORCA": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x559d2786453a <unknown>\n#1 0x559d2735ff00 <unknown>\n#2 0x559d273afc0c <unknown>\n#3 0x559d273afe31 <unknown>\n#4 0x559d273f5bd4 <unknown>\n#5 0x559d273d45cd <unknown>\n#6 0x559d273f2f84 <unknown>\n#7 0x559d273d4343 <unknown>\n#8 0x559d273a178a <unknown>\n#9 0x559d273a29de <unknown>\n#10 0x559d2782e2cb <unknown>\n#11 0x559d27832242 <unknown>\n#12 0x559d2781b7ac <unknown>\n#13 0x559d27832df7 <unknown>\n#14 0x559d277ffb2f <unknown>\n#15 0x559d278531a8 <unknown>\n#16 0x559d27853370 <unknown>\n#17 0x559d278633b6 <unknown>\n#18 0x7f4dcea9ca94 <unknown>\n#19 0x7f4dceb29c3c <unknown>\n",
-            "last_update": "2025-01-28 21:54:54"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2025-01-28 22:24:59"
         },
         "GRAN CANARIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "TENERIFE SUR": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "TENERIFE NORTE-CIUDAD DE LA LAGUNA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "CÉSAR MANRIQUE-LANZAROTE": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "FUERTEVENTURA": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x559d2786453a <unknown>\n#1 0x559d2735ff00 <unknown>\n#2 0x559d273afc0c <unknown>\n#3 0x559d273afe31 <unknown>\n#4 0x559d273f5bd4 <unknown>\n#5 0x559d273d45cd <unknown>\n#6 0x559d273f2f84 <unknown>\n#7 0x559d273d4343 <unknown>\n#8 0x559d273a178a <unknown>\n#9 0x559d273a29de <unknown>\n#10 0x559d2782e2cb <unknown>\n#11 0x559d27832242 <unknown>\n#12 0x559d2781b7ac <unknown>\n#13 0x559d27832df7 <unknown>\n#14 0x559d277ffb2f <unknown>\n#15 0x559d278531a8 <unknown>\n#16 0x559d27853370 <unknown>\n#17 0x559d278633b6 <unknown>\n#18 0x7f4dcea9ca94 <unknown>\n#19 0x7f4dceb29c3c <unknown>\n",
-            "last_update": "2025-01-28 21:54:54"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2025-01-28 22:24:59"
         },
         "MENORCA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "IBIZA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "MÁLAGA-COSTA DEL SOL": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "SEVILLA": {
-            "status": "Success",
-            "message": "Data collected successfully",
+            "status": "Error",
+            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x560d5c8a853a <unknown>\n#1 0x560d5c3a3f00 <unknown>\n#2 0x560d5c3f3c0c <unknown>\n#3 0x560d5c3f3e31 <unknown>\n#4 0x560d5c439bd4 <unknown>\n#5 0x560d5c4185cd <unknown>\n#6 0x560d5c436f84 <unknown>\n#7 0x560d5c418343 <unknown>\n#8 0x560d5c3e578a <unknown>\n#9 0x560d5c3e69de <unknown>\n#10 0x560d5c8722cb <unknown>\n#11 0x560d5c876242 <unknown>\n#12 0x560d5c85f7ac <unknown>\n#13 0x560d5c876df7 <unknown>\n#14 0x560d5c843b2f <unknown>\n#15 0x560d5c8971a8 <unknown>\n#16 0x560d5c897370 <unknown>\n#17 0x560d5c8a73b6 <unknown>\n#18 0x7f8c2a89ca94 <unknown>\n#19 0x7f8c2a929c3c <unknown>\n",
             "last_update": "2025-01-28 22:11:08"
         },
         "JEREZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "ALMERÍA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "JOSEP TARRADELLAS BARCELONA-EL PRAT": {
-            "status": "Error",
-            "message": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".listado\"}\n  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x559d2786453a <unknown>\n#1 0x559d2735ff00 <unknown>\n#2 0x559d273afc0c <unknown>\n#3 0x559d273afe31 <unknown>\n#4 0x559d273f5bd4 <unknown>\n#5 0x559d273d45cd <unknown>\n#6 0x559d273f2f84 <unknown>\n#7 0x559d273d4343 <unknown>\n#8 0x559d273a178a <unknown>\n#9 0x559d273a29de <unknown>\n#10 0x559d2782e2cb <unknown>\n#11 0x559d27832242 <unknown>\n#12 0x559d2781b7ac <unknown>\n#13 0x559d27832df7 <unknown>\n#14 0x559d277ffb2f <unknown>\n#15 0x559d278531a8 <unknown>\n#16 0x559d27853370 <unknown>\n#17 0x559d278633b6 <unknown>\n#18 0x7f4dcea9ca94 <unknown>\n#19 0x7f4dceb29c3c <unknown>\n",
-            "last_update": "2025-01-28 21:54:54"
+            "status": "Success",
+            "message": "Data collected successfully",
+            "last_update": "2025-01-28 22:24:59"
         },
         "GIRONA-COSTA BRAVA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "ALICANTE-ELCHE MIGUEL HERNÁNDEZ": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         },
         "VALENCIA": {
             "status": "Success",
             "message": "Data collected successfully",
-            "last_update": "2025-01-28 22:11:08"
+            "last_update": "2025-01-28 22:24:59"
         }
     }
 }
