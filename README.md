@@ -105,7 +105,7 @@ jobs:
 
     - name: Run script
       run: |
-       python main.py
+       python __main__.py
 
     - name: Commit and push changes
       run: |
