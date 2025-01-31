@@ -2,7 +2,7 @@ name: Run Flight Script
 
 on:
     schedule:
-      - cron: '*/5 * * * *'
+      - cron: '*/12 * * * *'
     workflow_dispatch:
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
 
     - name: Run script
       run: |
-        python main.py
+        python __main__.py
 
     - name: Commit and push changes
       run: |

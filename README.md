@@ -42,14 +42,24 @@ Run the main script:
     ```
 
 ## Project Structure
-    .
-    ├── .gitignore
-    ├── README.md
-    ├── requirements.txt
-    ├── flights_data.json
-    ├── script_status.json
-    ├── main.py
-    └── venv/
+.
+├── .github/
+│   └── workflows/
+│       └── main.yml
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── flights_data.json
+├── script_status.json
+├── main.py
+├── __main__.py
+├── src/
+│   ├── browser_config.py
+│   ├── config.py
+│   ├── data_extractor.py
+│   ├── json_manager.py
+│   ├── scraper.py
+│   └── utils.py
 
 ## Automation with GitHub Actions
 
