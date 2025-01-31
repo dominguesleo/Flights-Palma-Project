@@ -40,7 +40,6 @@ class JsonManager:
         existing_flights_data = self.read_json(file_path, default_type=list)
         current_date = datetime.now().date()
 
-        # Filtrar y actualizar los vuelos
         updated_flights = []
         for flight in existing_flights_data:
             flight_date = datetime.strptime(flight["fecha"], "%d/%m/%Y").date()
@@ -48,17 +47,15 @@ class JsonManager:
                 continue
             updated_flights.append(flight)
 
-        # Actualizar o agregar nuevos vuelos
-        for new_flight in new_flights_data:
-            new_flight_date = datetime.strptime(new_flight["fecha"], "%d/%m/%Y").date()
-            flight_exists = False
-            for i, flight in enumerate(updated_flights):
-                if flight["vuelo"] == new_flight["vuelo"] and flight["aeropuerto"] == new_flight["aeropuerto"] and flight["fecha"] == new_flight["fecha"]:
-                    updated_flights[i] = new_flight
-                    flight_exists = True
-                    break
-            if not flight_exists and new_flight_date >= current_date - timedelta(days=2):
-                updated_flights.append(new_flight)
+        for flight in existing_flights_data:
+                    flight_date_str = flight["fecha"]
+                    try:
+                        flight_date = datetime.strptime(flight_date_str, "%d/%m/%Y").date()
+                    except ValueError:
+                        flight_date = datetime.strptime(flight_date_str, "%Y-%m-%d").date()
 
-        # Guardar los datos actualizados en el archivo JSON
+                    if flight_date < current_date - timedelta(days=pass_days):
+                        continue
+                    updated_flights.append(flight)
+
         self.write_json(updated_flights, file_path)
