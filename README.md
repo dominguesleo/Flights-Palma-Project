@@ -42,24 +42,24 @@ Run the main script:
     ```
 
 ## Project Structure
-.
-├── .github/
-│   └── workflows/
-│       └── main.yml
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── flights_data.json
-├── script_status.json
-├── main.py
-├── __main__.py
-├── src/
-│   ├── browser_config.py
-│   ├── config.py
-│   ├── data_extractor.py
-│   ├── json_manager.py
-│   ├── scraper.py
-│   └── utils.py
+    .
+    ├── .github/
+    │   └── workflows/
+    │       └── main.yml
+    ├── .gitignore
+    ├── README.md
+    ├── requirements.txt
+    ├── flights_data.json
+    ├── script_status.json
+    ├── main.py
+    ├── __main__.py
+    ├── src/
+    │   ├── browser_config.py
+    │   ├── config.py
+    │   ├── data_extractor.py
+    │   ├── json_manager.py
+    │   ├── scraper.py
+    │   └── utils.py
 
 ## Automation with GitHub Actions
 
@@ -82,7 +82,7 @@ name: Run Flight Script
 
 on:
     schedule:
-      - cron: '*/5 * * * *'
+      - cron: '*/12 * * * *'
     workflow_dispatch:
 
 jobs:
