@@ -41,7 +41,7 @@ class DataExtractor:
                 'aerolinea': aerolinea,
                 'origen': origen,
                 'estado': estado,
-                'hora_actualizacion': datetime.now(self.timezone).strftime("%Y-%m-%d %H:%M:%S")
+                'hora_actualizacion': datetime.now(self.timezone).strftime("%d/%m/%Y %H:%M:%S")
             })
 
         return flights_data_details
