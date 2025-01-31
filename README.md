@@ -1,6 +1,6 @@
 # Flights Palma Project
 
-This project retrieves flight data from the Aena website for Palma de Mallorca Airport. It uses Selenium for browser automation and BeautifulSoup for HTML parsing.
+This project retrieves flight data from the Aena website. It uses Selenium for browser automation and BeautifulSoup for HTML parsing.
 
 ## Features
 
