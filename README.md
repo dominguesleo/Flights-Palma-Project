@@ -51,7 +51,6 @@ Run the main script:
     ├── requirements.txt
     ├── flights_data.json
     ├── script_status.json
-    ├── main.py
     ├── __main__.py
     ├── src/
     │   ├── browser_config.py
