@@ -2,7 +2,7 @@ from zoneinfo import ZoneInfo
 
 TIMEZONE = ZoneInfo("Europe/Madrid")
 PASS_DAYS = 5
-FUTURE_DAYS = 5
+FUTURE_DAYS = 7
 
 AIRPORT = [
     "PALMA DE MALLORCA",
