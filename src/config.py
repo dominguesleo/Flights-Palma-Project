@@ -8,13 +8,6 @@ AIRPORT = [
     "PALMA DE MALLORCA",
     "MENORCA",
     "IBIZA",
-]
-
-"""
-AIRPORT = [
-    "PALMA DE MALLORCA",
-    "MENORCA",
-    "IBIZA",
     "GRAN CANARIA",
     "TENERIFE SUR",
     "TENERIFE NORTE-CIUDAD DE LA LAGUNA",
@@ -30,4 +23,3 @@ AIRPORT = [
     "ALICANTE-ELCHE MIGUEL HERNÁNDEZ",
     "VALENCIA"
 ]
-"""
