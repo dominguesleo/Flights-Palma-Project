@@ -28,6 +28,7 @@ class DataExtractionException(AenaScraperException):
 class AenaScraper:
     def __init__(self):
         self.driver = self._init_driver()
+        self.is_departures = False
 
     def _init_driver(self) -> Chrome:
         service = Service(ChromeDriverManager().install())
@@ -50,7 +51,7 @@ class AenaScraper:
             except NoSuchElementException:
                 break
 
-    def navigate_and_configure(self, future_days: int) -> None:
+    def navigate_and_configure(self, future_days: int, is_departures: bool = False) -> None:
         date_label = get_future_date_label(future_days)
         try:
             self.driver.get("https://www.aena.es/es/infovuelos.html")
@@ -59,6 +60,10 @@ class AenaScraper:
             time.sleep(1)
             self.driver.find_element(By.ID, "fecha").click()
             self.driver.find_element(By.XPATH, f"//div[@aria-label='{date_label}']").click()
+
+            if is_departures:
+                self.driver.find_element(By.CLASS_NAME, "iconos").click()
+                self.is_departures = True
         except Exception as e:
             if self.driver:
                 self.driver.quit()
@@ -66,8 +71,13 @@ class AenaScraper:
 
     def get_flight(self, airport: str) -> List[WebElement]:
         try:
-            field = self.driver.find_element(By.ID, "Llegadasen la red Aena:")
+            if self.is_departures:
+                field = self.driver.find_element(By.ID, "Salidasen la red Aena:")
+            else:
+                field = self.driver.find_element(By.ID, "Llegadasen la red Aena:")
+
             field.clear()
+            time.sleep(1)
             field.send_keys(airport)
             time.sleep(1)
             self._click_more_button_until_done()

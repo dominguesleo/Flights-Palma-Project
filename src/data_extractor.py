@@ -46,13 +46,13 @@ class DataExtractor:
 
         return flights_data_details
 
-    def extract_data(self, html_flights_day: List[str], airport: str) -> List[Dict]:
+    def extract_data(self, html_flights_day: List[str], airport: str, is_departures: bool = False) -> List[Dict]:
         flights_data = []
 
         for html_flight_day in html_flights_day:
             soup = BeautifulSoup(html_flight_day, "html.parser")
             date = self._extract_date(soup)
-            details = soup.find_all("div", class_="fila micro")
+            details = soup.find_all("div", class_="fila" if is_departures else "fila micro")
             flights_data.extend(self._extract_flight_details(details, airport, date))
 
         return flights_data
