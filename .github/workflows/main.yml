@@ -35,7 +35,7 @@ jobs:
         git commit -m 'Update flight data and script status for arrivals' || echo "No changes to commit"
     
     - name: Upload changes
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: arrivals-files
         path: |
@@ -71,7 +71,7 @@ jobs:
         git commit -m 'Update flight data and script status for departures' || echo "No changes to commit"
 
     - name: Upload changes
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: departures-files
         path: |
@@ -89,13 +89,13 @@ jobs:
         fetch-depth: 0
 
     - name: Download arrivals files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: arrivals-files
         path: .
 
     - name: Download departures files
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: departures-files
         path: .
