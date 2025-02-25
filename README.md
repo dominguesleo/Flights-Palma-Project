@@ -66,13 +66,13 @@ This project uses GitHub Actions to automate the execution of the script and the
 
 ### Workflow Description
 
-The workflow runs automatically every 5 minutes and can also be triggered manually. Here are the steps it follows:
+The workflow runs automatically every 30 minutes and can also be triggered manually. Here are the steps it follows:
 
 1. **Checkout the Repository:** The repository is cloned to access the source code.
 2. **Set Up Python:** The specified version of Python is installed.
 3. **Install Dependencies:** The necessary dependencies (`selenium`, `webdriver_manager`, `beautifulsoup4`) are installed.
-4. **Run the Script:** The `main.py` script is executed to fetch and update the flight data.
-5. **Commit and Push Changes:** Git credentials are configured, and the updated `flights_data.json` and `script_status.json` files are committed and pushed.
+4. **Run the Script:** The `__main__.py` script is executed to fetch and update the flight data.
+5. **Commit and Push Changes:** Git credentials are configured, and the updated `arrivals_flights.json`, `arrivals_status.json`, `departures_flights.json`, and `departures_status.json` files are committed and pushed.
 
 ### Workflow File
 
@@ -80,12 +80,12 @@ The workflow runs automatically every 5 minutes and can also be triggered manual
 name: Run Flight Script
 
 on:
-    schedule:
-      - cron: '*/12 * * * *'
-    workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
-  run-script:
+  arrivals:
     runs-on: ubuntu-latest
 
     steps:
@@ -102,14 +102,60 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium webdriver_manager beautifulsoup4
 
-    - name: Run script
+    - name: Run arrivals script
       run: |
-       python __main__.py
+        python __main__.py arrivals
 
-    - name: Commit and push changes
+    - name: Commit changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add -f flights_data.json script_status.json
-        git commit -m 'Update flight data and script status'
-        git push
+        git add -f arrivals_flights.json arrivals_status.json
+        git commit -m 'Update flight data and script status for arrivals' || echo "No changes to commit"
+
+  departures:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver_manager beautifulsoup4
+
+    - name: Run departures script
+      run: |
+        python __main__.py departures
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -f departures_flights.json departures_status.json
+        git commit -m 'Update flight data and script status for departures' || echo "No changes to commit"
+
+  push-changes:
+    runs-on: ubuntu-latest
+    needs: [arrivals, departures]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Pull latest changes
+      run: git pull --rebase
+
+    - name: Push all changes
+      run: git push
