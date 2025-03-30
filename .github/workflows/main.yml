@@ -33,6 +33,14 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add -f arrivals_flights.json arrivals_status.json
         git commit -m 'Update flight data and script status for arrivals' || echo "No changes to commit"
+    
+    - name: Upload changes
+      uses: actions/upload-artifact@v4
+      with:
+        name: arrivals-files
+        path: |
+          arrivals_flights.json
+          arrivals_status.json
 
   departures:
     runs-on: ubuntu-latest
@@ -62,21 +70,48 @@ jobs:
         git add -f departures_flights.json departures_status.json
         git commit -m 'Update flight data and script status for departures' || echo "No changes to commit"
 
+    - name: Upload changes
+      uses: actions/upload-artifact@v4
+      with:
+        name: departures-files
+        path: |
+          departures_flights.json
+          departures_status.json
+
   push-changes:
     runs-on: ubuntu-latest
     needs: [arrivals, departures]
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repository with full history
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Download arrivals files
+      uses: actions/download-artifact@v4
+      with:
+        name: arrivals-files
+        path: .
+
+    - name: Download departures files
+      uses: actions/download-artifact@v4
+      with:
+        name: departures-files
+        path: .
 
     - name: Set up Git
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-    - name: Pull latest changes
-      run: git pull --rebase
+    - name: Verify changes
+      run: git status
 
-    - name: Push all changes
-      run: git push
+    - name: Commit and push all changes
+      run: |
+        git add -f arrivals_flights.json arrivals_status.json
+        git add -f departures_flights.json departures_status.json
+        git commit -m 'Final push: Updated flight data' || echo "No changes to commit"
+        git pull --rebase
+        git push
