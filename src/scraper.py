@@ -59,7 +59,8 @@ class AenaScraper:
             self.driver.execute_script("document.getElementById('modal_footer').style.visibility = 'hidden';")
             time.sleep(1)
             self.driver.find_element(By.ID, "fecha").click()
-            self.driver.find_element(By.XPATH, f"//div[@aria-label='{date_label}']").click()
+            date_element = self.driver.find_element(By.XPATH, f"//div[@aria-label='{date_label}']")
+            self.driver.execute_script("arguments[0].click();", date_element)
 
             if is_departures:
                 self.driver.find_element(By.CLASS_NAME, "iconos").click()
