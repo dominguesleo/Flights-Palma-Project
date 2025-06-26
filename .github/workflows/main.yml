@@ -2,7 +2,7 @@ name: Run Flight Script
 
 on:
   schedule:
-    - cron: '*/40 * * * *'
+    - cron: '*/55 * * * *'
   workflow_dispatch:
 
 jobs:
