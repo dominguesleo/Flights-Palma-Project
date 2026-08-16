@@ -1,6 +1,6 @@
 {
-    "last_run": "2026-08-16 14:13:22",
-    "status": "Success",
+    "last_run": "2026-08-16 15:53:14",
+    "status": "Error: Exception during navigation and configuration: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@aria-label='Choose Sunday, August 23rd, 2026']\"}\n  (Session info: chrome=151.0.7922.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception\nStacktrace:\n#0 0x55bd0825736a <unknown>\n#1 0x55bd07bcaf49 <unknown>\n#2 0x55bd07c207e2 <unknown>\n#3 0x55bd07c20a31 <unknown>\n#4 0x55bd07c6bed4 <unknown>\n#5 0x55bd07c690c3 <unknown>\n#6 0x55bd07c13c92 <unknown>\n#7 0x55bd07c14b11 <unknown>\n#8 0x55bd0821c8d0 <unknown>\n#9 0x55bd0821af3a <unknown>\n#10 0x55bd082059b5 <unknown>\n#11 0x55bd0821bc0a <unknown>\n#12 0x55bd081ed740 <unknown>\n#13 0x55bd082429a8 <unknown>\n#14 0x55bd08242b45 <unknown>\n#15 0x55bd08255f1e <unknown>\n#16 0x7fe34c49cb84 <unknown>\n#17 0x7fe34c529d6c <unknown>\n",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
