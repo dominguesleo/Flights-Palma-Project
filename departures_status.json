@@ -1,6 +1,6 @@
 {
-    "last_run": "2026-09-24 15:51:20",
-    "status": "Success",
+    "last_run": "2026-09-24 19:55:06",
+    "status": "Error: Exception during navigation and configuration: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"fecha\"]\"}\n  (Session info: chrome=153.0.8010.52); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception\nStacktrace:\n#0 0x5618a44f89fa <unknown>\n#1 0x5618a3e2e5b9 <unknown>\n#2 0x5618a3e84dfc <unknown>\n#3 0x5618a3e85071 <unknown>\n#4 0x5618a3ed1664 <unknown>\n#5 0x5618a3ece8de <unknown>\n#6 0x5618a3e77b8b <unknown>\n#7 0x5618a3e78971 <unknown>\n#8 0x5618a44bb667 <unknown>\n#9 0x5618a44b9e95 <unknown>\n#10 0x5618a44a4f55 <unknown>\n#11 0x5618a44baaea <unknown>\n#12 0x5618a448d6c9 <unknown>\n#13 0x5618a44e29a8 <unknown>\n#14 0x5618a44e2b45 <unknown>\n#15 0x5618a44f7353 <unknown>\n#16 0x7faff1e9cb84 <unknown>\n#17 0x7faff1f29ecc <unknown>\n",
     "airports": {
         "PALMA DE MALLORCA": {
             "status": "Success",
