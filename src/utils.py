@@ -1,13 +1,16 @@
 from datetime import datetime, timedelta
 
+SPANISH_WEEKDAYS = (
+    "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"
+)
+SPANISH_MONTHS = (
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+)
+
 def get_future_date_label(days_in_future):
     current_date = datetime.now()
     future_date = current_date + timedelta(days=days_in_future)
-    day_suffix = get_day_suffix(future_date.day)
-    return future_date.strftime(f"Choose %A, %B {future_date.day}{day_suffix}, %Y")
-
-def get_day_suffix(day):
-    if 4 <= day <= 20 or 24 <= day <= 30:
-        return "th"
-    else:
-        return ["st", "nd", "rd"][day % 10 - 1]
+    weekday = SPANISH_WEEKDAYS[future_date.weekday()]
+    month = SPANISH_MONTHS[future_date.month - 1]
+    return f"Choose {weekday}, {future_date.day} de {month} de {future_date.year}"
